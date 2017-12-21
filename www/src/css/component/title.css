@@ -1,0 +1,28 @@
+.inner-title{
+     font-family: 'Roboto', sans-serif;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 30px;
+     color: #fff;
+}
+.product-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #263238;
+}
+.information-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #263238;
+}
+.contact-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #263238;
+}
