@@ -1,11 +1,20 @@
+/*===== NAV =====*/
 .nav li{
     padding: 13px 30px;
-    background-color: #101010;
+    background-color: #ffffff;
 }
-.nav-pills-container li + li{
+.nav li + li{
     margin-left: 6px;
 }
-.nav-pills-container li:active{
+/*===== NAV  END=====*/
+
+/*===== NAV-PILLS-CONTAINER =====*/
+.nav-pills-container li:active,
+.nav-pills-container li:hover{
     background-color: #e74c3c;
     color: #ffffff;
 }
+/*.nav-pills-container a{*/
+/*font-size: 14px;*/
+/*}*/
+/*===== NAV-PILLS-CONTAINER END =====*/
