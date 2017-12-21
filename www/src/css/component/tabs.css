@@ -1,0 +1,11 @@
+.nav li{
+    padding: 13px 30px;
+    background-color: #101010;
+}
+.nav-pills-container li + li{
+    margin-left: 6px;
+}
+.nav-pills-container li:active{
+    background-color: #e74c3c;
+    color: #ffffff;
+}

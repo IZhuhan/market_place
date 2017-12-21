@@ -1,0 +1,39 @@
+/*===== INNER-TITLE =====*/
+.inner-title{
+     font-family: 'Roboto', sans-serif;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 30px;
+     color: #fff;
+}
+/*===== INNER-TITLE END =====*/
+
+/*===== PRODUCT-TITLE =====*/
+.product-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #263238;
+}
+/*===== PRODUCT-TITLE END =====*/
+
+/*===== INFORMATION-TITLE =====*/
+.information-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #263238;
+}
+/*===== INFORMATION-TITLE END =====*/
+
+/*===== CONTACT-TITLE =====*/
+.contact-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #263238;
+}
+/*===== CONTACT-TITLE END =====*/
