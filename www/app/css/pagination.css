@@ -1,0 +1,34 @@
+.footer-pagination {
+    display: block;
+}
+.footer-pagination .pagination {
+    display: inline-block;
+    margin-top: 30px;
+}
+.footer-pagination .pagination > li {
+    display: inline;
+}
+.footer-pagination .pagination > li > a {
+    position: relative;
+    float: left;
+    padding: 14px;
+    color: #263238;
+    text-decoration: none;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    margin-left: 8px;
+}
+.footer-pagination .pagination > li:first-of-type a {
+    margin-left: 0;
+}
+.footer-pagination .pagination > li.active > a,
+.footer-pagination .pagination > li.active > a:focus,
+.footer-pagination .pagination > li.active > a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #e74c3c;
+}

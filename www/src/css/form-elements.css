@@ -1,0 +1,23 @@
+form label {
+    font-weight: 400;
+    font-size: 15px;
+    color: #444444;
+}
+label::after {
+    content: "*";
+    color: #8bc34a;
+    margin-left: 4px;
+    font-weight: bold;
+    position: relative;
+    top: -6px;
+}
+form input, form textarea {
+    font-size: 14px;
+    padding: 12px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #d8d8d8;
+    color: #707070;
+}
+form input:focus, form textarea:focus {
+    border-color: #8bc34a;
+}
