@@ -1,15 +1,13 @@
-/* FLEX UTILITY */
-
-/* ===== display =====*/
+/* =====FLEX UTILITY===== */
+/* =====DISPLAY===== */
 .d-flex{
     display: flex;
 }
-
-/* ===== direction ===== */
+/* =====DIRECTION===== */
 .flex-row{
     flex-direction: row;
 }
-.flex-row-revers{
+.flex-row-reverse{
     flex-direction: row-reverse;
 }
 .flex-column{
@@ -18,16 +16,14 @@
 .flex-column-reverse{
     flex-direction: column-reverse;
 }
-
-/* ===== wrap ===== */
+/* =====WRAP===== */
 .flex-wrap{
     flex-wrap: wrap;
 }
 .flex-nowrap{
     flex-wrap: nowrap;
 }
-
-/* ===== spacing ===== */
+/* =====SPACING===== */
 .ml-auto{
     margin-left: auto;
 }
@@ -43,8 +39,7 @@
 .m-auto{
     margin: auto;
 }
-
-/* ===== justify ===== */
+/* ====JUSTIFY===== */
 .justify-content-start{
     justify-content: flex-start;
 }
@@ -60,8 +55,7 @@
 .justify-content-around{
     justify-content: space-around;
 }
-
-/* ===== align-items ===== */
+/* =====ALIGN-ITEMS===== */
 .align-items-start{
     align-items: flex-start;
 }
@@ -77,8 +71,7 @@
 .align-items-stretch{
     align-items: stretch;
 }
-
-/* ===== align-content ===== */
+/* =====ALIGN-CONTENT===== */
 .align-content-start{
     align-content: flex-start;
 }
@@ -94,8 +87,10 @@
 .align-content-around{
     align-content: space-around;
 }
-
-/* ===== align-self ===== */
+.align-content-stretch{
+    align-content: stretch;
+}
+/* =====ALIGN-SELF===== */
 .align-self-start{
     align-self: flex-start;
 }
@@ -111,8 +106,7 @@
 .align-self-stretch{
     align-self: stretch;
 }
-
-/* ===== order ===== */
+/* =====ORDER===== */
 .order-1{
     order: 1;
 }
@@ -149,3 +143,4 @@
 .order-12{
     order: 12;
 }
+/* =====FLEX UTILITY END===== */

@@ -1,20 +1,18 @@
-/* FLEX UTILITY */
-
-/* ===== display =====*/
+/* =====FLEX UTILITY===== */
+/* =====DISPLAY===== */
 .d-flex{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-
-/* ===== direction ===== */
+/* =====DIRECTION===== */
 .flex-row{
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.flex-row-revers{
+.flex-row-reverse{
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
@@ -32,8 +30,7 @@
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
 }
-
-/* ===== wrap ===== */
+/* =====WRAP===== */
 .flex-wrap{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -42,8 +39,7 @@
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
 }
-
-/* ===== spacing ===== */
+/* =====SPACING===== */
 .ml-auto{
     margin-left: auto;
 }
@@ -59,8 +55,7 @@
 .m-auto{
     margin: auto;
 }
-
-/* ===== justify ===== */
+/* ====JUSTIFY===== */
 .justify-content-start{
     -webkit-box-pack: start;
     -ms-flex-pack: start;
@@ -85,8 +80,7 @@
     -ms-flex-pack: distribute;
     justify-content: space-around;
 }
-
-/* ===== align-items ===== */
+/* =====ALIGN-ITEMS===== */
 .align-items-start{
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -112,8 +106,7 @@
     -ms-flex-align: stretch;
     align-items: stretch;
 }
-
-/* ===== align-content ===== */
+/* =====ALIGN-CONTENT===== */
 .align-content-start{
     -ms-flex-line-pack: start;
     align-content: flex-start;
@@ -134,8 +127,11 @@
     -ms-flex-line-pack: distribute;
     align-content: space-around;
 }
-
-/* ===== align-self ===== */
+.align-content-stretch{
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+/* =====ALIGN-SELF===== */
 .align-self-start{
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -156,8 +152,7 @@
     -ms-flex-item-align: stretch;
     align-self: stretch;
 }
-
-/* ===== order ===== */
+/* =====ORDER===== */
 .order-1{
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
@@ -218,3 +213,4 @@
     -ms-flex-order: 12;
     order: 12;
 }
+/* =====FLEX UTILITY END===== */

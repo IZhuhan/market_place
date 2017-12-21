@@ -1,0 +1,13 @@
+/* к секции aside разметка находиться в app> aside.html */
+
+/* =====aside-section===== */
+.aside-section{
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    padding: 25px;
+}
+.aside-section .title{
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 17px;
+}
+/* =====aside-section end===== */
