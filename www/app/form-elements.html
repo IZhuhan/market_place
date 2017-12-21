@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Element</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Reset style -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Flexbox -->
+    <link rel="stylesheet" href="css/flex.css">
+
+    <!-- Grid -->
+    <link rel="stylesheet" href="css/grid.css">
+
+    <!-- Components -->
+    <link rel="stylesheet" href="css/component/dropdown.css">
+    <link rel="stylesheet" href="css/component/card-item.css">
+    <link rel="stylesheet" href="css/component/button.css">
+    <link rel="stylesheet" href="css/component/form-elements.css">
+
+</head>
+
+<body>
+    <style>
+        p {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        form .form-group input, form .form-group textarea {
+            width: 80%;
+        }
+    </style>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <p><label>First Name</label>
+                <input name="user_name" class="form-control" type="text"></p>
+                <p><label>Last Name</label>
+                <input name="user_last_name" class="form-control" type="text"></p>
+                <p><label>Product Description</label>
+                <textarea rows="10" cols="45" name="text"></textarea></p>
+            </div>
+            <button type="submit" class="btn btn-success btn-md">Update</button>
+        </form>
+    </div>
+
+    
+</body>
+
+</html>
