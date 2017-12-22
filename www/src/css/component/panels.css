@@ -1,0 +1,38 @@
+/*===== TABLE =====*/
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th {
+    text-align: left;
+}
+.table tbody tr + tr  td {
+    border-top: 1px solid #eeeeee;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #fbfbfb;
+}
+/*===== TABLE END =====*/
+
+/*===== TABLE-SALE =====*/
+.table-sales thead th{
+    background-color: #455a64;
+    color: #fff;
+    font-size: 14px;
+    padding: 22px 0;
+}
+.table-sales  thead tr th:first-child{
+    text-align: center;
+}
+.table-sales tbody tr td:first-child{
+    text-align: center;
+}
+.table-sales tbody tr td{
+    padding: 22px 0;
+    font-size: 14px;
+    color: #333333;
+}
+.table-sales tbody tr .text-bold{
+    font-weight: 700;
+}
+/*===== TABLE-SALE END=====*/
