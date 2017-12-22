@@ -72,6 +72,13 @@
     padding: 8px 10px;
     border: 1px solid #d3d3d3;
 }
+.btn.btn-link {
+    width: 164px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+}
 .btn.btn-block {
     display: block;
     width: 100%;
@@ -89,12 +96,6 @@
     width: 54px;
     height: 50px;
     line-height: 50px;
-    color: #fff;
-}
-.btn.btn-social-mini {
-    width: 28px;
-    height: 28px;
-    line-height: 28px;
     color: #fff;
 }
 .btn.btn-facebook {
@@ -121,22 +122,11 @@
 .btn.btn-pinterest:hover, .btn.btn-pinterest:active {
     background-color: #de3333;
 }
-.btn.btn-pinterest-2 {
-    background-color: #fff;
-    color: #bd081c;
-}
-.btn.btn-pinterest-2:hover, .btn.btn-pinterest-2:active {
-    background-color: #efefef;
-}
 .btn.btn-youtube {
     background-color: #e52d27;
 }
 .btn.btn-youtube:hover, .btn.btn-youtube:active {
     background-color: #f0302a;
-}
-.btn.btn-author-icon {
-    padding: 6px 8px;
-    border-radius: 2px 2px 50px 50px;
 }
 .btn.btn-authorization {
     width: 72px;

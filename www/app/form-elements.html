@@ -28,13 +28,13 @@
 
 <body>
     <style>
-        p {
+        form .form-group-row {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
         }
-        form .form-group input, form .form-group textarea {
+        form  .form-group input, form .form-group textarea, form  .form-group .file-upload {
             width: 80%;
         }
     </style>
@@ -42,12 +42,22 @@
     <div class="container">
         <form>
             <div class="form-group">
-                <p><label>First Name</label>
-                <input name="user_name" class="form-control" type="text"></p>
-                <p><label>Last Name</label>
-                <input name="user_last_name" class="form-control" type="text"></p>
-                <p><label>Product Description</label>
-                <textarea rows="10" cols="45" name="text"></textarea></p>
+                <div class="form-group-row">
+                    <label class="required">Product Name</label>
+                    <input name="user_name" class="form-control" type="text" placeholder="Enter your product name here ...">
+                </div>
+                <div class="form-group-row">
+                    <label>Product Description</label>
+                    <textarea rows="10" cols="45" name="text" placeholder="<h1> Type your text  here </h1/>"></textarea>
+                </div>
+                <div class="form-group-row">
+                    <label class="required">Upload Main File</label>
+                    <div class="file-upload">
+                        <input name="uploadMainFile" id="uploadMainFile" type="file">
+                        <label for="uploadMainFile">Choose File</label>
+                        <span class="file-name">No File Choosen</span>
+                    </div>
+                </div>
             </div>
             <button type="submit" class="btn btn-success btn-md">Update</button>
         </form>
