@@ -1,3 +1,4 @@
+/*===== TABLE =====*/
 .table {
     width: 100%;
     border-collapse: collapse;
@@ -11,6 +12,9 @@
 .table tbody tr:nth-child(even) {
     background-color: #fbfbfb;
 }
+/*===== TABLE END =====*/
+
+/*===== TABLE-SALE =====*/
 .table-sales thead th{
     background-color: #455a64;
     color: #fff;
@@ -31,3 +35,4 @@
 .table-sales tbody tr .text-bold{
     font-weight: 700;
 }
+/*===== TABLE-SALE END=====*/
