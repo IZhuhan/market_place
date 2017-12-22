@@ -1,0 +1,19 @@
+/*===== SUB-TITLE =====*/
+.sub-title{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+/*===== SUB-TITLE  END=====*/
+
+/*===== SMALL-TITLE =====*/
+.small-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #7a7a7a;
+}
+/*===== SMALL-TITLE  END=====*/
