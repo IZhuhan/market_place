@@ -1,0 +1,81 @@
+/* =============== FOOTER START ================ */
+.footer{
+    background-color: #263238;
+}
+.footer .top-footer{
+    padding: 100px 0;
+    border-bottom: 1px solid #424d53;
+}
+.footer .top-footer .footer-column .footer-title{
+    position: relative;
+    padding-bottom: 23px;
+    margin-bottom: 32px;
+}
+.footer .top-footer .footer-column .footer-title > *{
+    font: 700 22px/1 'Raleway', sans-serif;
+    color: #fff;
+}
+.footer .top-footer .footer-column .footer-title::after{
+    content: '';
+    width: 51px;
+    border-bottom: 3px solid #8bc34a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer .top-footer .footer-column .default-text{
+    max-width: 270px;
+    line-height: 24px;
+    color: #b7c3c8;
+    padding-bottom: 35px;
+}
+.footer .top-footer .footer-column .address .fa,
+.footer .top-footer .footer-column .phone .fa,
+.footer .top-footer .footer-column .footer-nav li .fa{
+    color: #8bc34a;
+    font-size: 18px;   
+}
+.footer .top-footer .footer-column .address .fa{
+    margin-right: 20px;
+    line-height: 24px;
+}
+.footer .top-footer .footer-column .address .address-text{
+    display: inline-block; 
+}
+.footer .top-footer .footer-column .address .address-text span{
+    display: block;
+}
+.footer .top-footer .footer-column .address .address-text,
+.footer .top-footer .footer-column .phone span{
+    font: 700 14px/24px 'Lato', sans-serif;
+    color: #fff;
+}
+.footer .top-footer .footer-column .phone{
+    margin-top: 20px;
+}
+.footer .top-footer .footer-column .phone .fa{
+    margin-right: 14px;
+}
+.footer .top-footer .footer-column .footer-nav li .fa{
+    margin-right: 16px;
+    line-height: 36px;
+}
+.footer .top-footer .footer-column .footer-nav li a{
+    color: #b7c3c8;
+    line-height: 36px;
+}
+.footer .top-footer .footer-column .newsletter{
+    color: #fff;
+    font-size: 20px;
+}
+.footer .top-footer .footer-column .newsletter input{
+    display: block;
+}
+.footer .bottom-footer{
+    padding: 28px 0;
+}
+.footer .bottom-footer .copyright{
+    text-align: center;
+    color: #919699;
+}
+/* ================ FOOTER END ================= */

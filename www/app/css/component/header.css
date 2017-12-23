@@ -12,8 +12,9 @@
 .header .top-header .need-help span:first-child{
     color: #e74c3c;
 }
-.header .top-header .notifications div,
-.header .top-header .user-controls div{
+.header .top-header .notifications .notifications-item,
+.header .top-header .user-controls .avatar,
+.header .top-header .user-controls .user-info{
     display: inline-block;
 }
 .header .top-header .notifications{
@@ -33,6 +34,7 @@
 }
 .header .top-header .notifications .notifications-item .label{
     position: absolute;
+    z-index: 98;
     color: #fff;
     font: 600 11px/1 'Open Sans', sans-serif;
     text-align: center;
