@@ -40,9 +40,11 @@
 .card-item .card-avatar a span{
     padding: 0 10px
 }
-.card-item .card-points .points-group i{
+.card-item .card-points .points-group ul li{
     font-size: 12px;
     color: #ffa726;
+    display: inline-block;
+    cursor: pointer;
 }
 .card-item .card-points .points-sum{
     padding-left: 8px;
