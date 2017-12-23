@@ -10,11 +10,12 @@
     position: relative;
     padding-bottom: 23px;
     margin-bottom: 32px;
-}
-.footer .top-footer .footer-column .footer-title > *{
     font: 700 22px/1 'Raleway', sans-serif;
     color: #fff;
 }
+/* .footer .top-footer .footer-column .footer-title > *{
+
+} */
 .footer .top-footer .footer-column .footer-title::after{
     content: '';
     width: 51px;
@@ -69,6 +70,7 @@
     font-size: 20px;
 }
 .footer .top-footer .footer-column .newsletter input{
+    margin-top: 18px;
     display: block;
 }
 .footer .bottom-footer{
