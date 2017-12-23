@@ -1,3 +1,10 @@
+.white-text{
+    color: #fff;
+}
+.icon{
+    color: #8bc34a;
+    font-size: 18px;   
+}
 /* =============== FOOTER START ================ */
 .footer{
     background-color: #263238;
@@ -11,11 +18,7 @@
     padding-bottom: 23px;
     margin-bottom: 32px;
     font: 700 22px/1 'Raleway', sans-serif;
-    color: #fff;
 }
-/* .footer .top-footer .footer-column .footer-title > *{
-
-} */
 .footer .top-footer .footer-column .footer-title::after{
     content: '';
     width: 51px;
@@ -30,12 +33,6 @@
     color: #b7c3c8;
     padding-bottom: 35px;
 }
-.footer .top-footer .footer-column .address .fa,
-.footer .top-footer .footer-column .phone .fa,
-.footer .top-footer .footer-column .footer-nav li .fa{
-    color: #8bc34a;
-    font-size: 18px;   
-}
 .footer .top-footer .footer-column .address .fa{
     margin-right: 20px;
     line-height: 24px;
@@ -47,9 +44,8 @@
     display: block;
 }
 .footer .top-footer .footer-column .address .address-text,
-.footer .top-footer .footer-column .phone span{
+.footer .top-footer .footer-column .phone span:last-child{
     font: 700 14px/24px 'Lato', sans-serif;
-    color: #fff;
 }
 .footer .top-footer .footer-column .phone{
     margin-top: 20px;
@@ -66,7 +62,6 @@
     line-height: 36px;
 }
 .footer .top-footer .footer-column .newsletter{
-    color: #fff;
     font-size: 20px;
 }
 .footer .top-footer .footer-column .newsletter input{
