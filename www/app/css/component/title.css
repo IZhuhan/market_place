@@ -1,53 +1,42 @@
-/*===== INNER-TITLE =====*/
-.inner-title {
-    font-size: 48px;
+/*===== SECTION-TITLE =====*/
+.section-title{
+    font-size: 36px;
     font-weight: 700;
-    line-height: 30px;
-    color: #fff;
+    line-height: 60px;
 }
-/*===== INNER-TITLE END =====*/
+.section-small-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 60px;
+}
+/*===== SECTION-TITLE END=====*/
 
 /*===== PRODUCT-TITLE =====*/
 .product-title{
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight:  500;
     line-height: 60px;
-    color: #263238;
+}
+.product-small-title{
+    font-size: 16px;
+    font-weight:  700;
+    line-height: 60px;
 }
 /*===== PRODUCT-TITLE END =====*/
 
-/*===== SERVICE-TITLE =====*/
-.service-title{
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 60px;
-    color: #fff;
-}
-/*===== SERVICE-TITLE  END =====*/
-
-/*===== INFORMATION-TITLE =====*/
-.information-title{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 60px;
-    color: #263238;
-}
-/*===== INFORMATION-TITLE END =====*/
-
-/*===== ABOUT-TITLE =====*/
-.about-title{
+/*===== ASIDE-TITLE =====*/
+.aside-title{
     font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #263238;
+    font-weight:  700;
+    line-height: 60px;
 }
-/*===== ABOUT-TITLE END =====*/
+/*===== ASIDE-TITLE END =====*/
 
-/*===== CONTACT-TITLE =====*/
-.contact-title{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #263238;
-}
-/*===== CONTACT-TITLE END =====*/
+/*Заголовки:
+Для стандартного тексту; section-title (Let’s Check Out Our Newest Release Prodcuts,
+This Week Trending Products, Why You Choose Foxtar Market Place?, Free Monthly Tutorials To Help You With Your Project ) і задав йьому розмір,
+жирність задав йьому жирність між текстом (line-height)
+Для cекції з карточками з заголовком: section-small-title (Why You Choose Foxtar Market Place?, Free Monthly Tutorials To Help You With Your Project)
+Карточки з продуктами на першому макеті класс: product-title
+а на всіх інших макетах крточки і шрифт менший і я задав клас product-small-title;
+Для крточків які знаходяться в Categories я задав клас: aside-title;*/

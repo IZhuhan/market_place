@@ -1,43 +1,38 @@
-/*===== SUB-TEXT  =====*/
-.sub-text{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #ffffff;
-}
-/*===== SUB-TEXT  END=====*/
-
 /*===== SMALL-TEXT =====*/
 .small-text{
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #7a7a7a;
 }
 /*===== SMALL-TEXT   END=====*/
 
-/*===== PHONE-TEXT   =====*/
-.phone-text{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    color:  #263238;
+/*===== ASIDE-TEXT   =====*/
+.aside-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
 }
-/*===== PHONE-TITLE  END=====*/
+/*===== ASIDE-TEXT END =====*/
 
-/*===== BANNER-TITLE  =====*/
-.banner-text{
-    font-size: 30px;
+/*===== SECTION-TITLE  =====*/
+.section-small-text{
+    font-size: 16px;
     font-weight: 400;
     line-height: 36px;
-    color: #ffffff;
 }
-/*===== BANNER-TEXT   END =====*/
+.section-text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/*===== SECTION-TITLE END =====*/
 
 /* ОПИС */
 /*Текст:
-Для інера над інпутом (Premium WordPress Themes, Web Templates and Many More ...)
-задав клас sub-text;
-для стандартних параграфів клас small-text;
-для емайлу і телефону клас phone-text;
-на перші сторінці є Банер який я описав класом banner-text.*/
+.small-text дефолтні параграфи(Why You Choose Foxtar Market Place? About me About AS);
+.aside-text для макета 08 categoru product page;
+.section-small-text секція із текстом(Bmply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived noning essentially unchanged. );
+.section-text секція (eror 404);*/
