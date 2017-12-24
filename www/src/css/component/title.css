@@ -1,6 +1,5 @@
 /*===== INNER-TITLE =====*/
 .inner-title {
-    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 30px;
@@ -10,7 +9,6 @@
 
 /*===== PRODUCT-TITLE =====*/
 .product-title{
-    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 60px;
@@ -20,7 +18,6 @@
 
 /*===== SERVICE-TITLE =====*/
 .service-title{
-    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 60px;
@@ -30,7 +27,6 @@
 
 /*===== INFORMATION-TITLE =====*/
 .information-title{
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 60px;
@@ -40,7 +36,6 @@
 
 /*===== ABOUT-TITLE =====*/
 .about-title{
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -50,7 +45,6 @@
 
 /*===== CONTACT-TITLE =====*/
 .contact-title{
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;

@@ -1,7 +1,6 @@
 /*===== SUB-TITLE =====*/
 .sub-title{
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 30px;
     color: #ffffff;
@@ -10,7 +9,6 @@
 
 /*===== SMALL-TITLE =====*/
 .small-title{
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -20,7 +18,6 @@
 
 /*===== PHONE-TITLE  =====*/
 .phone-title{
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -32,7 +29,6 @@
 .banner-title{
     font-size: 30px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
     line-height: 36px;
     color: #ffffff;
 }
