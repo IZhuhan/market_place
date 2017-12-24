@@ -1,55 +1,52 @@
 /* ========== card ========== */
-.card-item{
-    flex-direction: column; 
-}
 .card-item-wrap{
     box-shadow: 0px 1px 2px rgba(205, 214, 222, 0.75);
     transition: all .2s linear;
 }
-.card-item .card-item-wrap:hover{
+.card-item-wrap:hover{
     box-shadow: 0px 16px 20px rgba(216, 216, 216, 0.75);     
 }
-.card-item .card-item-info{
+.card-item-info{
     padding: 25px 20px;
     border-bottom: 1px solid #e7ecf2;
 }
-.card-item .card-item-info-pl{
+.card-item-info-pl{
     padding-left: 15px;
 }
-.card-item .card-item-info .card-categories{
+.card-item-info .card-categories{
     margin-top: 10px;
 }
-.card-item .card-item-info .card-sales-group{
+.card-item-info .card-sales-group{
     margin-top: 15px;
     display: none;
 }
-.card-item .card-item-author{
+.card-item-author{
     padding: 18px 20px;
 }
-.card-item .card-avatar a img{
+.card-avatar a img{
     border-radius: 100%;
     width: 30px;
     height: 30px;
 }
-.card-item .card-avatar a span{
+.card-avatar a span{
     padding: 0 10px
 }
-.card-item .card-points .points-group ul li{
+.card-points ul li{
     font-size: 12px;
     color: #ffa726;
     display: inline-block;
     cursor: pointer;
 }
-.card-item .card-points .points-sum{
+.card-points .points-sum{
     padding-left: 8px;
 }
-.card-item .card-points .card-comments 
+.card-points .card-comments 
 ,.card-like{
     border-left: 2px solid #aeb4bb;
     margin-left: 30px;
     display: none;
 }
-.card-item .card-points .card-comments i
+.card-points .card-comments i
 ,.card-like i{
     margin: 0 15px;
 }
