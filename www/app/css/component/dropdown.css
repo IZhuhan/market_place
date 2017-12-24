@@ -1,20 +1,160 @@
-/* ========== dropdown ========== */
-
+.d-container{
+    padding: 40px 15px;
+    max-width: 1170px;
+}
+.dark-grey-text{
+    color: #263238;
+}
+.green-text{
+    color: #8bc34a;
+}
+/* ========== DEFAULT-DROPDOWN START ========== */
 .dropdown-container{
     position: relative;
 }
 .dropdown-container .dropdown-menu{
     position: absolute;
+    top: 100%;
     display: none;
     z-index: 99;
     background-color: #fff;
     border: 1px solid #d3d3d3;
     -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
     box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
-    min-width: 150px;
+    min-width: 157px;
 }
 .dropdown-container:hover .dropdown-menu{
     display: block;
 }
+/* =========== DEFAULT-DROPDOWN END =========== */
 
-/* ========== dropdown end ========== */
+/* ====== DEFAULT LIST-DROPDOWN CLASSES ======= */
+.dropdown-container .dropdown-menu li + li{
+    margin-top: 24px;
+}
+.dropdown-container .dropdown-menu li .fa{
+    margin-right: 12px;
+}
+/* ====== DEFAULT LIST-DROPDOWN CLASSES ======= */
+
+/* === DEFAULT NOTIFICATION-DROPDOWN CLASSES ====*/
+.dropdown-menu.notification-dropdown{
+    width: 268px;
+}
+.dropdown-menu .dropdown-section{
+    padding: 19px 29px 22px 21px;
+}
+.dropdown-menu .dropdown-section + .dropdown-section{
+    border-top: 1px solid #e0e0e0;
+}
+.dropdown-section .info{
+    display: inline-block;
+}
+.dropdown-section .info span{
+    display: block;
+}
+.dropdown-section .info span + span{
+    margin-top: 8px;
+}
+.dropdown-section .icon-section .fa{
+    font-size: 16px;
+    color: #b0bec5;
+}
+/* === DEFAULT NOTIFICATION-DROPDOWN CLASSES ====*/
+
+/* ======= USER-CONTROLS-DROPDOWN START ======== */
+.user-controls.dropdown-container .dropdown-menu{
+    padding: 24px 19px;
+}
+.user-controls.dropdown-container .dropdown-menu li a{
+    font-size: 12px;
+    color: #546e7a;
+}
+/* ======== USER-CONTROLS-DROPDOWN END ========= */
+
+/* ============ CART-DROPDOWN START ============ */
+.cart .dropdown-section .info{
+    margin-left: 15px;
+}
+.cart .dropdown-section .info .name{
+    font-weight: 500;
+}
+.cart .dropdown-section .info .category{
+    font-size: 12px;
+}
+.cart .dropdown-section .info .price{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cart .dropdown-section.total{
+    padding: 19px 16px 13px;
+}
+.cart .dropdown-section .total-price{
+    font-weight: 700;
+    font-size: 16px;
+}
+.cart .dropdown-section .btn-row{
+    margin-top: 19px;
+}
+.cart .dropdown-section .btn-row .btn + .btn{
+    margin-left: 6px;
+}
+.cart .dropdown-section .btn-row .btn{
+    padding: 12px 28px;
+    color: #f4f6f5;
+    font-weight: 700;
+}
+.cart .dropdown-section .btn-row .btn.btn-green{
+    background-color: #95c85a;
+}
+.cart .dropdown-section .btn-row .btn.btn-red{
+    background-color: #e85647;
+}
+/* ================ CART-DROPDOWN END =============== */
+
+/* ============== LETTER-DROPDOWN START ============= */
+.letter .dropdown-section .dropdown-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.letter .dropdown-section .info .name{
+    font-size: 12px;
+    font-weight: 700;
+}
+.letter .dropdown-section .info .letter-theme{
+    font-size: 11px;
+}
+.letter .dropdown-section .info .date{
+    color: #707070;
+    font-size: 10px;
+}
+/* =============== LETTER-DROPDOWN END ============== */
+
+/* =============== BELL-DROPDOWN START ============== */
+.bell .dropdown-section .dropdown-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.bell .dropdown-section .info .bell-theme{
+    font-size: 12px;
+}
+.bell .dropdown-section .info .date{
+    color: #707070;
+    font-size: 10px;
+}
+/* =============== BELL-DROPDOWN END ============== */
+
+/* ======= PRODUCT-CATEGORIES-DROPDOWN START ====== */
+.product-categories.dropdown-container .dropdown-menu{
+    padding: 24px 19px;
+    width: 287px;
+}
+.product-categories.dropdown-container .dropdown-menu li .quantity{
+    color: #90a4ae;
+}
+/* ======== PRODUCT-CATEGORIES-DROPDOWN END ======= */
