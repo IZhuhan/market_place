@@ -7,7 +7,9 @@
     padding: 25px;
 }
 .aside-section .title{
-    border-bottom: 1px solid #dcdcdc;
     padding-bottom: 17px;
+}
+.aside-section .aside-separation {
+    border-top: 1px solid #dcdcdc;
 }
 /* =====aside-section end===== */
