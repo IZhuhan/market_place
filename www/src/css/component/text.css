@@ -1,23 +1,23 @@
-/*===== SUB-TITLE =====*/
-.sub-title{
+/*===== SUB-TEXT  =====*/
+.sub-text{
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     color: #ffffff;
 }
-/*===== SUB-TITLE  END=====*/
+/*===== SUB-TEXT  END=====*/
 
-/*===== SMALL-TITLE =====*/
-.small-title{
+/*===== SMALL-TEXT =====*/
+.small-text{
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #7a7a7a;
 }
-/*===== SMALL-TITLE  END=====*/
+/*===== SMALL-TEXT   END=====*/
 
-/*===== PHONE-TITLE  =====*/
-.phone-title{
+/*===== PHONE-TEXT   =====*/
+.phone-text{
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -26,10 +26,18 @@
 /*===== PHONE-TITLE  END=====*/
 
 /*===== BANNER-TITLE  =====*/
-.banner-title{
+.banner-text{
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
     color: #ffffff;
 }
-/*===== BANNER-TITLE  END =====*/
+/*===== BANNER-TEXT   END =====*/
+
+/* ОПИС */
+/*Текст:
+Для інера над інпутом (Premium WordPress Themes, Web Templates and Many More ...)
+задав клас sub-text;
+для стандартних параграфів клас small-text;
+для емайлу і телефону клас phone-text;
+на перші сторінці є Банер який я описав класом banner-text.*/

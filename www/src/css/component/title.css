@@ -51,3 +51,15 @@
     color: #263238;
 }
 /*===== CONTACT-TITLE END =====*/
+
+/* ОПИС */
+/*Заголовки:
+Для заголовку в Інері я задав клас і прописав стилі; inner-title "Welcome To Foxtar Market Place!" і задав йьому розмір,
+жирність задав йьому жирність між текстом (line-height)
+Для товарів з карточками: product-title "Let’s Check Out Our Newest Release Prodcuts", "This Week Trending Products",
+"Free Monthly Tutorials To Help You With Your Project ";
+Службовий Заголовок: service-title "Why You Choose Foxtar Market Place?";
+Для заголовку About-me і для skills  задав клас about-title
+для контактів клас contact-title (Contact With Us, Our Office Address, Drop Us A Message)
+Заголовок з Інформацією: information-title "Personal Information", "Upload Your item", "Your Sales Statement", "To Know Who We Are";
+Заголовок з контактами із помилкою 404: contact-title "Contact With Us", "Error Page".*/
