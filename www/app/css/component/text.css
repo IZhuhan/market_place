@@ -1,38 +1,22 @@
-/*===== SMALL-TEXT =====*/
-.small-text{
+/*===== TEXT-SECTION =====*/
+.text-section{
+    font-size:  15px;
     font-weight: 400;
-    font-size: 15px;
     line-height: 24px;
 }
-/*===== SMALL-TEXT   END=====*/
+/*===== TEXT-SECTION END=====*/
 
-/*===== ASIDE-TEXT   =====*/
-.aside-text{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-}
-/*===== ASIDE-TEXT END =====*/
-
-/*===== SECTION-TITLE  =====*/
-.section-small-text{
+/*===== DEFAULT-TEXT  =====*/
+.default-text{
     font-size: 16px;
     font-weight: 400;
-    line-height: 36px;
-}
-.section-text{
-    font-size: 24px;
-    font-weight: 500;
     line-height: 24px;
 }
-/*===== SECTION-TITLE END =====*/
+/*===== DEFAULT-TEXT END  =====*/
 
-/* ОПИС */
+
 /*Текст:
-.small-text дефолтні параграфи(Why You Choose Foxtar Market Place? About me About AS);
-.aside-text для макета 08 categoru product page;
-.section-small-text секція із текстом(Bmply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-It has survived noning essentially unchanged. );
-.section-text секція (eror 404);*/
+text-section: До нього відносяця параграфи з такими блоками (Why You Choose...,  і в Footer блок з About Company, і до секції About me, на сторінці
+About us Блок To Know Who We Are)
+default-text: На сторінці Product_details(Блок з назвою GTBuilder - Construction & Building WordPress Theme)
+*/
