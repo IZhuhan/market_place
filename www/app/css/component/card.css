@@ -1,4 +1,4 @@
-/* ========== card ========== */
+/* ==========card========== */
 .card-item-wrap{
     -webkit-box-shadow: 0px 1px 2px rgba(205, 214, 222, 0.75);
     box-shadow: 0px 1px 2px rgba(205, 214, 222, 0.75);
@@ -16,7 +16,7 @@
 .card-item-info-pl{
     padding-left: 15px;
 }
-.card-item-info .card-categories{
+.card-categories{
     margin-top: 10px;
 }
 .card-item-info .card-sales-group{
@@ -34,7 +34,7 @@
 .card-avatar a span{
     padding: 0 10px
 }
-.card-points ul li{
+.card-star li{
     font-size: 12px;
     color: #ffa726;
     display: inline-block;
@@ -53,10 +53,9 @@
 ,.card-like i{
     margin: 0 15px;
 }
-/* new-card */
+/*=====new-card===== */
 .new-card{
     position: relative;
-    display: none;
 }
 .card-triangle{
     height: 0;
@@ -74,4 +73,28 @@
     color: #fff;
     font-size: 18px;
 }
-/* ========== card end========== */
+/* =====main-card===== */
+.main-card{
+    border: 1px solid #e3e3e3;
+}
+/* =====card-aside===== */
+.aside-card{
+    margin-top: 25px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #dde3e8;
+}
+.card-aside-item-info{
+    padding: 20px 0 18px;
+}
+/* =====product card===== */
+.product-card{
+    -webkit-box-shadow: 0px 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0px 1px 2px rgba(205, 214, 222, 0.75);
+}
+.product-card-item-info{
+    padding: 15px 20px 6px;
+}
+.product-card-item-info .price{
+    margin-top: 10px;
+}
+/* ==========card end========== */
