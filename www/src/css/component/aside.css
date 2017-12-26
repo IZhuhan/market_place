@@ -1,15 +1,14 @@
-/* к секции aside разметка находиться в app> aside.html */
-
 /* =====aside-section===== */
 .aside-section{
     border: 1px solid #dcdcdc;
     background-color: #fff;
-    padding: 25px;
+    padding: 23px 27px 30px;
+}
+.aside-section + .aside-section{
+    margin-top: 30px;
 }
 .aside-section .title{
-    padding-bottom: 17px;
-}
-.aside-section .aside-separation {
-    border-top: 1px solid #dcdcdc;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dde3e8;
 }
 /* =====aside-section end===== */
