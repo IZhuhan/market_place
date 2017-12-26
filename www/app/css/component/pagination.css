@@ -13,7 +13,6 @@
     float: left;
     padding: 14px;
     color: #263238;
-    text-decoration: none;
     background-color: #fff;
     font-weight: 500;
     font-size: 16px;
@@ -25,9 +24,7 @@
 .footer-pagination .pagination > li:first-of-type a {
     margin-left: 0;
 }
-.footer-pagination .pagination > li.active > a,
-.footer-pagination .pagination > li.active > a:focus,
-.footer-pagination .pagination > li.active > a:hover {
+.footer-pagination .pagination > li.active > a {
     color: #fff;
     cursor: default;
     background-color: #e74c3c;
