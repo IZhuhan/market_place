@@ -3,21 +3,19 @@
     padding: 13px 30px;
     background-color: #ffffff;
 }
+.nav-pills-container li:hover{
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+.nav li:active{
+    background-color: #e74c3c;
+    color: #ffffff;
+}
 .nav li + li{
     margin-left: 6px;
 }
 /*===== NAV  END=====*/
 
-/*===== NAV-PILLS-CONTAINER =====*/
-.nav-pills-container li:active,
-.nav-pills-container li:hover{
-    background-color: #e74c3c;
-    color: #ffffff;
-}
-/*.nav-pills-container a{*/
-/*font-size: 14px;*/
-/*}*/
-/*===== NAV-PILLS-CONTAINER END =====*/
 
 /*Таби:
 на ul задав класи nav nav-pills-container d-flex justify-content-center;
