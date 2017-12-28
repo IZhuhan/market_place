@@ -6,7 +6,8 @@
     margin-top: 30px;
 }
 .footer-pagination .pagination > li {
-    display: inline;
+    display: inline-block;
+    margin-left: 8px;
 }
 .footer-pagination .pagination > li > a {
     position: relative;
@@ -19,7 +20,6 @@
     font-size: 16px;
     cursor: pointer;
     box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
-    margin-left: 8px;
 }
 .footer-pagination .pagination > li:first-of-type a {
     margin-left: 0;

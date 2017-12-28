@@ -86,6 +86,9 @@
 .btn.btn-shadow {
     box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
 }
+.btn-shadow-light {
+    box-shadow: 0px 1px 3px 0px rgba(203, 215, 228, 0.75);
+}
 .btn.btn-round {
     border-radius: 3px;
 }
