@@ -1,9 +1,12 @@
 .white-text{
     color: #fff;
 }
-.icon{
+.icon-section{
     color: #8bc34a;
     font-size: 18px;   
+}
+.icon{
+    display: inline-block;
 }
 /* =============== FOOTER START ================ */
 .footer{
@@ -61,7 +64,14 @@
     color: #b7c3c8;
     line-height: 36px;
 }
+.footer .top-footer .footer-column .social-net-sprite{
+    margin-bottom: 42px;
+}
+.footer .top-footer .footer-column .social-net-sprite a + a{
+    margin-left: 4px;
+}
 .footer .top-footer .footer-column .newsletter{
+    margin-top: 18px;
     font-size: 20px;
 }
 .footer .top-footer .footer-column .newsletter input{
