@@ -64,10 +64,16 @@
     color: #b7c3c8;
     line-height: 36px;
 }
+.footer .top-footer .footer-column .footer-nav li:hover a{
+    color: #777;
+}
 .footer .top-footer .footer-column .social-net-sprite{
     margin-bottom: 42px;
 }
-.footer .top-footer .footer-column .social-net-sprite a + a{
+.footer .top-footer .footer-column .social-net-sprite li{
+    display: inline-block;
+}
+.footer .top-footer .footer-column .social-net-sprite li + li{
     margin-left: 4px;
 }
 .footer .top-footer .footer-column .newsletter{

@@ -4,8 +4,6 @@
 /* ============== HEADER START =============== */
 .header .top-header{
     background-color: #fff;
-}
-.top-header .header-logo{
     padding: 27px 0;
 }
 .top-header .need-help{
@@ -96,5 +94,8 @@
 }
 .bottom-header .header-nav a + a{
     margin-left: 37px;
+}
+.bottom-header .header-nav a:hover{
+    color: #777;
 }
 /* ============== HEADER START =============== */
