@@ -1,0 +1,29 @@
+/* =====text-color===== */
+.text-red{
+    color:#e95849;
+}
+.text-blue{
+    color: #546e7a;
+}
+.text-blue.light{
+    color: #90a4ae;
+}
+.text-black{
+    color: #263238;
+}
+.text-white{
+    color: #fff;
+}
+.text-green{
+    color: #8bc34a;
+}
+.text-gray{
+    color:#707d83;
+}
+.text-orange.light{
+    color: #ffa726;
+}
+.text-orange{
+    color: #ef6c00;
+}
+/* =====text-color end===== */

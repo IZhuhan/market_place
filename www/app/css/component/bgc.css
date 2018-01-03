@@ -1,0 +1,17 @@
+/* =====default background-color===== */
+.bg-gray{
+    background-color: #f4f6f5;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.bg-green{
+    background-color: #8bc34a;
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg-red{
+    background-color: #e74c3c;
+}
+/* =====default background-color end===== */

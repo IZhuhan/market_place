@@ -1,31 +1,34 @@
 *{
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 body{
-    margin: 0;
-    color: #777;
-    font: 400 15px/1 'Roboto', sans-serif;
+	margin: 0;
+	color: #9b9b9b;
+	font: 400 15px/1 'Roboto', sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-    font-weight: normal;
+	margin: 0;
 }
 a{
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 a:hover, a:active{
-    text-decoration: none;
+	text-decoration: none;
+	color: inherit;
 }
 ul, ol{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
 }
 img{
-    max-width: 100%;
+	max-width: 100%;
 }
 textarea{
-    resize: vertical;
+	resize: vertical;
 }

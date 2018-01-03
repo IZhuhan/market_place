@@ -1,0 +1,65 @@
+/*===== TITLE =====*/
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*===== TITLE END =====*/
+
+/*===== TITLE SEMIBOLD =====*/
+.title.semibold{
+    font-weight: 500;
+}
+/*===== TITLE SEMIBOLD END=====*/
+
+/*===== TITLE REGULAR =====*/
+.title.regular{
+    font-weight: 400;
+}
+/*===== TITLE REGULAR END =====*/
+
+/*===== TITLE LG =====*/
+.title.lg{
+    font-size: 24px;
+}
+/*===== TITLE LG  END=====*/
+
+/*===== TITLE MD =====*/
+.title.md{
+    font-size: 18px;
+}
+/*===== TITLE MD END =====*/
+
+/*===== TITLE S =====*/
+.title.s{
+    font-size: 16px;
+}
+/*===== TITLE S  END=====*/
+
+/*===== TITLE MAIN-SECTION =====*/
+.title.main-section{
+    font-size: 36px;
+}
+/*===== TITLE MAIN-SECTION END=====*/
+
+/*===== TITLE PRODUCT-PAGE =====*/
+.title.product-page{
+    font-size: 30px;
+}
+/*===== TITLE PRODUCT-PAGE  END =====*/
+
+/*===== TITLE PRODUCT-FOOTER  =====*/
+.title.footer-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+/*===== TITLE PRODUCT-FOOTER END  =====*/
+
+/*===== TITLE PRODUCT-XS  =====*/
+.title.card-xs{
+    font-size: 14px;
+}
+.title.card-theme-xs{
+    font-size: 12px;
+}
+/*===== TITLE PRODUCT-XS  END =====*/

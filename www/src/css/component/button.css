@@ -1,0 +1,139 @@
+.btn {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+}
+.btn.btn-default {
+    background-color: #fff;
+    color: #263238;
+}
+.btn.btn-default:hover, .btn.btn-default:active {
+    background-color: #efefef;
+}
+.btn.btn-primary, .btn.btn-success, .btn.btn-danger, .btn.btn-warning, .btn.btn-info, .btn.btn-basic, .btn.btn-dark {
+    color: #fff;
+}
+.btn.btn-primary {
+    background-color: #42a5f5;
+}
+.btn.btn-primary:hover, .btn.btn-primary:active {
+    background-color: #4cadfc;
+}
+.btn.btn-success {
+    background-color: #8bc34a;
+}
+.btn.btn-success:hover, .btn.btn-success:active {
+    background-color: #92cc4e;
+}
+.btn.btn-danger {
+    background-color: #e85647;
+}
+.btn.btn-danger:hover, .btn.btn-danger:active  {
+    background-color: #f05e50;
+}
+.btn.btn-warning {
+    background-color: #ffb74d;
+}
+.btn.btn-info {
+    background-color: #00bcd4;
+}
+.btn.btn-basic {
+    background-color: #cfd8dc;
+}
+.btn.btn-dark {
+    background-color: #455a64;
+}
+.btn.btn-dark:hover, .btn.btn-dark:active {
+    background-color: #4c646f;
+}
+.btn.btn-lg {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 44px;
+}
+.btn.btn-md {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 25px; 
+}
+.btn.btn-sm {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 22px;
+}
+.btn.btn-xs {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border: 1px solid #d3d3d3;
+}
+.btn.btn-link {
+    width: 164px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn.btn-shadow {
+    box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+}
+.btn-shadow-light {
+    box-shadow: 0px 1px 3px 0px rgba(203, 215, 228, 0.75);
+}
+.btn.btn-round {
+    border-radius: 3px;
+}
+.btn.btn-icon .fa {
+    margin-right: 10px;
+}
+.btn.btn-social {
+    width: 54px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+.btn.btn-facebook {
+    background-color: #6370b6;
+}
+.btn.btn-facebook:hover, .btn.btn-facebook:active {
+    background-color: #6a78c2;
+}
+.btn.btn-twitter {
+    background-color: #64b5f6;
+}
+.btn.btn-twitter:hover, .btn.btn-twitter:active {
+    background-color: #6ebcfb;
+}
+.btn.btn-linkedin {
+    background-color: #4f71ce;
+}
+.btn.btn-linkedin:hover, .btn.btn-linkedin:active {
+    background-color: #5277db;
+}
+.btn.btn-pinterest {
+    background-color: #d32f2f;
+}
+.btn.btn-pinterest:hover, .btn.btn-pinterest:active {
+    background-color: #de3333;
+}
+.btn.btn-youtube {
+    background-color: #e52d27;
+}
+.btn.btn-youtube:hover, .btn.btn-youtube:active {
+    background-color: #f0302a;
+}
+.btn.btn-authorization {
+    width: 72px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 400;
+}

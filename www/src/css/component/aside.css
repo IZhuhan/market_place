@@ -1,0 +1,21 @@
+/* =====aside-section===== */
+.aside-section{
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    padding: 23px 27px 30px;
+}
+.aside-section + .aside-section{
+    margin-top: 30px;
+}
+.aside-section .title{
+    /* При необходимости font-family убрать */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #263238;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dde3e8;
+}
+.aside-section .title>*{
+    font-size: 20px;
+}
+/* =====aside-section end===== */

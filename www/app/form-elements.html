@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Element</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Reset style -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Flexbox -->
+    <link rel="stylesheet" href="css/flex.css">
+
+    <!-- Grid -->
+    <link rel="stylesheet" href="css/grid.css">
+
+    <!-- Components -->
+    <link rel="stylesheet" href="css/component/button.css">
+    <link rel="stylesheet" href="css/component/form-elements.css">
+
+</head>
+
+<body>
+    <style>
+        form .form-group-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        form  .form-group input, form .form-group textarea, form .form-group .file-upload, form .form-group .jq-selectbox {
+            width: 80%;
+        }
+        form button[type="submit"] {
+            border: none;
+        }
+    </style>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <div class="form-group-row">
+                    <label class="required">Product Name</label>
+                    <input name="user_name" class="form-control" type="text" placeholder="Enter your product name here ...">
+                </div>
+                <div class="form-group-row">
+                    <label>Product Description</label>
+                    <textarea name="text" class="form-control" rows="10" cols="45" placeholder="<h1> Type your text  here </h1/>"></textarea>
+                </div>
+                <div class="form-group-row">
+                    <label class="required">Upload Main File</label>
+                    <div class="file-upload form-control">
+                        <input name="uploadMainFile" id="uploadMainFile" type="file">
+                        <label for="uploadMainFile">Choose File</label>
+                        <span class="file-name">No File Choosen</span>
+                    </div>
+                </div>
+                <div class="form-group-row">
+                    <label class="required">File Included</label>
+                    <select name="main_file" class="form-control" id="">
+                        <option value="">PSD</option>
+                        <option value="">JPG</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success btn-md">Update</button>
+        </form>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    <!-- init all plugins -->
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
