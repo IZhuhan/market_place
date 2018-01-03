@@ -8,3 +8,7 @@ $('.multiple-items').slick({
     dots:true
   });
           
+// init form styler for select
+$(function (){
+    $('select').styler();
+});
