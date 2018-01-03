@@ -1,0 +1,101 @@
+.text-white{
+    color: #fff;
+}
+/* ============== HEADER START =============== */
+.header .top-header{
+    background-color: #fff;
+    padding: 27px 0;
+}
+.top-header .need-help{
+    margin-right: 57px;
+    color: #546e7a;
+}
+.top-header .need-help span:first-child{
+    color: #e74c3c;
+}
+.top-header .notifications{
+    margin-right: 20px;
+}
+.top-header .notifications .notifications-item,
+.top-header .user-controls .avatar,
+.top-header .user-controls .user-info{
+    display: inline-block;
+}
+.top-header .notifications .notifications-item + .notifications-item{
+    margin-left: 15px;
+}
+.top-header .notifications .notifications-item{
+    color: #a0a0a0;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    position: relative;
+    border-radius: 50%;
+}
+.top-header .notifications .notifications-item:hover i{
+    color: #263238;
+}
+.top-header .notifications .notifications-item .label{
+    position: absolute;
+    z-index: 99;
+    font: 600 11px/1 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 4px 6px;
+    border-radius: 50%;
+    top: -25%;
+    right: -25%;
+}
+.top-header .notifications .notifications-item.bell .label{
+    background-color: #fcb322;
+}
+.top-header .notifications .notifications-item.letter .label{
+    background-color: #ef6c00;
+}
+.top-header .notifications .notifications-item.cart .label{
+    background-color: #8bc34a;
+}
+.top-header .user-controls{
+    margin-right: 28px;
+}
+.top-header .user-controls .avatar{
+    margin-right: 15px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.top-header .user-controls .user-info div{
+    display: block;
+}
+.top-header .user-controls .user-info .name span{
+    color: #222;
+    font-weight: 500;
+    margin-right: 13px;
+}
+.top-header .user-controls .user-info .name i{
+    font-size: 16px;
+    color: #707070;
+}
+.top-header .user-controls .user-info .balance{
+    color: #8bc34a;
+    font-weight: 700;
+    line-height: 24px;
+}
+.top-header .btn{
+    background-color: #e74c3c;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 17px;
+    border-radius: 4px;
+}
+.header .bottom-header{
+    background-color: #263238;
+    font-weight: 500;
+    padding: 23px 0;
+}
+.bottom-header .header-nav a + a{
+    margin-left: 37px;
+}
+.bottom-header .header-nav a:hover{
+    color: #777;
+}
+/* ============== HEADER START =============== */
