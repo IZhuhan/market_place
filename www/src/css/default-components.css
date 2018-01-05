@@ -1151,9 +1151,47 @@ ul.breadcrumbs li a:hover{
     margin-left: 37px;
 }
 .bottom-header .header-nav a:hover{
-    color: #777;
+    color: #8bc34a;
 }
-/****** HEADER END *******/
+/******* HEADER END *******/
+
+/*** SMALL-INNER START ****/
+.small-inner{
+    background: url(../img/bg-small-inner.jpg) no-repeat center/cover;
+    padding: 62px 0;
+}
+.small-inner .search-section{
+    margin-top: 24px;
+    position: relative;
+}
+.small-inner .search-section input{
+    width: 670px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 20px 50px 20px 25px;
+    color: #627f8d;
+    font-weight: 500;
+    box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
+}
+.small-inner .search-section input:focus{
+    border: 1px solid #8bc34a;
+}
+.small-inner .search-section .icon-search{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: #78909c;
+    font-size: 20px;
+    position: absolute;
+    bottom: 17px;
+    right: 20px;
+}
+.small-inner .search-section .icon-search:hover{
+    color: #8bc34a;
+}
+/*** SMALL-INNER END ****/
 
 /******** FOOTER ********/
 .icon-section{
@@ -1213,7 +1251,7 @@ ul.breadcrumbs li a:hover{
     line-height: 36px;
 }
 .footer .top-footer .footer-column .footer-nav li:hover a{
-    color: #777;
+    color: #8bc34a;
 }
 .footer .top-footer .footer-column .social-net-sprite{
     margin-bottom: 42px;
@@ -1228,9 +1266,33 @@ ul.breadcrumbs li a:hover{
     margin-top: 18px;
     font-size: 20px;
 }
-.footer .top-footer .footer-column .newsletter input{
+.footer .top-footer .footer-column .email-section{
     margin-top: 18px;
+    position: relative;
+}
+.footer .top-footer .footer-column .email-section input{
+    background-color: #2f3c43;  
+    width: 260px;
+    outline: none;
+    border: 1px solid #253136;
+    padding: 13px 50px 12px 16px;
+    color: #697378;
     display: block;
+}
+.footer .top-footer .footer-column .email-section input:focus{
+    border: 1px solid #8bc34a;    
+}
+.footer .top-footer .footer-column .email-section .email-icon{
+    cursor: pointer;
+    border: none;
+    padding: 8px 13px 9px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+}
+.footer .top-footer .footer-column .email-section .email-icon:hover .fa{
+    color: #2f3c43;
 }
 .footer .bottom-footer{
     padding: 28px 0;
