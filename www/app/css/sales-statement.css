@@ -1,0 +1,22 @@
+.sales-statement-section {
+    background-color: #f4f6f5;
+    padding-bottom: 137px;
+}
+.sales-table .title.semibold {
+    color: #263238;
+}
+.your-sales .sales-table {
+    background-color: #FFFFFF;
+    border: 1px solid #dedede;
+}
+.your-sales .sales-table .title {
+    padding: 20px 30px 25px 30px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.your-sales .sales-table .panel{
+    padding: 35px 35px 0 40px;
+}
+.your-sales .sales-table .total-price{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
