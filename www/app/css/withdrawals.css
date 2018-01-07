@@ -1,0 +1,17 @@
+.withdrawals-section {
+    background-color: #f4f6f5;
+}
+.sale-history .title.semibold {
+    color: #263238;
+}
+.withdrawals-section .sale-history {
+    background-color: #FFFFFF;
+    border: 1px solid #dedede;
+}
+.withdrawals-section .sale-history .title {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 20px 0 24px 30px;
+}
+.withdrawals-section .sale-history .panel {
+    padding: 35px 75px 35px 56px;
+}
