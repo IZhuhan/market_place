@@ -1,0 +1,54 @@
+/* =====ALL ITEMS PAGE 4===== */
+.all-items-page-container{
+    margin-bottom: 110px;
+}
+/* =====Aside sections===== */
+.categories-list li{
+    margin-top: 25px;
+}
+.categories-list .categories-icon{
+    margin-right: 13px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.categories-list .categories-name{
+  font-size: 15px;
+  color: #263238;
+  font-weight: 400;
+  cursor: pointer; 
+}
+.categories-numbers::before{
+    content: "(";
+}
+.categories-numbers::after{
+    content: ")";
+}
+/* =====Section cards===== */
+.sort-controls-container{
+    border: 1px solid #bebebe;
+    padding: 20px;
+}
+.sort-controls-container .sort-by span{
+    margin: 0 20px 0 10px;
+}
+.sort-controls-container .sort-by i:nth-child(1){
+    color: #455a64;
+}
+.sort-controls-container .change-icon + .change-icon{
+    margin-left: 10px;
+}
+.sort-controls-container .change-icon{
+    cursor: pointer;
+}
+.sort-controls-container .change-icon.active{
+    color: #8bc34a;
+}
+.all-items-container .medium-card{
+    margin-top: 30px;
+}
+.all-items-container .pagination{
+    line-height: 47px;
+    padding-left: 15px;
+    margin-top: 55px;
+}
+/* =====END ALL ITEMS PAGE 4===== */
