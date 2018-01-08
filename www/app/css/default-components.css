@@ -879,7 +879,7 @@ ul.breadcrumbs li a:hover{
 }
 .card.large-card .card-description .title{
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .card.large-card .card-author-info{
     padding: 20px 30px;
@@ -1049,8 +1049,8 @@ ul.breadcrumbs li a:hover{
 /****** PRODUCT-CARD END *******/
 
 /********** CAROUSEL ***********/
-.card-items-slider div + div{
-    margin-left: 20px;
+.card-items-slider .slider-item{
+    margin: 55px 10px 67px;
 }
 .multiple-items .slick-dots li{
     width: 16px;
@@ -1183,7 +1183,7 @@ ul.breadcrumbs li a:hover{
     width: 670px;
     border-radius: 3px;
     outline: none;
-    border: none;
+    border: 1px solid transparent;
     padding: 20px 50px 20px 25px;
     color: #627f8d;
     font-weight: 500;
