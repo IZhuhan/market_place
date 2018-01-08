@@ -1,3 +1,4 @@
+/*===== SALES-STATEMENT START=====*/
 .sales-statement-section {
     background-color: #f4f6f5;
     padding-bottom: 137px;
@@ -5,6 +6,9 @@
 .sales-table .title.semibold {
     color: #263238;
 }
+/*===== SALES-STATEMENT END=====*/
+
+/*===== YOUR-SALES START=====*/
 .your-sales .sales-table {
     background-color: #FFFFFF;
     border: 1px solid #dedede;
@@ -20,3 +24,4 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
+/*===== YOUR-SALES END=====*/

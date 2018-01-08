@@ -1,17 +1,54 @@
+/*===== WITHDRAWALS-SECTION START =====*/
 .withdrawals-section {
     background-color: #f4f6f5;
-}
-.sale-history .title.semibold {
-    color: #263238;
 }
 .withdrawals-section .sale-history {
     background-color: #FFFFFF;
     border: 1px solid #dedede;
+    height: 500px;
 }
 .withdrawals-section .sale-history .title {
     border-bottom: 1px solid #d7d7d7;
     padding: 20px 0 24px 30px;
 }
 .withdrawals-section .sale-history .panel {
-    padding: 35px 75px 35px 56px;
+    padding: 35px 14px 35px 9px;
 }
+/*===== WITHDRAWALS-SECTION END =====*/
+
+/*===== HISTORY-TABLE START =====*/
+.history-table tbody tr td {
+    padding: 21px 28px;
+}
+/*===== HISTORY-TABLE END =====*/
+
+/*===== FORM START =====*/
+.form-group  .form-group-row .required {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.withdrawals-form {
+    background-color: #fff;
+    height: 644px;
+    border: 1px solid #dedede;
+    margin-right: 28px;
+}
+.withdrawals-form .title.text-black {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 20px 0 24px 30px;
+}
+.form-group .form-group-row .form-control {
+    width: 490px;
+}
+.form-group {
+    padding-right: 36px;
+    padding-left: 36px;
+}
+.earnings-form .btn-w {
+    padding-top: 38px;
+    padding-left: 36px;
+}
+.earnings-form {
+    padding-bottom: 143px;
+}
+/*===== FORM END =====*/

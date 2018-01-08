@@ -297,14 +297,58 @@
             <!-- /container-fluid -->
         </section>
         <!-- / small-inne -->
-        <section class="withdrawals-section">
+        <section class="breadcrumbs-section">
             <div class="container">
                 <ul class="breadcrumbs">
                     <li><a href="#">Home</a></li>
                     <li>Withdrawals</li>
                 </ul>
+            </div>
+        </section>
+        <section class="withdrawals-section earnings-form">
+            <div class="container d-flex">
+                <div class="withdrawals-form">
+                    <div class="title text-black semibold lg">
+                        <span>Withdrawals Earnings</span>
+                    </div>
+                <form>
+                    <div class="form-group">
+                        <div class="form-group-row d-flex flex-column">
+                            <label class="required title s semibold">Amount to Withdraw ($2000.00 Maximum)</label>
+                            <input name="user_name" class="form-control" type="text" placeholder="Enter the amount you want to withdraw...">
+                        </div>
+                        <!-- / form-group-row-->
+                        <div class="form-group-row d-flex flex-column">
+                            <label class="required title s semibold">Choose your Withdraw Method</label>
+                            <select name="main_file" class="form-control" id="">
+                                <option value="">Select Your Card</option>
+                                <option value="">Select Your Card</option>
+                            </select>
+                        </div>
+                        <!-- / form-group-row-->
+                        <div class="form-group-row d-flex flex-column">
+                            <label class="required title s semibold">Your Account Name</label>
+                            <select name="main_file" class="form-control" id="">
+                                <option value="">Select Your Card</option>
+                                <option value="">Select Your Card</option>
+                            </select>
+                        </div>
+                        <!--  / form-group-row-->
+                        <div class="form-group-row d-flex flex-column">
+                            <label class="required title s semibold">Confirm Your Password</label>
+                            <input name="user_name" class="form-control" type="text" placeholder="Select Your Card">
+                        </div>
+                    </div>
+                    <!--/ form-group -->
+                    <div class="btn-w">
+                        <a href="" class="btn btn-success btn-md">Request Withdrawal</a>
+                    </div>
+                </form>
+                    <!-- / form-->
+                </div>
+                <!-- / withdrawals-form-->
                 <div class="sale-history">
-                    <div class="title  semibold lg">
+                    <div class="title  semibold lg text-black">
                         <span>Withdrawal History</span>
                     </div>
                     <div class="panel panel-default">
@@ -362,6 +406,7 @@
             </div>
             <!-- / container -->
         </section>
+        <!-- / withdrawals-section-->
     </main>
     <!-- MAIN END -->
 
