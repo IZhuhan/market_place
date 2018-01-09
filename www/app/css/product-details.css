@@ -1,0 +1,137 @@
+/****** MAIN SECTION ******/
+.main-section{
+    padding-bottom: 120px;
+}
+.main-section .product-img{
+    padding: 17px 19px;
+    border: 1px solid #dfdfdf;
+}
+.main-section .title{
+    margin: 30px 0 40px;
+}
+.main-section p{
+    color: #707070;
+}
+.main-section .btn-row{
+    margin: 45px 0 55px;
+}
+.main-section .btn-row .info-btn-col a + a{
+    margin-left: 18px;
+}
+.main-section .btn-row .social-btn-col a + a{
+    margin-left: 3px;
+}
+.main-section .product-details-tab{
+    border: 1px solid #dcdcdc;
+}
+.main-section .product-details-tab .tab-controls li {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+}
+.main-section .product-details-tab .tab-controls li + li {
+    border-left: 1px solid #d7d7d7;
+}
+.main-section .product-details-tab .tab-controls li a {
+    padding: 20px;
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    height: 60px;
+}
+.main-section .product-details-tab .tab-controls li a.active,
+.main-section .product-details-tab .tab-controls li a:hover {
+    color: #263238;
+    font-weight: 500;
+    border-bottom: 3px solid #8bc34a;
+}
+.main-section .product-details-tab .tab-content {
+    border-top: none;
+    padding: 45px 35px;
+    font-size: 16px;
+    color: #707070;
+    line-height: 36px;
+}
+.main-section .product-details-tab .tab-content .tab-pane {
+    display: none;
+}
+.main-section .product-details-tab .tab-content .tab-pane.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.main-section .product-details-tab .tab-pane ul + ul {
+    margin-left: 35px;
+}
+.main-section .product-details-tab .tab-pane ul li .fa {
+    margin-right: 15px;
+}
+.main-section .more-authors-products .title{
+    padding: 20px 26px;
+    border: 1px solid #dcdcdc;
+}
+.main-section .more-authors-products .authors-products .row + .row{
+    margin-top: 28px;
+}
+.main-section .more-authors-products .authors-products .product-card-item-info span:nth-child(1){
+    font-weight: 500;
+}
+/****** MAIN SECTION END ******/
+
+/****** ASIDE SECTION START ******/
+.aside-section .product-price{
+    margin: 29px 0;
+}
+.aside-section .product-price label{
+    font-weight: 500;
+    font-size: 22px;
+}
+.jq-selectbox__select{
+    padding: 0 26px 0 9px;
+    border: 1px solid #d5d5d5;
+    font-size: 13px;
+    line-height: 28px;
+    color: #70838d;
+    background-color: #fff;
+}
+.aside-section .btn-row a + a{
+    margin-top: 6px;
+}
+.aside-section .author-info{
+    margin: 26px 0;
+}
+.aside-section .author-info .author-profile{
+    margin-left: 14px;
+}
+.aside-section .author-info .author-profile .author-name{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.aside-section .quantity-sales .fa{
+    font-size: 20px;
+    color: #a6b5bb;
+}
+.aside-section .quantity-sales .quantity{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 14px 0 19px;
+}
+.aside-section .quantity-sales span:last-child{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+.aside-section .product-info{
+    font-size: 14px;
+    margin-top: 25px;
+}
+.aside-section .product-info .product-info-item span{
+    line-height: 28px;
+}
+.aside-section .product-info .product-info-item span:first-child{
+    line-height: 36px;
+    font-weight: 500;
+}
+/****** ASIDE SECTION END ******/
