@@ -1,0 +1,154 @@
+/******** HEADER ********/
+button, button:active, button:hover{
+	border: none;
+    outline: none;
+    cursor: pointer;
+}
+.top-header .need-help{
+    margin: 0;
+}
+.top-header .notifications{
+    margin: 0 26px;
+}
+.top-header .btn-row .btn + .btn{
+    margin-left: 4px;
+}
+/******** HEADER END ********/
+
+/******** INNER ********/
+.inner{
+    /* height: 100vh; */
+    background: url(../img/bg-inner.jpg) no-repeat center/cover;
+}
+.inner h1{
+    font-size: 48px;
+    margin-bottom: 34px;
+}
+.inner .search-section{
+    margin-top: 54px;
+    position: relative;
+}
+.inner .search-section input{
+    width: 670px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 20px 50px 20px 25px;
+    color: #627f8d;
+    font-weight: 500;
+    -webkit-box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);
+    box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
+}
+.inner .search-section input:focus{
+    border: 1px solid #8bc34a;
+}
+.inner .search-section .icon-search{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: #78909c;
+    font-size: 20px;
+    position: absolute;
+    bottom: 17px;
+    right: 20px;
+}
+.inner .search-section .icon-search:hover{
+    color: #8bc34a;
+}
+/******** INNER END ********/
+
+/******** MODAL LOGIN ********/
+.modal{
+    padding: 95px 165px 110px;
+    display: none;
+    position: relative;
+}
+.modal .close-modal{
+    font-size: 18px;
+    position: absolute;
+    top: 21px;
+    right: 28px;
+}
+.modal .close-modal:hover{
+    cursor: pointer;
+    color: #263238;
+}
+.modal .login{
+    margin-left: 129px;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.modal .login-form{
+    margin-top: 40px;
+}
+.modal .login-section + .login-section{
+    margin-top: 8px;
+}
+.modal .login-section{
+    position: relative;
+}
+.modal .login-section label{
+    position: absolute;
+    top: 17px;
+    left: 18px;
+}
+.modal .login-section input{
+    width: 400px;
+    border: 1px solid transparent;
+    background-color: #76ae36;
+    outline: none;
+    font-size: 15px;
+    padding: 15px 20px 14px 40px;
+}
+.modal .login-section input::-webkit-input-placeholder{
+    color: #fff;
+}  
+.modal .login-section input::-moz-placeholder{
+    color: #fff;
+}  
+.modal .login-section input:-moz-placeholder{
+    color: #fff;
+}  
+.modal .login-section input:-ms-input-placeholder{
+    color: #fff;
+}     
+.modal .login-section input:focus{
+    border: 1px solid #518319;
+}
+.modal .btn-row{
+    margin: 20px 0 25px;
+}
+.modal .btn-row .submit{
+    -webkit-box-shadow: 0 2px 2px 0 rgba(118, 174, 54, 0.75);
+    box-shadow: 0 2px 2px 0 rgba(118, 174, 54, 0.75);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 19px 43px;
+    margin-right: 10px;
+}
+.modal .btn-row .submit:hover{
+    background-color: #76ae36;
+    color: #263238;
+}
+.modal .btn-row .create-account{
+    font-size: 18px;
+    width: 100%;
+    padding: 17px 36px;
+    background-color: #76ae36;
+}
+.modal .btn-row .create-account .fa{
+    margin-right: 10px;
+}
+.modal .btn-row .create-account:hover{
+    background-color: #fff;
+    color: #76ae36;;
+}
+.modal .lost-password{
+    font-size: 18px;
+}
+.modal .lost-password:hover{
+    color: #263238;
+}
+/******** MODAL LOGIN END ********/

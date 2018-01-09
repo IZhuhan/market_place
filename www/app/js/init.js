@@ -13,3 +13,13 @@ $(function (){
     // init form styler for select
     $('select').styler();
 });
+
+// init modal login
+let openModalsBtns = $('[data-modal]');
+
+openModalsBtns.on('click', function() {
+
+  let target = $(this).attr('data-target');
+  $(target).bPopup();
+
+});
