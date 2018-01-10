@@ -1,6 +1,5 @@
 /******** INNER ********/
 .inner{
-    /* height: 100vh; */
     background: url(../img/bg-inner.jpg) no-repeat center/cover;
 }
 .inner h1{
@@ -12,18 +11,31 @@
     position: relative;
 }
 .inner .search-section input{
+    font: 500 14px/1 'Roboto';
     width: 670px;
     border-radius: 3px;
     outline: none;
     border: 1px solid transparent;
     padding: 20px 50px 20px 25px;
-    color: #627f8d;
+    color: #90a4ae;
     font-weight: 500;
     box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
 }
 .inner .search-section input:focus{
     border: 1px solid #8bc34a;
 }
+.inner .search-section input::-webkit-input-placeholder{
+    color: #90a4ae;
+}  
+.inner .search-section input::-moz-placeholder{
+    color: #90a4ae;
+}  
+.inner .search-section input:-moz-placeholder{
+    color: #90a4ae;
+}  
+.inner .search-section input:-ms-input-placeholder{
+    color: #90a4ae;
+}  
 .inner .search-section .icon-search{
     cursor: pointer;
     border: none;
@@ -41,28 +53,39 @@
 /******** INNER END ********/
 
 /******** LETS-CHECK START ********/
-.lets-check .nav-tabs:nth-child(2){
+.lets-check .nav-tabs{
     margin: 58px 0;
 }
-.lets-check .nav-tabs:nth-child(2) .nav li{
+.lets-check .nav-tabs .nav li{
     font-weight: 500;
     font-size: 14px;
 }
 .lets-check .product-card-section .row + .row{
     margin-top: 32px;
 }
-.lets-check .nav-tabs:last-child{
+.lets-check .btn-row{
     margin-top: 76px;
 }
-.lets-check .nav-tabs:last-child .nav li{
-    font-size: 16px;
-    padding: 18px 33px; 
-    box-shadow: 0 1px 3px 0 rgba(204, 216, 228, 0.75);
-}
-.lets-check .nav-tabs:last-child .nav li + li{
+.lets-check .btn-row a + a{
     margin-left: 12px;
 }
 /******** LETS-CHECK END ********/
+
+/******** WEEK-TRENDING ********/
+.week-trending .slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+.week-trending .card-items-slider{
+    margin-top: 55px;
+}
+.week-trending .card-items-slider .slider-item{
+    margin: 0 10px;
+}
+.week-trending .slick-dots{
+    margin-top: 67px;
+    position: static;
+}
+/******** WEEK-TRENDING END ********/
 
 /******** WHY-CHOOSE-FOXTAR START ********/
 .why-choose-foxtar .advantages{

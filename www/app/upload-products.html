@@ -295,10 +295,10 @@
                     <span>Premium WordPress Themes, Web Templates and Many More ...</span>
                 </div>
                 <!-- /title -->
-                <div class="search-section">
+                <form class="search-section">
                     <input name="search_query" type="text" placeholder="Search Your Keywords . . .">
                     <button class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
-                </div>
+                </form>
                 <!-- /search-section -->
             </div>
             <!-- /container-fluid -->
@@ -326,26 +326,26 @@
                         <div class="upload-section">
                             <form>
                                 <div class="form-group">
-                                    <div class="form-group-row">
-                                        <label class="required">Select Categories</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>Select Categories <sup class="text-green">*</sup></label>
                                         <select name="select_categories" class="form-control">
                                             <option value="">Categorie 1</option>
                                             <option value="">categorie 2</option>
                                         </select>
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
-                                        <label class="required">Product Name</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>Product Name <sup class="text-green">*</sup></label>
                                         <input name="product_name" class="form-control" type="text" placeholder="Enter your product name here ...">
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
                                         <label>Product Description</label>
                                         <textarea name="text" class="form-control" rows="10" cols="45" placeholder="<h1> Type your text  here </h1/>"></textarea>
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
-                                        <label class="required">Upload Main File</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>Upload Main File <sup class="text-green">*</sup></label>
                                         <div class="file-upload form-control">
                                             <input name="uploadMainFile" id="uploadMainFile" type="file">
                                             <label for="uploadMainFile">Choose File</label>
@@ -353,8 +353,8 @@
                                         </div>
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
-                                        <label class="required">Upload Screenshots</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>Upload Screenshots <sup class="text-green">*</sup></label>
                                         <div class="file-upload form-control">
                                             <input name="uploadScreenshots" id="uploadScreenshots" type="file">
                                             <label for="uploadMainFile">Choose File</label>
@@ -362,21 +362,21 @@
                                         </div>
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
-                                        <label class="required">File Included</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>File Included <sup class="text-green">*</sup></label>
                                         <select name="file_included" class="form-control">
                                             <option value="">PSD</option>
                                             <option value="">JPG</option>
                                         </select>
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
-                                        <label class="required">File Dimensions</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>File Dimensions <sup class="text-green">*</sup></label>
                                         <input name="file_dimensions" class="form-control" type="text" placeholder="Enter the item dimensions here ...">
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
-                                        <label class="required">Item Tags</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>Item Tags <sup class="text-green">*</sup></label>
                                         <input name="item_tags" class="form-control" type="text" placeholder="Enter tag here ...">
                                     </div>
                                     <!-- /form-group-row -->
@@ -396,19 +396,22 @@
                         <div class="upload-section">
                             <form>
                                 <div class="form-group">
-                                    <div class="form-group-row">
-                                        <label class="required">Regular License</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>Regular License <sup class="text-green">*</sup></label>
                                         <input name="regular_license" class="form-control" type="text" placeholder="$00.00">
                                     </div>
                                     <!-- /form-group-row -->
-                                    <div class="form-group-row">
-                                        <label class="required">Extended License</label>
+                                    <div class="form-group-row d-flex justify-content-between align-items-center">
+                                        <label>Extended License <sup class="text-green">*</sup></label>
                                         <input name="extended_license" class="form-control" type="text" placeholder="$00.00">
                                     </div>
                                     <!-- /form-group-row -->
                                 </div>
                                 <!-- /form-group -->
-                                <button type="submit" class="btn btn-success btn-md">Submit</button>
+                                <div class="submit-btn-wrap d-flex ml-auto">
+                                    <button type="submit" class="btn btn-success btn-md">Submit</button>
+                                </div>
+                                <!-- /submit-btn-wrap -->
                             </form>
                         </div>
                         <!-- /upload-section -->

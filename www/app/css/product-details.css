@@ -1,7 +1,7 @@
-/****** MAIN SECTION ******/
-.main-section{
+.product-details-page{
     padding-bottom: 120px;
 }
+/****** MAIN SECTION ******/
 .main-section .product-img{
     padding: 17px 19px;
     border: 1px solid #dfdfdf;
@@ -15,10 +15,10 @@
 .main-section .btn-row{
     margin: 45px 0 55px;
 }
-.main-section .btn-row .info-btn-col a + a{
+.main-section .btn-row .info-btns a + a{
     margin-left: 18px;
 }
-.main-section .btn-row .social-btn-col a + a{
+.main-section .btn-row .social-net-nav a + a{
     margin-left: 3px;
 }
 .main-section .product-details-tab{
@@ -123,14 +123,14 @@
     font-weight: 300;
     color: #707070;
 }
-.aside-section .product-info{
+.aside-section .product-info-list{
     font-size: 14px;
     margin-top: 25px;
 }
-.aside-section .product-info .product-info-item span{
+.aside-section .product-info-list li span{
     line-height: 28px;
 }
-.aside-section .product-info .product-info-item span:first-child{
+.aside-section .product-info-list li span:first-child{
     line-height: 36px;
     font-weight: 500;
 }

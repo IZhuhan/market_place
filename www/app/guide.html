@@ -289,10 +289,10 @@
                 <span>Premium WordPress Themes, Web Templates and Many More ...</span>
             </div>
             <!-- /title -->
-            <div class="search-section">
+            <form class="search-section">
                 <input name="search_query" type="text" placeholder="Search Your Keywords . . .">
                 <button class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </div>
+            </form>
             <!-- /search-section -->
         </div>
         <!-- /container-fluid -->
@@ -633,24 +633,24 @@
     <div class="container">
         <form>
             <div class="form-group">
-                <div class="form-group-row">
-                    <label class="required">Product Name</label>
+                <div class="form-group-row d-flex justify-content-between align-items-center">
+                    <label>Product Name<sup class="text-green">*</sup></label>
                     <input name="user_name" class="form-control" type="text" placeholder="Enter your product name here ...">
                 </div>
-                <div class="form-group-row">
+                <div class="form-group-row d-flex justify-content-between align-items-center">
                     <label>Product Description</label>
                     <textarea name="text" class="form-control" rows="10" cols="45" placeholder="<h1> Type your text  here </h1/>"></textarea>
                 </div>
-                <div class="form-group-row">
-                    <label class="required">Upload Main File</label>
+                <div class="form-group-row d-flex justify-content-between align-items-center">
+                    <label>Upload Main File <sup class="text-green">*</sup></label>
                     <div class="file-upload form-control">
                         <input name="uploadMainFile" id="uploadMainFile" type="file">
                         <label for="uploadMainFile">Choose File</label>
                         <span class="file-name">No File Choosen</span>
                     </div>
                 </div>
-                <div class="form-group-row">
-                    <label class="required">File Included</label>
+                <div class="form-group-row d-flex justify-content-between align-items-center">
+                    <label>File Included <sup class="text-green">*</sup></label>
                     <select name="main_file" class="form-control" id="">
                         <option value="">PSD</option>
                         <option value="">JPG</option>

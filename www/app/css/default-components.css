@@ -377,50 +377,33 @@ ul.breadcrumbs li a:hover{
 
 /******** FORM-ELEMENTS *********/
 form .form-group-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     margin-bottom: 20px;
 }
-form  .form-group input, form .form-group textarea, form .form-group .file-upload, form .form-group .jq-selectbox {
+form  .form-group .form-control{
     width: 80%;
-}
-form button[type="submit"] {
-    border: none;
 }
 .form-group label{
     font-weight: 400;
     font-size: 15px;
     color: #444444;
 }
-.form-group label.required::after{
-    content: "*";
-    color: #8bc34a;
-    margin-left: 4px;
-    font-weight: bold;
-    position: relative;
-    top: -6px;
-}
-.form-group input.form-control, .form-group textarea.form-control, .file-upload{
+.form-group input,
+.form-group textarea, 
+.form-group .file-upload{
     font-size: 15px;
     background-color: #f9f9f9;
     border: 1px solid #d8d8d8;
     color: #707070;
 }
-.form-group input.form-control, .form-group textarea.form-control{
+.form-group input,
+.form-group textarea{
     padding: 12px 15px;
     outline: none;
 }
-.file-upload.form-control{
+.file-upload{
     padding: 7px;
 }
-.form-group input.form-control:focus, .form-group textarea.form-control:focus, .file-upload:focus{
+.form-group .form-control:focus{
     border-color: #8bc34a;
 }
 .form-control input[type="file"]{
@@ -1068,7 +1051,8 @@ form button[type="submit"] {
 
 /********** CAROUSEL ***********/
 .card-items-slider .slider-item{
-    margin: 55px 10px 67px;
+    /* margin: 55px 10px 67px; */
+    outline: none;
 }
 .multiple-items .slick-dots li{
     width: 16px;
@@ -1203,11 +1187,27 @@ form button[type="submit"] {
     outline: none;
     border: 1px solid transparent;
     padding: 20px 50px 20px 25px;
-    color: #627f8d;
+    font: 500 14px/1 'Roboto';
+    color: #90a4ae;
     font-weight: 500;
     -webkit-box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);
     box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
 }
+.small-inner .search-section input:focus{
+    border: 1px solid #8bc34a;
+}
+.small-inner .search-section input::-webkit-input-placeholder{
+    color: #90a4ae;
+}  
+.small-inner .search-section input::-moz-placeholder{
+    color: #90a4ae;
+}  
+.small-inner .search-section input:-moz-placeholder{
+    color: #90a4ae;
+}  
+.small-inner .search-section input:-ms-input-placeholder{
+    color: #90a4ae;
+}  
 .small-inner .search-section input:focus{
     border: 1px solid #8bc34a;
 }
