@@ -286,7 +286,6 @@
     <!-- MAIN START-->
 
     <main class="main">
-        <!-- SMALL-INNER START -->
         <section class="small-inner">
             <div class="container-fluid d-flex flex-column align-items-center">
                 <div class="title medium text-white">
@@ -310,8 +309,16 @@
                 </ul>
                 <!-- / breadcrumbs -->
                 <div class="sales-table">
-                    <div class="title semibold lg">
-                        <span>Your Sales Statement</span>
+                    <div class="default-data d-flex ml-auto">
+                        <div class="title semibold lg text-black ">
+                            <span>Your Sales Statement</span>
+                        </div>
+                            <div class="datepicker d-flex align-items-center ml-auto">
+                                <input type="text" id="from" name="from" class="form-control-data">
+                                <label for="to" class="title text-black card-theme-xs">to</label>
+                                <input type="text" id="to" name="to" class="form-control-data">
+                            </div>
+                            <a href="" class="btn btn-success btn-sm">Find</a>
                     </div>
                     <!-- / title semibold lg -->
                     <div class="panel panel-default">
@@ -534,6 +541,7 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src="datapicker.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
     <!-- init all plugins -->
     <script src="js/init.js"></script>

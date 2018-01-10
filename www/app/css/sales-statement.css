@@ -1,19 +1,12 @@
-/*===== SALES-STATEMENT START=====*/
 .sales-statement-section {
     background-color: #f4f6f5;
     padding-bottom: 137px;
 }
-.sales-table .title.semibold {
-    color: #263238;
-}
-/*===== SALES-STATEMENT END=====*/
-
-/*===== YOUR-SALES START=====*/
 .your-sales .sales-table {
     background-color: #FFFFFF;
     border: 1px solid #dedede;
 }
-.your-sales .sales-table .title {
+.your-sales .sales-table .default-data {
     padding: 20px 30px 25px 30px;
     border-bottom: 1px solid #d7d7d7;
 }
@@ -24,4 +17,18 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-/*===== YOUR-SALES END=====*/
+.datepicker  {
+    margin-right: 13px;
+}
+.datepicker.form-control-data + .form-control-data {
+    margin-right: 12px;
+}
+.datepicker .title {
+    padding: 0 12px 0 10px;
+}
+.datepicker .form-control-data {
+    height: 28px;
+}
+.default-data .btn {
+    padding: 9px 22px;
+}

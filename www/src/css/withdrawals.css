@@ -5,7 +5,7 @@
 .withdrawals-section .sale-history {
     background-color: #FFFFFF;
     border: 1px solid #dedede;
-    height: 500px;
+    margin-bottom: 201px;
 }
 .withdrawals-section .sale-history .title {
     border-bottom: 1px solid #d7d7d7;
@@ -18,18 +18,17 @@
 
 /*===== HISTORY-TABLE START =====*/
 .history-table tbody tr td {
-    padding: 21px 28px;
+    padding: 15px 28px;
 }
 /*===== HISTORY-TABLE END =====*/
 
 /*===== FORM START =====*/
 .form-group  .form-group-row .required {
-    padding-top: 30px;
     padding-bottom: 20px;
 }
 .withdrawals-form {
     background-color: #fff;
-    height: 644px;
+    padding-bottom: 50px;
     border: 1px solid #dedede;
     margin-right: 28px;
 }
@@ -40,7 +39,11 @@
 .form-group .form-group-row .form-control {
     width: 490px;
 }
+.form-group-row + .form-group-row {
+    padding-top: 30px;
+}
 .form-group {
+    padding-top: 30px;
     padding-right: 36px;
     padding-left: 36px;
 }
