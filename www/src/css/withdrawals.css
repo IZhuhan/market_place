@@ -26,6 +26,7 @@
 .form-group  .form-group-row .required {
     padding-bottom: 20px;
 }
+/*===== WITHDRAWALS START =====*/
 .withdrawals-form {
     background-color: #fff;
     padding-bottom: 50px;
@@ -36,6 +37,9 @@
     border-bottom: 1px solid #d7d7d7;
     padding: 20px 0 24px 30px;
 }
+/*===== WITHDRAWALS END =====*/
+
+/*===== FROM START =====*/
 .form-group .form-group-row .form-control {
     width: 490px;
 }
@@ -58,7 +62,6 @@
     content: "";
 }
 .form-group .required sup {
-
     padding-left: 6px ;
 }
 /*===== FORM END =====*/

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Withdrawals</title>
@@ -28,6 +29,7 @@
     <!-- Page -->
     <link rel="stylesheet" href="css/withdrawals.css">
 </head>
+
 <body>
     <!-- HEADER START -->
     <header class="header">
@@ -215,35 +217,51 @@
                     <div class="dropdown-menu">
                         <ul>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href="">Portfolio page</a>
                             </li>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href="">Portfolio</a>
                             </li>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href="">Account setting</a>
                             </li>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href=""> Downloads</a>
                             </li>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href="">Wishlist</a>
                             </li>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href="">Upload item</a>
                             </li>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href="">Statement</a>
                             </li>
                             <li class="d-flex align-items-end">
-                                <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span class="text-green">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </span>
                                 <a href="">Withdraws</a>
                             </li>
                         </ul>
@@ -290,7 +308,9 @@
                 <!-- /title -->
                 <div class="search-section">
                     <input name="search_query" type="text" placeholder="Search Your Keywords . . .">
-                    <button class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <button class="icon-search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
                 </div>
                 <!-- /search-section -->
             </div>
@@ -300,7 +320,9 @@
         <section class="breadcrumbs-section">
             <div class="container">
                 <ul class="breadcrumbs">
-                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
                     <li>Withdrawals</li>
                 </ul>
             </div>
@@ -311,39 +333,47 @@
                     <div class="title text-black semibold lg">
                         <span>Withdrawals Earnings</span>
                     </div>
-                <form>
-                    <div class="form-group">
-                        <div class="form-group-row d-flex flex-column">
-                            <label for="towithdraw" class="required title s semibold">Amount to Withdraw ($2000.00 Maximum)<sup class="text-green title lg" >*</sup></label>
-                            <input name="user_name" class="form-control" type="text" placeholder="Enter the amount you want to withdraw..." id="towithdraw">
+                    <form>
+                        <div class="form-group">
+                            <div class="form-group-row d-flex flex-column">
+                                <label for="towithdraw" class="required title s semibold">Amount to Withdraw ($2000.00 Maximum)
+                                    <sup class="text-green title lg">*</sup>
+                                </label>
+                                <input name="user_name" class="form-control" type="text" placeholder="Enter the amount you want to withdraw..." id="towithdraw">
+                            </div>
+                            <!-- / form-group-row-->
+                            <div class="form-group-row d-flex flex-column">
+                                <label for="chooseyour" class="required title s semibold">Choose your Withdraw Method
+                                    <sup class="text-green title lg">*</sup>
+                                </label>
+                                <select name="main_file" class="form-control" id="chooseyour">
+                                    <option value="">Select Your Card</option>
+                                    <option value="">Select Your Card</option>
+                                </select>
+                            </div>
+                            <!-- / form-group-row-->
+                            <div class="form-group-row d-flex flex-column">
+                                <label for="email" class="required title s semibold">Your Account Name
+                                    <sup class="text-green title lg">*</sup>
+                                </label>
+                                <select name="main_file" class="form-control" id="email">
+                                    <option value="">Select Your Card</option>
+                                    <option value="">Select Your Card</option>
+                                </select>
+                            </div>
+                            <!--  / form-group-row-->
+                            <div class="form-group-row d-flex flex-column">
+                                <label for="password" class="required title s semibold">Confirm Your Password
+                                    <sup class="text-green title lg">*</sup>
+                                </label>
+                                <input name="user_name" class="form-control" type="text" placeholder="Select Your Card" id="password">
+                            </div>
                         </div>
-                        <!-- / form-group-row-->
-                        <div class="form-group-row d-flex flex-column">
-                            <label for="chooseyour" class="required title s semibold">Choose your Withdraw Method<sup class="text-green title lg">*</sup></label>
-                            <select name="main_file" class="form-control" id="chooseyour">
-                                <option value="">Select Your Card</option>
-                                <option value="">Select Your Card</option>
-                            </select>
+                        <!--/ form-group -->
+                        <div class="btn-w">
+                            <a href="" class="btn btn-success btn-md">Request Withdrawal</a>
                         </div>
-                        <!-- / form-group-row-->
-                        <div class="form-group-row d-flex flex-column">
-                            <label for="email" class="required title s semibold">Your Account Name<sup class="text-green title lg">*</sup></label>
-                            <select name="main_file" class="form-control" id="email">
-                                <option value="">Select Your Card</option>
-                                <option value="">Select Your Card</option>
-                            </select>
-                        </div>
-                        <!--  / form-group-row-->
-                        <div class="form-group-row d-flex flex-column">
-                            <label for="password" class="required title s semibold">Confirm Your Password<sup class="text-green title lg">*</sup></label>
-                            <input name="user_name" class="form-control" type="text" placeholder="Select Your Card" id="password">
-                        </div>
-                    </div>
-                    <!--/ form-group -->
-                    <div class="btn-w">
-                        <a href="" class="btn btn-success btn-md">Request Withdrawal</a>
-                    </div>
-                </form>
+                    </form>
                     <!-- / form-->
                 </div>
                 <!-- / withdrawals-form-->
@@ -354,48 +384,48 @@
                     <div class="panel panel-default">
                         <table class="withdraw-table history-table">
                             <tbody>
-                            <tr>
-                                <td>Dec 26th, 2016</td>
-                                <td>Psdboss@paypal.com</td>
-                                <td>$200</td>
-                                <td>Pending</td>
-                            </tr>
-                            <tr>
-                                <td>Dec 26th, 2016</td>
-                                <td>Psdboss@paypal.com</td>
-                                <td>$100</td>
-                                <td class="color-g">Paid</td>
-                            </tr>
-                            <tr>
-                                <td>Dec 26th, 2016</td>
-                                <td>Psdboss@paypal.com</td>
-                                <td>$200</td>
-                                <td class="color-g">Paid</td>
-                            </tr>
-                            <tr>
-                                <td>Dec 26th, 2016</td>
-                                <td>Psdboss@paypal.com</td>
-                                <td>$100</td>
-                                <td class="color-g">Paid</td>
-                            </tr>
-                            <tr>
-                                <td>Dec 26th, 2016</td>
-                                <td>Psdboss@paypal.com</td>
-                                <td>$200</td>
-                                <td class="color-g">Paid</td>
-                            </tr>
-                            <tr>
-                                <td>Dec 26th, 2016</td>
-                                <td>Psdboss@paypal.com</td>
-                                <td>$100</td>
-                                <td class="color-g">Paid</td>
-                            </tr>
-                            <tr>
-                                <td>Dec 26th, 2016</td>
-                                <td>Psdboss@paypal.com</td>
-                                <td>$200</td>
-                                <td class="color-g">Paid</td>
-                            </tr>
+                                <tr>
+                                    <td>Dec 26th, 2016</td>
+                                    <td>Psdboss@paypal.com</td>
+                                    <td>$200</td>
+                                    <td>Pending</td>
+                                </tr>
+                                <tr>
+                                    <td>Dec 26th, 2016</td>
+                                    <td>Psdboss@paypal.com</td>
+                                    <td>$100</td>
+                                    <td class="color-g">Paid</td>
+                                </tr>
+                                <tr>
+                                    <td>Dec 26th, 2016</td>
+                                    <td>Psdboss@paypal.com</td>
+                                    <td>$200</td>
+                                    <td class="color-g">Paid</td>
+                                </tr>
+                                <tr>
+                                    <td>Dec 26th, 2016</td>
+                                    <td>Psdboss@paypal.com</td>
+                                    <td>$100</td>
+                                    <td class="color-g">Paid</td>
+                                </tr>
+                                <tr>
+                                    <td>Dec 26th, 2016</td>
+                                    <td>Psdboss@paypal.com</td>
+                                    <td>$200</td>
+                                    <td class="color-g">Paid</td>
+                                </tr>
+                                <tr>
+                                    <td>Dec 26th, 2016</td>
+                                    <td>Psdboss@paypal.com</td>
+                                    <td>$100</td>
+                                    <td class="color-g">Paid</td>
+                                </tr>
+                                <tr>
+                                    <td>Dec 26th, 2016</td>
+                                    <td>Psdboss@paypal.com</td>
+                                    <td>$200</td>
+                                    <td class="color-g">Paid</td>
+                                </tr>
                             </tbody>
                         </table>
                         <!-- /withdraw-table -->
@@ -419,9 +449,12 @@
                         <span>About Сompany</span>
                     </div>
                     <!-- /footer-title -->
-                    <p class="text-section">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
+                    <p class="text-section">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna
+                        iat.Praesent vel rutrum purus.</p>
                     <div class="address d-flex">
-                        <span class="icon-section text-green"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="icon-section text-green">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </span>
                         <div class="address-text text-white">
                             <span>PO Box 16122 Collins Street West</span>
                             <span>Victoria 8007 Australia</span>
@@ -430,7 +463,9 @@
                     </div>
                     <!-- /address -->
                     <div class="phone">
-                        <span class="icon-section text-green"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="icon-section text-green">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </span>
                         <span class="text-white">+61 3 8376 6284</span>
                     </div>
                     <!-- /phone -->
@@ -441,22 +476,37 @@
                         <span>Join Our Community</span>
                     </div>
                     <!-- /footer-title -->
-                    <ul  class="footer-nav">
+                    <ul class="footer-nav">
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Home</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Home</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Forums</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Forums</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Become an Author</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Become an Author</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Community Meetups</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Community Meetups</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Become an Affiliate</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Become an Affiliate</a>
+                        </li>
                     </ul>
                     <!-- /footer-nav -->
                 </div>
@@ -466,22 +516,37 @@
                         <span>Need help?</span>
                     </div>
                     <!-- /footer-title -->
-                    <ul  class="footer-nav">
+                    <ul class="footer-nav">
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Help Center</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Help Center</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Foxtar Market Terms</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Foxtar Market Terms</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Author Terms</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Author Terms</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Foxtar Licenses</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Foxtar Licenses</a>
+                        </li>
                         <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Contact Us</a></li>
+                            <span class="icon-section text-green">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                            <a href="#">Contact Us</a>
+                        </li>
                     </ul>
                     <!-- /footer-nav -->
                 </div>
@@ -492,11 +557,21 @@
                     </div>
                     <!-- /footer-title -->
                     <ul class="social-net-sprite">
-                        <li><a class="icon icon-home icon-fb" href="#"></a></li>
-                        <li><a class="icon icon-home icon-twitter" href="#"></a></li>
-                        <li><a class="icon icon-home icon-youtube" href="#"></a></li>
-                        <li><a class="icon icon-home icon-pinterest" href="#"></a></li>
-                        <li><a class="icon icon-home icon-linkedin" href="#"></a></li>
+                        <li>
+                            <a class="icon icon-home icon-fb" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="icon icon-home icon-twitter" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="icon icon-home icon-youtube" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="icon icon-home icon-pinterest" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="icon icon-home icon-linkedin" href="#"></a>
+                        </li>
                     </ul>
                     <!-- /social-net-sprite -->
                     <div class="newsletter">
@@ -524,10 +599,12 @@
     <!-- FOOTER END -->
 
     <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
     <!-- init all plugins -->
     <script src="js/init.js"></script>
 </body>
+
 </html>
