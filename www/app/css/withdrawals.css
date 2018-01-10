@@ -54,4 +54,11 @@
 .earnings-form {
     padding-bottom: 143px;
 }
+.form-group label.required::after{
+    content: "";
+}
+.form-group .required sup {
+
+    padding-left: 6px ;
+}
 /*===== FORM END =====*/

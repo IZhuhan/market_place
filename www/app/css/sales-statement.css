@@ -28,6 +28,8 @@
 }
 .datepicker .form-control-data {
     height: 28px;
+    padding-left: 14px;
+    width: 134px;
 }
 .default-data .btn {
     padding: 9px 22px;
