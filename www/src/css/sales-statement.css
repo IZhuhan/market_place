@@ -38,4 +38,10 @@
 .default-data .btn {
     padding: 9px 22px;
 }
+.datepicker .fa {
+    position: relative;
+    right: 30px;
+    color: #8cc148;
+    font-size: 12px;
+}
 /* ====== DATAPICKER END ===== */
