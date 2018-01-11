@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>All-items-4</title>
+    <title>All-items</title>
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -16,6 +16,9 @@
 
     <!-- Font-awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- jQuery UI Style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Reset style -->
     <link rel="stylesheet" href="css/reset.css">
@@ -314,39 +317,20 @@
                         <div class="title">
                             <span>Categories</span>
                         </div>
-                        <ul  class="categories-list">
-                            <li class="d-flex">
-                                <i class="fa fa-angle-right text-green categories-icon" aria-hidden="true"></i>
-                                <span class="categories-name">WordPress</span>
-                                <span class="categories-numbers ml-auto">150</span>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fa fa-angle-right text-green categories-icon" aria-hidden="true"></i>
-                                <span class="categories-name">Joomla</span>
-                                <span class="categories-numbers ml-auto">100</span>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fa fa-angle-right text-green categories-icon" aria-hidden="true"></i>
-                                <span class="categories-name">PSD</span>
-                                <span class="categories-numbers ml-auto">50</span>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fa fa-angle-right text-green categories-icon" aria-hidden="true"></i>
-                                <span class="categories-name">Plugins</span>
-                                <span class="categories-numbers ml-auto">60</span>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fa fa-angle-right text-green categories-icon" aria-hidden="true"></i>
-                                <span class="categories-name">Components</span>
-                                <span class="categories-numbers ml-auto">40</span>
-                            </li>
-                        </ul>
+                        <div class="aside-categories d-flex flex-column">
+                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>WordPress<span class="ml-auto text-gray categories-numbers">150</span></a>
+                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Joomla<span class="ml-auto text-gray categories-numbers">100</span></a>
+                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>PSD<span  class="ml-auto text-gray categories-numbers">50</span></a>
+                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Plugins<span class="ml-auto text-gray categories-numbers">60</span></a>
+                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Components<span class="ml-auto text-gray categories-numbers">40</span></a>
+                        </div>
                     </div>
                     <!-- /aside-section -->
                     <div class="aside-section">
                         <div class="title">
                             <span>Price Range</span>
                         </div>
+                        <div id="slider-range" class="price-range"></div>
                         <a href="" class="btn btn-success btn-md btn-block btn-icon"><i class="fa fa-search"></i>Search</a>
                     </div>
                     <!-- /aside-section -->
@@ -507,8 +491,8 @@
                             <i class="fa fa-sort" aria-hidden="true"></i>
                         </div>
                         <div class="change-views">
-                            <i class="fa fa-th-large change-icon active"></i>
-                            <i class="fa fa-th-list change-icon"></i>
+                            <i class="fa fa-th-large change-icon active" id="grid-thumbs"></i>
+                            <i class="fa fa-th-list change-icon" id="grid-list"></i>
                         </div>
                     </div>
                     <!-- /sort-controls -->
@@ -1150,14 +1134,16 @@
                                 <!-- / card-description-wrapper-->
                             </div>
                             <!-- / col-md-3 card-->
-                            <ul class="pagination">
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                            </ul>
                         </div>
                         <!-- /row -->
+                        <!-- pagination -->
+                        <ul class="pagination">
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                        </ul>
+                        <!-- /pagination -->
                     </div>
                     <!-- /all-items-container -->
                 </div>
@@ -1291,6 +1277,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    <!-- jQueryUI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/range.js"></script>
     <!-- init all plugins -->
     <script src="js/init.js"></script>
 </body>
