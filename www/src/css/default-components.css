@@ -631,6 +631,7 @@ ul.breadcrumbs li a:hover{
 }
 /* ======== DEFAULT-DROPDOWN ======== */
 .dropdown-container{
+    cursor: pointer;
     position: relative;
 }
 .dropdown-container .dropdown-menu{
@@ -642,7 +643,7 @@ ul.breadcrumbs li a:hover{
     box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
     min-width: 157px;
 }
-.dropdown-container:hover .dropdown-menu{
+.dropdown-container .dropdown-menu.open{
     display: block;
 }
 /* ======== DEFAULT-DROPDOWN END ======== */

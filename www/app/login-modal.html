@@ -51,12 +51,12 @@
                 </div>
                 <!-- /need-help -->
                 <div class="notifications">
-                    <div class="notifications-item cart dropdown-container">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <div class="notifications-item cart dropdown-container" data-dropdown-container data-dropdown="#cart-dropdown-menu">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" data-dropdown="#cart-dropdown-menu"></i>
                         <div class="label bg-red text-white">
                             <span>8</span>
                         </div>
-                        <div class="dropdown-menu  notification-dropdown">
+                        <div class="dropdown-menu  notification-dropdown" id="cart-dropdown-menu" data-dropdown-menu>
                             <div class="dropdown-section">
                                 <img src="img/cart-product-item.jpg" alt="cart-product-item">
                                 <div class="info">
@@ -95,6 +95,7 @@
                     </div>
                     <!-- /shopping-cart -->
                 </div>
+                <!-- /notications -->
                 <div class="btn-row">
                     <button class="btn btn-success btn-round btn-authorization" data-modal data-target="#login-modal">Login</button>
                     <!-- /btn-login -->
@@ -302,6 +303,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    <script src="js/dropdown-click.js"></script>
     <!-- Bpop -->
     <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
     <!-- init all plugins -->
