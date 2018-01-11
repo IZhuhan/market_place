@@ -41,6 +41,9 @@ li{
 img{
 	max-width: 100%;
 }
+input, textarea{
+	outline: none;
+}
 textarea{
 	resize: vertical;
 }
