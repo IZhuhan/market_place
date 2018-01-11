@@ -1,0 +1,42 @@
+/***** ERROR-SECTION *****/
+.error-page{
+    padding-bottom: 150px;
+}
+.error-page .error-page-wrap{
+    border: 1px solid #dcdcdc;
+}
+.error-page .error-page-wrap > .title{
+    padding: 24px 28px;
+    border-bottom: 1px solid #cdd4c4;
+}
+.error-page .error-section{
+    padding: 65px 15px 100px;
+}
+.error-page .error-section .error-title{
+    font: 800 300px/1 'Open Sans';
+}
+.error-page .error-section .error-title .error-img{
+    margin-left: 15px;
+}
+.error-page .error-section .error-subtitle{
+    font: 400 30px/1 'Open Sans';
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+.error-page .error-section .error-description{
+    font: 500 18px/24px 'Raleway';
+}
+.error-page .error-section .go-home-btn{
+    font: 700 14px/1 'Raleway';
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+.error-page .error-section .go-home-btn:hover{
+    border: 2px solid #518319;
+    color: #8bc34a;
+    background-color: #fff;
+}
+/***** ERROR-PAGE END *****/
