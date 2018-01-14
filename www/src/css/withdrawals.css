@@ -2,9 +2,11 @@
 .withdrawals-section {
     background-color: #f4f6f5;
 }
-.withdrawals-section .sale-history {
+.withdrawals-section .content-section{
     background-color: #FFFFFF;
     border: 1px solid #dedede;
+}
+.withdrawals-section .sale-history {
     margin-bottom: 201px;
 }
 .withdrawals-section .sale-history .title {
@@ -17,6 +19,11 @@
 @media (max-width: 991px) {
     .withdrawals-section .sale-history{
         margin-bottom: 0;
+    }
+}
+@media (max-width: 991px){
+    .withdrawals-section .container.d-flex {
+        flex-direction: column;
     }
 }
 /*===== WITHDRAWALS-SECTION END =====*/
@@ -33,9 +40,7 @@
 }
 /*===== WITHDRAWALS START =====*/
 .withdrawals-form {
-    background-color: #fff;
     padding-bottom: 50px;
-    border: 1px solid #dedede;
     margin-right: 28px;
 }
 .withdrawals-form .title.text-black {
@@ -45,6 +50,10 @@
 @media (max-width: 991px) {
     .withdrawals-form{
         margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .history-table tbody tr td {
+        padding: 18px 76px;
     }
 }
 /*===== WITHDRAWALS END =====*/
