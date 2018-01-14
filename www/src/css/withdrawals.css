@@ -14,6 +14,11 @@
 .withdrawals-section .sale-history .panel {
     padding: 35px 14px 35px 9px;
 }
+@media (max-width: 991px) {
+    .withdrawals-section .sale-history{
+        margin-bottom: 0;
+    }
+}
 /*===== WITHDRAWALS-SECTION END =====*/
 
 /*===== HISTORY-TABLE START =====*/
@@ -36,6 +41,11 @@
 .withdrawals-form .title.text-black {
     border-bottom: 1px solid #d7d7d7;
     padding: 20px 0 24px 30px;
+}
+@media (max-width: 991px) {
+    .withdrawals-form{
+        margin-right: 0;
+    }
 }
 /*===== WITHDRAWALS END =====*/
 
@@ -63,5 +73,10 @@
 }
 .form-group .required sup {
     padding-left: 6px ;
+}
+@media (max-width: 991px) {
+    .form-group .form-group-row .form-control {
+        width: inherit;
+    }
 }
 /*===== FORM END =====*/

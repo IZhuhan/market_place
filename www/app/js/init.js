@@ -13,3 +13,9 @@ $(function (){
     // init form styler for select
     $('select').styler();
 });
+
+// init slick nav
+$('.header-nav').slicknav({
+    appendTo: '.header .bottom-header .container ',
+    label: ''
+});
