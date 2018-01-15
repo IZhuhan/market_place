@@ -46,14 +46,13 @@
     color: #8cc148;
     font-size: 12px;
 }
-/*.fa.fa-calendar.icon-calendar{*/
-    /*position: absolute;*/
-    /*top: 6px;*/
-    /*right: 10px;*/
-    /*color: #8cc148;*/
-    /*font-size: 12px;*/
-/*}*/
 .input-control {
     position: relative;
+}
+.table-wrap {
+    overflow-x: auto;
+}
+.table-wrap .panel.panel-default {
+    min-width: 600px;
 }
 /* ====== DATAPICKER END ===== */
