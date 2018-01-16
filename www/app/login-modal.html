@@ -39,22 +39,33 @@
     <header class="header">
         <div class="top-header bg-white">
             <div class="container d-flex align-items-center">
-                <div class="header-logo mr-auto">
+                <div class="header-logo">
                     <a href="#">
                         <img src="img/logo.png" alt="logo">
                     </a>
                 </div>
                 <!-- /header-logo -->
-                <div class="need-help">
-                    <span class="text-red">Need help?</span>
-                    <span class="text-blue"> Talk to an expert: +61 3 8376 6284</span>
+                <nav class="header-nav text-black d-flex ml-auto mr-auto">
+                    <a href="#">Home</a>
+                    <a href="#">Page</a>                    
+                    <a href="#">WordPress</a>
+                    <a href="#">Joomla</a>
+                    <a href="#">PSD</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Help</a>
+                </nav>
+                <!-- /header-nav -->
+                <div class="btn-row">
+                    <button class="btn btn-danger btn-round btn-authorization" data-modal data-target="#login-modal">Login</button>
+                    <!-- /btn-login -->
                 </div>
-                <!-- /need-help -->
+                <!-- /btn-row -->
                 <div class="notifications">
                     <div class="notifications-item cart dropdown-container" data-dropdown-container data-dropdown="#cart-dropdown-menu">
                         <i class="fa fa-shopping-cart" aria-hidden="true" data-dropdown="#cart-dropdown-menu"></i>
-                        <div class="label bg-red text-white">
-                            <span>8</span>
+                        <div class="label bg-green text-white">
+                            <span>0</span>
                         </div>
                         <div class="dropdown-menu  notification-dropdown" id="cart-dropdown-menu" data-dropdown-menu>
                             <div class="dropdown-section">
@@ -96,36 +107,10 @@
                     <!-- /shopping-cart -->
                 </div>
                 <!-- /notications -->
-                <div class="btn-row">
-                    <button class="btn btn-success btn-round btn-authorization" data-modal data-target="#login-modal">Login</button>
-                    <!-- /btn-login -->
-                    <button class="btn btn-danger btn-round btn-authorization" data-modal data-target="#register-modal">Register</button>
-                    <!-- /btn-register -->
-                </div>
-                <!-- /btn-row -->
             </div>
             <!-- /container -->
         </div>
         <!-- /top-header -->
-        <div class="bottom-header bg-dark text-white">
-            <div class="container d-flex align-items-center">
-                <nav class="header-nav">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">WordPress</a>
-                    <a href="#">Joomla</a>
-                    <a href="#">PSD</a>
-                    <a href="#">Plugins</a>
-                    <a href="#">Components</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Contacts</a>
-                    <a href="#">Help</a>
-                </nav>
-                <!-- /header-nav -->
-            </div>
-            <!-- /container -->
-        </div>
-        <!-- /bottom-header -->
     </header>
     <!-- HEADER END -->
 
@@ -134,10 +119,7 @@
         <!-- INNER START -->
         <section class="inner default-section big">
             <div class="container-fluid d-flex flex-column align-items-center">
-                <h1 class="title text-white">Welcome To Foxtar Market Place!</h1>
-                <div class="title medium text-white">
-                    <span>Premium WordPress Themes, Web Templates and Many More ...</span>
-                </div>
+                <h1 class="title text-white">Creat A <span class="text-green">Digital Market</span> Place</h1>
                 <!-- /title -->
                 <form class="search-section">
                     <input name="search_query" type="text" placeholder="Search Your Keywords . . .">

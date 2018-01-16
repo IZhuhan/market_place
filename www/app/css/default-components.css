@@ -1085,6 +1085,7 @@ ul.breadcrumbs li a:hover{
 /*********** HEADER ***********/
 .header .top-header{
     padding: 27px 0;
+    position: relative;
 }
 .top-header .need-help{
     margin-right: 57px;
@@ -1169,6 +1170,40 @@ ul.breadcrumbs li a:hover{
 }
 .bottom-header .header-nav a:hover{
     color: #8bc34a;
+}
+
+@media (max-width: 991px){
+    .top-header .need-help{
+        display: none;
+    }
+    .bottom-header{
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+}
+@media (max-width: 767px){
+    .top-header .top-bar{
+        width: 100%;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        margin-top: 30px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 479px){
+    .top-header .user-controls,
+    .top-header .user-controls .avatar,
+    .top-header .notifications{
+        margin: 0;
+    }
+    .top-header .user-controls .user-info{
+        display: none;
+    }
 }
 /******* HEADER END *******/
 

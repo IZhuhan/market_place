@@ -14,7 +14,7 @@ $(function (){
     $('select').styler();
 });
 
-// init modal login
+// init modal
 let openModalsBtns = $('[data-modal]');
 
 openModalsBtns.on('click', function() {
@@ -22,4 +22,21 @@ openModalsBtns.on('click', function() {
   let target = $(this).attr('data-target');
   $(target).bPopup();
 
+});
+
+// dropdown click
+let dropdownContainer = $('[data-dropdown-container]');
+
+dropdownContainer.on('click', function(e){
+
+    let target = $(e.target).attr('data-dropdown');
+
+    $(target).toggleClass('open');
+
+});
+
+// init slicknav
+$('.header-nav').slicknav({
+    appendTo: '.top-header .container',
+    label: ''
 });

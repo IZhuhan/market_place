@@ -1,12 +1,15 @@
 /******** HEADER ********/
-.top-header .need-help{
-    margin: 0;
+.top-header .header-nav{
+    font-weight: 500;
+}
+.top-header .header-nav a + a{
+    margin-left: 37px;
+}
+.top-header .header-nav a:hover{
+    color: #8bc34a;
 }
 .top-header .notifications{
-    margin: 0 26px;
-}
-.top-header .btn-row .btn + .btn{
-    margin-left: 4px;
+    margin-left: 26px;
 }
 /******** HEADER END ********/
 
@@ -16,10 +19,10 @@
 }
 .inner h1{
     font-size: 48px;
-    margin-bottom: 34px;
+    text-transform: uppercase;
+    margin-bottom: 105px;
 }
 .inner .search-section{
-    margin-top: 54px;
     position: relative;
 }
 .inner .search-section input{
@@ -28,11 +31,24 @@
     outline: none;
     border: 1px solid transparent;
     padding: 20px 50px 20px 25px;
-    color: #627f8d;
+    font: 500 14px/1 'Roboto';
+    color: #90a4ae;
     font-weight: 500;
     -webkit-box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);
     box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
 }
+.login-modal .login-section input::-webkit-input-placeholder{
+    color: #90a4ae;
+}  
+.login-modal .login-section input::-moz-placeholder{
+    color: #90a4ae;
+}  
+.login-modal .login-section input:-moz-placeholder{
+    color: #90a4ae;
+}  
+.login-modal .login-section input:-ms-input-placeholder{
+    color: #90a4ae;
+} 
 .inner .search-section input:focus{
     border: 1px solid #8bc34a;
 }
