@@ -67,9 +67,14 @@
 }
 .personal-information form button[type="submit"] {
     border: none;
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    margin-left: 33.33%;
+}
+@media (max-width: 767px) {
+    .personal-information form button[type="submit"] {
+        margin-left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
 }
 .personal-info-container .aside-list-section {
     border: 1px solid #dcdcdc;
