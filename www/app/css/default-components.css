@@ -641,6 +641,51 @@ ul.breadcrumbs li a:hover{
 .aside-section .title>*{
     font-size: 20px;
 }
+@media (max-width: 991px) {
+    .mobile-aside {
+        position: absolute;
+        z-index: 99;
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        width: calc(100% - 30px);
+    }
+    .mobile-aside.left {
+        -webkit-transform: translateX(-110%);
+        transform: translateX(-110%);
+    }
+    .mobile-aside.right {
+        -webkit-transform: translateX(110%);
+        transform: translateX(110%);
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 0;
+        background-color: rgba(0,0,0,.4);
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+    }
+    .show-aside .mobile-aside.left, #main.show-aside .mobile-aside.right {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .show-aside .overlay {
+        z-index: 98;
+        opacity: 1;
+    }
+}
+.mobile-aside-toggle {
+    display: none;
+}
+@media (max-width: 991px) {
+    .mobile-aside-toggle {
+        display: block;
+    }
+}
 /*********** ASIDE END ***********/
 
 /************ DROPDOWN ***********/

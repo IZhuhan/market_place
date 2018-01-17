@@ -9,8 +9,21 @@
     padding: 20px 33px;
     border-bottom: 1px solid #d7d7d7;
 }
+@media (max-width: 767px) {
+    .personal-information .title {
+        padding: 20px;
+    }
+    .title.lg {
+        font-size: 20px;
+    }
+}
 .personal-information .personal-information-wrap {
     padding: 43px 45px 67px;
+}
+@media (max-width: 767px) {
+    .personal-information .personal-information-wrap {
+        padding: 20px 20px 30px;
+    }
 }
 .personal-information form .form-group-row {
     display: -webkit-box;
@@ -24,15 +37,39 @@
     align-items: center;
     margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+    .personal-information form .form-group-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+@media (max-width: 767px) {
+    .form-group label {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
 .personal-information form .form-group input, 
 .personal-information form .form-group textarea, 
 .personal-information form .form-group .file-upload, 
 .personal-information form .form-group .jq-selectbox {
     width: 66.66%;
 }
+@media (max-width: 767px) {
+    .personal-information form .form-group input, 
+    .personal-information form .form-group textarea, 
+    .personal-information form .form-group .file-upload, 
+    .personal-information form .form-group .jq-selectbox {
+        width: 100%;
+    }
+}
 .personal-information form button[type="submit"] {
     border: none;
-    margin-left: 33.33%;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 .personal-info-container .aside-list-section {
     border: 1px solid #dcdcdc;
