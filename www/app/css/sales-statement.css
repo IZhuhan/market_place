@@ -55,4 +55,22 @@
 .table-wrap .panel.panel-default {
     min-width: 600px;
 }
+.input-control input {
+    border: 1px solid  #dcdcdc;
+    background-color: #f9f9f9;
+}
+@media (max-width: 991px) {
+    .ml-auto{
+        margin: inherit;
+    }
+    .your-sales .sales-table .default-data {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .default-data .find {
+        margin-top: 15px;
+    }
+}
 /* ====== DATAPICKER END ===== */
