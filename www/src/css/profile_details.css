@@ -5,12 +5,15 @@
     height: 10px;
     background-color: #8bbe44;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: baseline;
     border-radius: 50%;
     margin-right: 10px;
 }
 .product-page-section .author-social {
     margin: 30px 0;
+}
+.product-page-section .author-social li {
+    display: inline;
 }
 .product-page-section .group-button a + a {
     margin-top: 20px;
@@ -45,37 +48,33 @@
 }
 .product-page-section .aside-list-nav i {
     margin-right: 14px;
+    color: #d0d0d0;
 }
 .product-page-section .aside-list-nav li a.active i {
     color: #8bc34a;
 }
-.product-page-section .author-features ul {
+.product-page-section .author-features {
     margin-top: 30px;
 }
-@media (max-width: 599px) {
-    .product-page-section .author-features ul {
-        flex-wrap: wrap;
-    }
-}
-.product-page-section .author-features ul li {
+.product-page-section .author-features .author-features-block {
     width: 25%;
+    flex-wrap: wrap;
 }
 @media (max-width: 599px) {
-    .product-page-section .author-features ul li {
+    .product-page-section .author-features .author-features-block {
         width: 50%;
     }
 }
 @media (max-width: 479px) {
-    .product-page-section .author-features ul li {
+    .product-page-section .author-features .author-features-block {
         width: 100%;
     }
 }
-.product-page-section .author-features ul li .author-features-block {
+.product-page-section .author-features .author-features-block {
     display: block;
     padding: 20px 10px;
     border: 1px solid #dfdfdf;
     text-align: center;
-    height: 84px;
 }
 .product-page-section .author-features ul li + li .author-features-block {
     border-left: none;
@@ -138,8 +137,11 @@
     padding: 17px 19px;
     border: 1px solid #dfdfdf;
 }
+.main-section .product-img img {
+    width: 100%;
+}
 .product-page-section .main-section .title{
-    margin: 30px 0 40px;
+    margin: 30px 0;
 }
 .product-page-section .main-section p{
     color: #707070;
@@ -171,11 +173,12 @@
 }
 .product-page-section .author-item-skills .progress-wrap span {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: capitalize;
     color: #263238;
     margin-bottom: 14px;
     font-style: italic;
+    font-weight: 600;
 }
 .product-page-section .author-item-skills .progress-wrap span:last-of-type {
     font-style: normal;

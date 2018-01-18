@@ -73,14 +73,13 @@
 .personal-info-container .aside-list-nav li a {
     padding: 18px 20px;
     display: block;
-}
-.personal-info-container .aside-list-nav li a {
+    height: 53px;
     border-bottom: 1px solid #dcdcdc;
 }
 .personal-info-container .aside-list-nav li:last-of-type a {
     border-bottom: none;
 }
-.personal-info-container .aside-list-nav li a.active {
+.personal-info-container .aside-list-nav li a.active, .personal-info-container .aside-list-nav li a:hover {
     border-bottom: 2px solid #8bc34a;
     color: #263238;
 }
