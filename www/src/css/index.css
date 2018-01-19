@@ -69,6 +69,7 @@
 
 /******** LETS-CHECK START ********/
 .lets-check .nav-tags{
+    width: 100%;
     margin: 58px 0;
 }
 .lets-check .row > div[class^="col-"] {
@@ -85,7 +86,7 @@
 }
 
 @media (max-width: 767px){
-    .lets-check .mobile-tags-wrap{
+    .lets-check .nav-tags{
         margin: 28px 0;
     }
     .lets-check .btn-row{
@@ -93,9 +94,6 @@
     }
 }
 @media (max-width: 479px){
-    .lets-check .nav-tags{
-        margin: 38px 0;
-    }
     .lets-check .btn-row{
         width: 100%;
     }

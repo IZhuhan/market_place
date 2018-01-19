@@ -161,6 +161,7 @@
     font-size: 14px;
 }
 .mobile-list .current{
+    width: 100%;
     padding: 15px 30px;
     background-color: #fff;
     display: flex;
