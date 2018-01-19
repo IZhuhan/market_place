@@ -1,72 +1,40 @@
 /******** HEADER ********/
-.top-header .header-nav{
+.login-page .top-header .header-nav{
     font-weight: 500;
 }
-.top-header .header-nav a + a{
+.login-page .top-header .header-nav a + a{
     margin-left: 37px;
 }
-.top-header .header-nav a:hover{
+.login-page .top-header .header-nav a:hover{
     color: #8bc34a;
 }
-.top-header .notifications{
+.login-page .top-header .notifications{
     margin-left: 26px;
+}
+
+@media (max-width: 991px){
+    .login-page .top-header .top-bar{
+        margin-left: auto;
+    }
+    .login-page .top-header .dropdown-menu {
+        right: 0;
+        left: initial;
+    }
+}
+@media (max-width: 767px){
+    .login-page .top-header .notifications {
+        margin-right: 0;
+    }
 }
 /******** HEADER END ********/
 
-/******** INNER ********/
-.inner{
-    background: url(../img/bg-inner.jpg) no-repeat center/cover;
+/******* INNER START ********/
+@media (max-width: 599px){
+    .login-page  .search-section{
+        margin-top: 0;
+    }
 }
-.inner h1{
-    font-size: 48px;
-    text-transform: uppercase;
-    margin-bottom: 105px;
-}
-.inner .search-section{
-    position: relative;
-}
-.inner .search-section input{
-    width: 670px;
-    border-radius: 3px;
-    outline: none;
-    border: 1px solid transparent;
-    padding: 20px 50px 20px 25px;
-    font: 500 14px/1 'Roboto';
-    color: #90a4ae;
-    font-weight: 500;
-    -webkit-box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);
-    box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
-}
-.login-modal .login-section input::-webkit-input-placeholder{
-    color: #90a4ae;
-}  
-.login-modal .login-section input::-moz-placeholder{
-    color: #90a4ae;
-}  
-.login-modal .login-section input:-moz-placeholder{
-    color: #90a4ae;
-}  
-.login-modal .login-section input:-ms-input-placeholder{
-    color: #90a4ae;
-} 
-.inner .search-section input:focus{
-    border: 1px solid #8bc34a;
-}
-.inner .search-section .icon-search{
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    color: #78909c;
-    font-size: 20px;
-    position: absolute;
-    bottom: 17px;
-    right: 20px;
-}
-.inner .search-section .icon-search:hover{
-    color: #8bc34a;
-}
-/******** INNER END ********/
+/********* INNER END ********/
 
 /******** MODAL LOGIN ********/
 .login-modal{
@@ -161,5 +129,22 @@
 }
 .login-modal .lost-password:hover{
     color: #263238;
+}
+
+@media (max-width: 767px){
+    .login-modal{
+        padding: 30px;
+    }
+}
+@media (max-width: 479px){
+    .login-modal .btn-row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .login-modal .btn-row .submit{
+        margin: 0 0 10px 0;
+    }
 }
 /******** MODAL LOGIN END ********/

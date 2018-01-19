@@ -107,7 +107,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: none;
-  margin-left: auto;
+  margin-left: 15px;
 }
 
 .slicknav_menu * {
@@ -126,6 +126,7 @@
 }
 
 .slicknav_nav {
+  z-index: 99;
   color: #fff;
   margin: 0;
   padding: 0;

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Foxtar</title>
+    <title>FOXTAR Market Place</title>
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -26,6 +26,9 @@
     <!-- Grid -->
     <link rel="stylesheet" href="css/grid.css">
 
+    <!-- Slick nav -->
+    <link rel="stylesheet" href="css/slicknav.css">
+
     <!-- Components -->
     <link rel="stylesheet" href="css/default-components.css">
     <link rel="stylesheet" href="css/sprite.css">
@@ -36,10 +39,10 @@
 
 <body>
     <!-- HEADER START -->
-    <header class="header">
+    <header class="header login-page">
         <div class="top-header bg-white">
-            <div class="container d-flex align-items-center">
-                <div class="header-logo">
+            <div class="container d-flex flex-wrap align-items-center">
+                <div class="header-logo mr-auto">
                     <a href="#">
                         <img src="img/logo.png" alt="logo">
                     </a>
@@ -56,57 +59,60 @@
                     <a href="#">Help</a>
                 </nav>
                 <!-- /header-nav -->
-                <div class="btn-row">
-                    <button class="btn btn-danger btn-round btn-authorization" data-modal data-target="#login-modal">Login</button>
-                    <!-- /btn-login -->
-                </div>
-                <!-- /btn-row -->
-                <div class="notifications">
-                    <div class="notifications-item cart dropdown-container" data-dropdown-container data-dropdown="#cart-dropdown-menu">
-                        <i class="fa fa-shopping-cart" aria-hidden="true" data-dropdown="#cart-dropdown-menu"></i>
-                        <div class="label bg-green text-white">
-                            <span>0</span>
-                        </div>
-                        <div class="dropdown-menu  notification-dropdown" id="cart-dropdown-menu" data-dropdown-menu>
-                            <div class="dropdown-section">
-                                <img src="img/cart-product-item.jpg" alt="cart-product-item">
-                                <div class="info">
-                                    <span class="name text-black">Grand Ballet</span>
-                                    <span class="category text-green">Wordpress</span>
-                                    <span class="price">$59</span>
-                                </div>
-                                <!-- /cart-product-info -->
-                            </div>
-                            <!-- /dropdown-section -->
-                            <div class="dropdown-section">
-                                <img src="img/cart-product-item.jpg" alt="cart-product-item">
-                                <div class="info">
-                                    <span class="name text-black">Apple Device</span>
-                                    <span class="category text-green">WordPress</span>
-                                    <span class="price">$59</span>
-                                </div>
-                                <!-- /cart-product-info -->
-                            </div>
-                            <!-- /dropdown-section -->
-                            <div class="dropdown-section total">
-                                <div class="total-price d-flex justify-content-between text-black">
-                                    <span>Total</span>
-                                    <span>$118</span>
-                                </div>
-                                <!-- /total-price -->
-                                <div class="btn-row d-flex justify-content-between">
-                                    <a href="" class="btn btn-success btn-sm">Go to Cart</a>
-                                    <a href="" class="btn btn-danger btn-sm">Go to Checkout</a>
-                                </div>
-                                <!-- /btn-row -->
-                            </div>
-                            <!-- /dropdown-section -->
-                        </div>
-                        <!-- /dropdown-menu -->
+                <div class="top-bar d-flex align-items-center">
+                    <div class="btn-row">
+                        <button class="btn btn-danger btn-round btn-authorization" data-modal data-target="#login-modal">Login</button>
+                        <!-- /btn-login -->
                     </div>
-                    <!-- /shopping-cart -->
+                    <!-- /btn-row -->
+                    <div class="notifications">
+                        <div class="notifications-item cart dropdown-container" data-dropdown-container data-dropdown="#cart-dropdown-menu">
+                            <i class="fa fa-shopping-cart" aria-hidden="true" data-dropdown="#cart-dropdown-menu"></i>
+                            <div class="label bg-green text-white">
+                                <span>0</span>
+                            </div>
+                            <div class="dropdown-menu  notification-dropdown" id="cart-dropdown-menu" data-dropdown-menu>
+                                <div class="dropdown-section">
+                                    <img src="img/cart-product-item.jpg" alt="cart-product-item">
+                                    <div class="info">
+                                        <span class="name text-black">Grand Ballet</span>
+                                        <span class="category text-green">Wordpress</span>
+                                        <span class="price">$59</span>
+                                    </div>
+                                    <!-- /cart-product-info -->
+                                </div>
+                                <!-- /dropdown-section -->
+                                <div class="dropdown-section">
+                                    <img src="img/cart-product-item.jpg" alt="cart-product-item">
+                                    <div class="info">
+                                        <span class="name text-black">Apple Device</span>
+                                        <span class="category text-green">WordPress</span>
+                                        <span class="price">$59</span>
+                                    </div>
+                                    <!-- /cart-product-info -->
+                                </div>
+                                <!-- /dropdown-section -->
+                                <div class="dropdown-section total">
+                                    <div class="total-price d-flex justify-content-between text-black">
+                                        <span>Total</span>
+                                        <span>$118</span>
+                                    </div>
+                                    <!-- /total-price -->
+                                    <div class="btn-row d-flex justify-content-between">
+                                        <a href="" class="btn btn-success btn-sm">Go to Cart</a>
+                                        <a href="" class="btn btn-danger btn-sm">Go to Checkout</a>
+                                    </div>
+                                    <!-- /btn-row -->
+                                </div>
+                                <!-- /dropdown-section -->
+                            </div>
+                            <!-- /dropdown-menu -->
+                        </div>
+                        <!-- /shopping-cart -->
+                    </div>
+                    <!-- /notications -->
                 </div>
-                <!-- /notications -->
+                <!-- /top-bar -->
             </div>
             <!-- /container -->
         </div>
@@ -117,9 +123,9 @@
     <!-- MAIN START -->
     <main class="main">
         <!-- INNER START -->
-        <section class="inner default-section big">
+        <section class="inner login-page default-section big">
             <div class="container-fluid d-flex flex-column align-items-center">
-                <h1 class="title text-white">Creat A <span class="text-green">Digital Market</span> Place</h1>
+                <h1 class="title center text-white">Creat A <span class="text-green">Digital Market</span> Place</h1>
                 <!-- /title -->
                 <form class="search-section">
                     <input name="search_query" type="text" placeholder="Search Your Keywords . . .">
@@ -137,102 +143,105 @@
     <footer class="footer bg-dark">
         <div class="top-footer">
             <div class="container d-flex justify-content-between">
-                <div class="footer-column">
-                    <div class="title footer-title text-white">
-                        <span>About Сompany</span>
-                    </div>
-                    <!-- /footer-title -->
-                    <p class="text-section">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
-                    <div class="address d-flex">
-                        <span class="icon-section text-green"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                        <div class="address-text text-white">
-                            <span>PO Box 16122 Collins Street West</span> 
-                            <span>Victoria 8007 Australia</span>
+                <div class="row d-flex flex-wrap">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="title footer-title text-white">
+                            <span>About Сompany</span>
                         </div>
-                        <!-- /address-text -->
+                        <!-- /footer-title -->
+                        <p class="text-section">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
+                        <div class="address d-flex">
+                            <span class="icon-section text-green"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <div class="address-text text-white">
+                                <span>PO Box 16122 Collins Street West</span> 
+                                <span>Victoria 8007 Australia</span>
+                            </div>
+                            <!-- /address-text -->
+                        </div>
+                        <!-- /address -->
+                        <div class="phone">
+                            <span class="icon-section text-green"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span class="text-white">+61 3 8376 6284</span>
+                        </div>
+                        <!-- /phone -->
                     </div>
-                    <!-- /address -->
-                    <div class="phone">
-                        <span class="icon-section text-green"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                        <span class="text-white">+61 3 8376 6284</span>
+                    <!-- /col-lg-3 -->
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="title footer-title text-white">
+                            <span>Join Our Community</span>
+                        </div>
+                        <!-- /footer-title -->
+                        <ul  class="footer-nav">
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Home</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Forums</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Become an Author</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Community Meetups</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Become an Affiliate</a></li>
+                        </ul>
+                        <!-- /footer-nav -->
                     </div>
-                    <!-- /phone -->
+                    <!-- /col-lg-3 -->
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="title footer-title text-white">
+                            <span>Need help?</span>
+                        </div>
+                        <!-- /footer-title -->
+                        <ul  class="footer-nav">
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Help Center</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Foxtar Market Terms</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Author Terms</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Foxtar Licenses</a></li>
+                            <li>
+                                <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <a href="#">Contact Us</a></li>
+                        </ul>
+                        <!-- /footer-nav -->
+                    </div>
+                    <!-- /col-lg-3 -->
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="title footer-title text-white">
+                            <span>Follow Us On</span>
+                        </div>
+                        <!-- /footer-title -->
+                        <ul class="social-net-sprite">
+                            <li><a class="icon icon-home icon-fb" href="#"></a></li>
+                            <li><a class="icon icon-home icon-twitter" href="#"></a></li>
+                            <li><a class="icon icon-home icon-youtube" href="#"></a></li>
+                            <li><a class="icon icon-home icon-pinterest" href="#"></a></li>
+                            <li><a class="icon icon-home icon-linkedin" href="#"></a></li>
+                        </ul>
+                        <!-- /social-net-sprite -->
+                        <div class="newsletter">
+                            <span class="text-white">Newsletter Sign Up!</span>
+                        </div>
+                        <!-- /newsletter -->
+                        <div class="email-section">
+                            <input type="text" name="user_email" placeholder="E-mail Address">
+                            <button class="email-icon text-white bg-green"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
+                        </div>
+                        
+                    </div>
+                    <!-- /col-lg-3 -->
                 </div>
-                <!-- /footer-column -->
-                <div class="footer-column">
-                    <div class="title footer-title text-white">
-                        <span>Join Our Community</span>
-                    </div>
-                    <!-- /footer-title -->
-                    <ul  class="footer-nav">
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Home</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Forums</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Become an Author</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Community Meetups</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Become an Affiliate</a></li>
-                    </ul>
-                    <!-- /footer-nav -->
-                </div>
-                <!-- /footer-column -->
-                <div class="footer-column">
-                    <div class="title footer-title text-white">
-                        <span>Need help?</span>
-                    </div>
-                    <!-- /footer-title -->
-                    <ul  class="footer-nav">
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Help Center</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Foxtar Market Terms</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Author Terms</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Foxtar Licenses</a></li>
-                        <li>
-                            <span class="icon-section text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                            <a href="#">Contact Us</a></li>
-                    </ul>
-                    <!-- /footer-nav -->
-                </div>
-                <!-- /footer-column -->
-                <div class="footer-column">
-                    <div class="title footer-title text-white">
-                        <span>Follow Us On</span>
-                    </div>
-                    <!-- /footer-title -->
-                    <ul class="social-net-sprite">
-                        <li><a class="icon icon-home icon-fb" href="#"></a></li>
-                        <li><a class="icon icon-home icon-twitter" href="#"></a></li>
-                        <li><a class="icon icon-home icon-youtube" href="#"></a></li>
-                        <li><a class="icon icon-home icon-pinterest" href="#"></a></li>
-                        <li><a class="icon icon-home icon-linkedin" href="#"></a></li>
-                    </ul>
-                    <!-- /social-net-sprite -->
-                    <div class="newsletter">
-                        <span class="text-white">Newsletter Sign Up!</span>
-                    </div>
-                    <!-- /newsletter -->
-                    <div class="email-section">
-                        <input type="text" name="user_email" placeholder="E-mail Address">
-                        <button class="email-icon text-white bg-green"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
-                    </div>
-                    
-                </div>
-                <!-- /footer-column -->
+                <!-- /row -->
             </div>
             <!-- /container -->
         </div>
@@ -285,7 +294,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
-    <script src="js/dropdown-click.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+
     <!-- Bpop -->
     <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
     <!-- init all plugins -->

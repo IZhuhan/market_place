@@ -35,15 +35,12 @@
     bottom: 0;
     left: 40px;
 }
-.contact-us-section .contacts .contacts-item:first-child .title::after{
-    left: 37px;
-}
 .contact-us-section .contacts .contacts-item .title .fa{
     font-size: 24px;
     margin-right: 23px;
 }
 .contact-us-section .contacts .contacts-item:last-child .title .fa{
-    margin-right: 21px;
+    margin-right: 16px;
 }
 .contact-us-section .contacts .contacts-item > span{
     line-height: 24px;
@@ -94,5 +91,41 @@
 }
 .contact-us-section .drop-us-message button:hover{
     background-color: #92cc4e;
+}
+
+@media (max-width: 991px){
+    .contact-us-section .contacts{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+    }
+    .contact-us-section .contacts .contacts-item + .contacts-item{
+        margin-top: 0;
+    }
+    .contact-us-section .contacts .contacts-item{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 767px){
+    .contact-us{
+        padding-bottom: 80px;
+    }
+    .contact-us .contact-us-section{
+        padding: 15px;
+    }
+}
+@media (max-width: 599px){
+    .contact-us-section .contact-us-form .user-info{
+        flex-direction: column;
+    }
+    .contact-us-section .contact-us-form .user-info input + input{
+        margin: 28px 0 0 0;
+    }
+}
+@media (max-width: 479px){
+    .contact-us-section .drop-us-message button{
+        width: 100%;
+    }
 }
 /***** CONTACT US END *****/
