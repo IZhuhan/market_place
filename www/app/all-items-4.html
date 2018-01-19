@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>All-items</title>
 
     <!-- Google fonts -->
@@ -13,7 +15,8 @@
     <!-- Carousel -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
-
+    <!-- slicknav -->
+    <link rel="stylesheet" href="css/slicknav.css">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -285,876 +288,881 @@
         <!-- /bottom-header -->
     </header>
     <!-- HEADER END -->
-    <section class="small-inner">
-        <div class="container-fluid d-flex flex-column align-items-center">
-            <div class="title medium text-white">
-                <span>Premium WordPress Themes, Web Templates and Many More ...</span>
+    <main id="main-home">
+        <section class="small-inner">
+            <div class="container-fluid d-flex flex-column align-items-center">
+                <div class="title medium text-white">
+                    <span>Premium WordPress Themes, Web Templates and Many More ...</span>
+                </div>
+                <!-- /title -->
+                <div class="search-section">
+                    <input name="search_query" type="text" placeholder="Search Your Keywords . . .">
+                    <button class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <!-- /search-section -->
             </div>
-            <!-- /title -->
-            <div class="search-section">
-                <input name="search_query" type="text" placeholder="Search Your Keywords . . .">
-                <button class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </div>
-            <!-- /search-section -->
-        </div>
-        <!-- /container-fluid -->
-    </section>
-    <!-- SMALL-INNER END -->    
-    <!-- BREADCRUMBS START -->
-    <div class="container">
-        <ul class="breadcrumbs">
-            <li><a href="#">Home</a></li>
-            <li>Product Page</li>
-        </ul>
-    </div>
-    <!-- BREADCRUMBS END -->
-
-    <div class="all-items-page-container">
+            <!-- /container-fluid -->
+        </section>
+        <!-- SMALL-INNER END -->    
+        <!-- BREADCRUMBS START -->
         <div class="container">
-            <div class="row d-flex flex-wrap">
-                <div class="col-md-3">
-                    <div class="aside-section">
-                        <div class="title">
-                            <span>Categories</span>
-                        </div>
-                        <div class="aside-categories d-flex flex-column">
-                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>WordPress<span class="ml-auto text-gray categories-numbers">150</span></a>
-                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Joomla<span class="ml-auto text-gray categories-numbers">100</span></a>
-                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>PSD<span  class="ml-auto text-gray categories-numbers">50</span></a>
-                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Plugins<span class="ml-auto text-gray categories-numbers">60</span></a>
-                                <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Components<span class="ml-auto text-gray categories-numbers">40</span></a>
-                        </div>
-                    </div>
-                    <!-- /aside-section -->
-                    <div class="aside-section">
-                        <div class="title">
-                            <span>Price Range</span>
-                        </div>
-                        <div id="slider-range" class="price-range"></div>
-                        <a href="" class="btn btn-success btn-md btn-block btn-icon"><i class="fa fa-search"></i>Search</a>
-                    </div>
-                    <!-- /aside-section -->
-                    <div class="aside-section">
-                        <div class="title">
-                            <span>Top 10 Sellers</span>
-                        </div>
-                        <div class="card aside-card">
-                            <div class="card-item-img">
-                                <a href="#">
-                                    <img src="img/aside-card.jpg" alt="card">
-                                </a>
-                            </div>
-                            <!-- /card-item-img -->
-                            <div class="card-aside-item-info">
-                                <div class="card-aside-title d-flex">
-                                    <span>The Post Grid Pro</span>
-                                    <span class="ml-auto card-item-info-pl">$40</span>
-                                </div>
-                                <div class="card-categories">
-                                    <span>WordPress Plugin</span>
-                                </div>
-                            </div>
-                            <!-- /card-aside-item-info -->
-                            <div class="card-author-info d-flex align-items-center">
-                                <div class="card-author">
-                                    <a href="#" class="d-flex align-items-center">
-                                        <img src="img/avatar.png" alt="avatar">
-                                        <span>Name</span>
-                                    </a>
-                                </div>
-                                <!-- /card-author -->                   
-                                <ul class="product-rating d-flex ml-auto">
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                </ul>
-                                <!-- /card-star -->
-                            </div>
-                            <!-- /card-aside-item-author -->
-                        </div>
-                        <!-- /aside-card -->
-                        <div class="card aside-card">
-                            <div class="card-item-img">
-                                <a href="#">
-                                    <img src="img/aside-card.jpg" alt="card">
-                                </a>
-                            </div>
-                            <!-- /card-item-img -->
-                            <div class="card-aside-item-info">
-                                <div class="card-aside-title d-flex">
-                                    <span>The Post Grid Pro</span>
-                                    <span class="ml-auto card-item-info-pl">$40</span>
-                                </div>
-                                <div class="card-categories">
-                                    <span>WordPress Plugin</span>
-                                </div>
-                            </div>
-                            <!-- /card-aside-item-info -->
-                            <div class="card-author-info d-flex align-items-center">
-                                <div class="card-author">
-                                    <a href="#" class="d-flex align-items-center">
-                                        <img src="img/avatar.png" alt="avatar">
-                                        <span>Name</span>
-                                    </a>
-                                </div>
-                                <!-- /card-author -->                   
-                                <ul class="product-rating d-flex ml-auto">
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                </ul>
-                                <!-- /card-star -->
-                            </div>
-                            <!-- /card-aside-item-author -->
-                        </div>
-                        <!-- /aside-card -->
-                        <div class="card aside-card">
-                            <div class="card-item-img">
-                                <a href="#">
-                                    <img src="img/aside-card.jpg" alt="card">
-                                </a>
-                            </div>
-                            <!-- /card-item-img -->
-                            <div class="card-aside-item-info">
-                                <div class="card-aside-title d-flex">
-                                    <span>The Post Grid Pro</span>
-                                    <span class="ml-auto card-item-info-pl">$40</span>
-                                </div>
-                                <div class="card-categories">
-                                    <span>WordPress Plugin</span>
-                                </div>
-                            </div>
-                            <!-- /card-aside-item-info -->
-                            <div class="card-author-info d-flex align-items-center">
-                                <div class="card-author">
-                                    <a href="#" class="d-flex align-items-center">
-                                        <img src="img/avatar.png" alt="avatar">
-                                        <span>Name</span>
-                                    </a>
-                                </div>
-                                <!-- /card-author -->                   
-                                <ul class="product-rating d-flex ml-auto">
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </li>
-                                </ul>
-                                <!-- /card-star -->
-                            </div>
-                            <!-- /card-aside-item-author -->
-                        </div>
-                        <!-- /aside-card -->
-                    </div>
-                    <!-- /aside-section -->
-                </div>
-                <!-- /col-md-3 -->
-                <div class="col-md-9">
-                    <div class="sort-controls-container bg-white d-flex justify-content-between align-items-center">
-                        <div class="sort-by">
-                            <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
-                            <span>Sort by: New Items</span>
-                            <i class="fa fa-sort" aria-hidden="true"></i>
-                        </div>
-                        <div class="change-views">
-                            <i class="fa fa-th-large change-icon active" id="grid-thumbs"></i>
-                            <i class="fa fa-th-list change-icon" id="grid-list"></i>
-                        </div>
-                    </div>
-                    <!-- /sort-controls -->
-                    <div class="all-items-container">
-                        <div class="row d-flex flex-wrap">
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                            <div class="col-md-4 card medium-card">
-                                <div class="card-img">
-                                    <a href="" class="d-flex">
-                                        <img src="img/card.jpg" alt="">
-                                    </a>
-                                </div>
-                                <!-- / card-img-->
-                                <div class="card-description-wrapper">
-                                    <div class="card-description">
-                                        <div class="item-info d-flex justify-content-between">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="title">Grand Ballet - Dance</a>
-                                                <span class="subtitle">PSD Template</span>
-                                            </div>
-                                            <span class="price">$12</span>
-                                        </div>
-                                        <!-- / item-info-->
-                                        <div class="card-text-info d-flex justify-content-between">
-                                            <p>Pimply dummy text of the printing and typesetting industry. </p>
-                                            <span class="sales-count">Sales ( 14 )</span>
-                                        </div>
-                                        <!-- / card-text-info-->
-                                    </div>
-                                    <!-- / card-description-->
-                                    <div class="card-author-info d-flex align-items-center">
-                                        <a href="" class="card-author d-flex align-items-center mr-auto">
-                                            <img src="img/avatar.png" alt="">
-                                            <span>Descorpo</span>
-                                        </a>
-                                        <!-- / card-author-->
-                                        <ul class="product-rating d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <span class="product-download">5</span>
-                                        <div class="card-comments">
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                            <span class="product-comment">10</span>
-                                        </div>
-                                        <!-- /card-comments -->
-                                        <div class="card-like">
-                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            <span class="product-like">20</span>
-                                        </div>
-                                    </div>
-                                    <!-- / card-author-info-->
-                                </div>
-                                <!-- / card-description-wrapper-->
-                            </div>
-                            <!-- / col-md-3 card-->
-                        </div>
-                        <!-- /row -->
-                        <!-- pagination -->
-                        <ul class="pagination">
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                        </ul>
-                        <!-- /pagination -->
-                    </div>
-                    <!-- /all-items-container -->
-                </div>
-                <!-- /col-md-9 -->
-            </div>
-            <!-- /row -->
+            <ul class="breadcrumbs">
+                <li><a href="#">Home</a></li>
+                <li>Product Page</li>
+            </ul>
         </div>
-        <!-- /container -->
-    </div>
-    <!-- /all-items-page-container -->
-
+        <!-- BREADCRUMBS END -->
+        <div class="all-items-page-container">
+            <div class="container">
+                <div class="overlay"></div>
+                <!-- /overlay -->
+                <div class="row d-flex flex-wrap">
+                    <div class="col-md-3 mobile-aside left">
+                        <div class="aside-section">
+                            <div class="title">
+                                <span>Categories</span>
+                            </div>
+                            <div class="aside-categories d-flex flex-column">
+                                    <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>WordPress<span class="ml-auto text-gray categories-numbers">150</span></a>
+                                    <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Joomla<span class="ml-auto text-gray categories-numbers">100</span></a>
+                                    <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>PSD<span  class="ml-auto text-gray categories-numbers">50</span></a>
+                                    <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Plugins<span class="ml-auto text-gray categories-numbers">60</span></a>
+                                    <a href=""><i class="fa fa-angle-right aside-icon" aria-hidden="true"></i>Components<span class="ml-auto text-gray categories-numbers">40</span></a>
+                            </div>
+                        </div>
+                        <!-- /aside-section -->
+                        <div class="aside-section">
+                            <div class="title">
+                                <span>Price Range</span>
+                            </div>
+                            <div id="slider-range" class="price-range"></div>
+                            <a href="" class="btn btn-success btn-md btn-block btn-icon"><i class="fa fa-search"></i>Search</a>
+                        </div>
+                        <!-- /aside-section -->
+                        <div class="aside-section">
+                            <div class="title">
+                                <span>Top 10 Sellers</span>
+                            </div>
+                            <div class="card aside-card">
+                                <div class="card-item-img">
+                                    <a href="#">
+                                        <img src="img/aside-card.jpg" alt="card">
+                                    </a>
+                                </div>
+                                <!-- /card-item-img -->
+                                <div class="card-aside-item-info">
+                                    <a href="#" class="card-aside-title d-flex">
+                                        <span>The Post Grid Pro</span>
+                                        <span class="ml-auto card-item-info-pl">$40</span>
+                                    </a>
+                                    <div class="card-categories">
+                                        <span>WordPress Plugin</span>
+                                    </div>
+                                </div>
+                                <!-- /card-aside-item-info -->
+                                <div class="card-author-info d-flex align-items-center">
+                                    <div class="card-author">
+                                        <a href="#" class="d-flex align-items-center">
+                                            <img src="img/avatar.png" alt="avatar">
+                                            <span>Name</span>
+                                        </a>
+                                    </div>
+                                    <!-- /card-author -->                   
+                                    <ul class="product-rating d-flex ml-auto">
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                    </ul>
+                                    <!-- /card-star -->
+                                </div>
+                                <!-- /card-aside-item-author -->
+                            </div>
+                            <!-- /aside-card -->
+                            <div class="card aside-card">
+                                <div class="card-item-img">
+                                    <a href="#">
+                                        <img src="img/aside-card.jpg" alt="card">
+                                    </a>
+                                </div>
+                                <!-- /card-item-img -->
+                                <div class="card-aside-item-info">
+                                    <a href="#" class="card-aside-title d-flex">
+                                        <span>The Post Grid Pro</span>
+                                        <span class="ml-auto card-item-info-pl">$40</span>
+                                    </a>
+                                    <div class="card-categories">
+                                        <span>WordPress Plugin</span>
+                                    </div>
+                                </div>
+                                <!-- /card-aside-item-info -->
+                                <div class="card-author-info d-flex align-items-center">
+                                    <div class="card-author">
+                                        <a href="#" class="d-flex align-items-center">
+                                            <img src="img/avatar.png" alt="avatar">
+                                            <span>Name</span>
+                                        </a>
+                                    </div>
+                                    <!-- /card-author -->                   
+                                    <ul class="product-rating d-flex ml-auto">
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                    </ul>
+                                    <!-- /card-star -->
+                                </div>
+                                <!-- /card-aside-item-author -->
+                            </div>
+                            <!-- /aside-card -->
+                            <div class="card aside-card">
+                                <div class="card-item-img">
+                                    <a href="#">
+                                        <img src="img/aside-card.jpg" alt="card">
+                                    </a>
+                                </div>
+                                <!-- /card-item-img -->
+                                <div class="card-aside-item-info">
+                                    <a href="#" class="card-aside-title d-flex">
+                                        <span>The Post Grid Pro</span>
+                                        <span class="ml-auto card-item-info-pl">$40</span>
+                                    </a>
+                                    <div class="card-categories">
+                                        <span>WordPress Plugin</span>
+                                    </div>
+                                </div>
+                                <!-- /card-aside-item-info -->
+                                <div class="card-author-info d-flex align-items-center">
+                                    <div class="card-author">
+                                        <a href="#" class="d-flex align-items-center">
+                                            <img src="img/avatar.png" alt="avatar">
+                                            <span>Name</span>
+                                        </a>
+                                    </div>
+                                    <!-- /card-author -->                   
+                                    <ul class="product-rating d-flex ml-auto">
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </li>
+                                    </ul>
+                                    <!-- /card-star -->
+                                </div>
+                                <!-- /card-aside-item-author -->
+                            </div>
+                            <!-- /aside-card -->
+                        </div>
+                        <!-- /aside-section -->
+                    </div>
+                    <!-- /col-md-3 -->
+                    <div class="col-md-9">
+                        <div class="sort-controls-container bg-white d-flex justify-content-between align-items-center">
+                            <div class="sort-by d-flex">
+                                <button class="mobile-aside-toggle">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <i class="fa fa-sort-amount-desc sort" aria-hidden="true"></i>
+                                <span>Sort by: New Items</span>
+                                <i class="fa fa-sort" aria-hidden="true"></i>
+                            </div>
+                            <div class="change-views">
+                                <i class="fa fa-th-large change-icon active" id="grid-thumbs"></i>
+                                <i class="fa fa-th-list change-icon" id="grid-list"></i>
+                            </div>
+                        </div>
+                        <!-- /sort-controls -->
+                        <div class="all-items-container">
+                            <div class="row d-flex flex-wrap justify-content-center">
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                                <div class="col-md-4 card medium-card">
+                                    <div class="card-img">
+                                        <a href="" class="d-flex">
+                                            <img src="img/card.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img-->
+                                    <div class="card-description-wrapper">
+                                        <div class="card-description">
+                                            <div class="item-info d-flex justify-content-between">
+                                                <div class="d-flex flex-column">
+                                                    <a href="" class="title">Grand Ballet - Dance</a>
+                                                    <span class="subtitle">PSD Template</span>
+                                                </div>
+                                                <span class="price">$12</span>
+                                            </div>
+                                            <!-- / item-info-->
+                                            <div class="card-text-info d-flex justify-content-between">
+                                                <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                <span class="sales-count">Sales ( 14 )</span>
+                                            </div>
+                                            <!-- / card-text-info-->
+                                        </div>
+                                        <!-- / card-description-->
+                                        <div class="card-author-info d-flex align-items-center">
+                                            <a href="" class="card-author d-flex align-items-center mr-auto">
+                                                <img src="img/avatar.png" alt="">
+                                                <span>Descorpo</span>
+                                            </a>
+                                            <!-- / card-author-->
+                                            <ul class="product-rating d-flex">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="product-download">5</span>
+                                            <div class="card-comments">
+                                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                <span class="product-comment">10</span>
+                                            </div>
+                                            <!-- /card-comments -->
+                                            <div class="card-like">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <span class="product-like">20</span>
+                                            </div>
+                                        </div>
+                                        <!-- / card-author-info-->
+                                    </div>
+                                    <!-- / card-description-wrapper-->
+                                </div>
+                                <!-- / col-md-3 card-->
+                            </div>
+                            <!-- /row -->
+                            <!-- pagination -->
+                            <ul class="pagination">
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                            </ul>
+                            <!-- /pagination -->
+                        </div>
+                        <!-- /all-items-container -->
+                    </div>
+                    <!-- /col-md-9 -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /all-items-page-container -->
+    </main>
     <!-- FOOTER START -->
 
     <footer class="footer bg-dark">
@@ -1277,9 +1285,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
     <!-- jQueryUI -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/range.js"></script>
+    <script src="js/aside.js"></script>
     <!-- init all plugins -->
     <script src="js/init.js"></script>
 </body>
