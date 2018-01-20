@@ -1309,6 +1309,7 @@ ul.breadcrumbs li a:hover{
 .header .bottom-header{
     font-weight: 500;
     padding: 23px 0;
+    position: relative;
 }
 .bottom-header .header-nav a + a{
     margin-left: 37px;
