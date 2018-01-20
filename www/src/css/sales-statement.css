@@ -15,54 +15,57 @@
     padding: 35px 35px 0 40px;
 }
 .your-sales .sales-table .total-price {
-    padding-top: 80px 44px;
+    padding: 80px 44px;
 }
 /* ====== SALES-STATEM END ===== */
 
 /* ====== DATAPICKER START ===== */
-.datepicker  {
+.sales-table .datepicker  {
     margin-right: 13px;
 }
-.datepicker.form-control-data + .form-control-data {
+.sales-table .datepicker.form-control-data + .form-control-data {
     margin-right: 12px;
 }
-.datepicker .title {
+.sales-table .datepicker .title {
     padding: 8px 12px 0 10px;
 }
-.datepicker .form-control-data {
+.sales-table .datepicker .form-control-data {
     height: 28px;
     padding-left: 14px;
     width: 134px;
 }
-.default-data .btn {
+.sales-table .default-data .btn {
     padding: 9px 22px;
 }
-.datepicker  .fa {
+.sales-table .datepicker  .fa {
     position: absolute;
     right: 10px;
     top: 6px;
     color: #8cc148;
     font-size: 12px;
 }
-.input-control {
+.sales-table .input-control {
     position: relative;
 }
-.table-wrap {
-    overflow-x: scroll;
+.sales-table .table-wrap {
+    overflow-x: auto;
+}
+.sales-table .table-wrap .panel.panel-default {
     min-width: 600px;
 }
-.input-control input {
+.sales-table .input-control input {
     border: 1px solid  #dcdcdc;
     background-color: #f9f9f9;
 }
 @media (max-width: 991px) {
-    .ml-auto{
-        margin: 0;
+    .sales-table .default-data,
+    .sales-table .find{
+        margin-left: 0;
     }
     .your-sales .sales-table .default-data {
         flex-direction: column;
     }
-    .default-data .find {
+    .sales-table .default-data .find {
         margin-top: 15px;
     }
 }
