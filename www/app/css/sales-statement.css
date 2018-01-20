@@ -15,9 +15,7 @@
     padding: 35px 35px 0 40px;
 }
 .your-sales .sales-table .total-price {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 44px;
+    padding-top: 80px 44px;
 }
 /* ====== SALES-STATEM END ===== */
 
@@ -50,9 +48,7 @@
     position: relative;
 }
 .table-wrap {
-    overflow-x: auto;
-}
-.table-wrap .panel.panel-default {
+    overflow-x: scroll;
     min-width: 600px;
 }
 .input-control input {
@@ -61,7 +57,7 @@
 }
 @media (max-width: 991px) {
     .ml-auto{
-        margin: inherit;
+        margin: 0;
     }
     .your-sales .sales-table .default-data {
         -webkit-box-orient: vertical;
