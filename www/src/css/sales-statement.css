@@ -61,7 +61,7 @@
 }
 @media (max-width: 991px) {
     .ml-auto{
-        margin: inherit;
+        margin: 0;
     }
     .your-sales .sales-table .default-data {
         flex-direction: column;
