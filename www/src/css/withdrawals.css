@@ -1,4 +1,7 @@
 /*===== WITHDRAWALS-SECTION START =====*/
+.withdraw-table{
+   width: 100%; 
+} 
 .withdrawals-section {
     background-color: #f4f6f5;
 }
@@ -51,9 +54,6 @@
     .withdrawals-form{
         margin-right: 0;
         margin-bottom: 40px;
-    }
-    .history-table tbody tr td {
-        padding: 18px 76px;
     }
 }
 /*===== WITHDRAWALS END =====*/
