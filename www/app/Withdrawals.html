@@ -299,7 +299,8 @@
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-    <main>
+    <main class="main">
+
         <!-- SMALL-INNER START -->
         <section class="small-inner">
             <div class="container-fluid d-flex flex-column align-items-center">
@@ -317,7 +318,9 @@
             </div>
             <!-- /container-fluid -->
         </section>
-        <!-- / small-inne -->
+        <!-- SMALL-INNER START -->
+
+        <!-- BREADCRUMBS START -->
         <section class="breadcrumbs-section">
             <div class="container">
                 <ul class="breadcrumbs">
@@ -328,119 +331,137 @@
                 </ul>
             </div>
         </section>
-        <section class="withdrawals-section earnings-form">
-            <div class="container d-flex">
-                <div class="withdrawals-form content-section">
-                    <div class="title text-black semibold lg">
-                        <span>Withdrawals Earnings</span>
+        <!-- BREADCRUMBS END -->
+        
+        <!-- WITHDRAWALS PAGE START -->
+        <section class="withdrawals-page">
+            <div class="container">
+                <div class="row d-flex flex-wrap">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="withdrawals-earnings bg-white">
+                            <div class="title semibold lg text-black">
+                                <span>Withdrawals Earnings</span>
+                            </div>
+                            <!-- /title -->
+                            <div class="withdrawals-form-wrap">
+                                <form>
+                                    <div class="form-group d-flex flex-column">
+                                        <div class="form-group-row d-flex flex-column">
+                                            <label for="towithdraw" class="text-black">Amount to Withdraw ($2000.00 Maximum)
+                                                <sup class="text-green">*</sup>
+                                            </label>
+                                            <input name="user_name" class="form-control" type="text" placeholder="Enter the amount you want to withdraw..." id="towithdraw">
+                                        </div>
+                                        <!-- / form-group-row-->
+                                        <div class="form-group-row d-flex flex-column">
+                                            <label for="chooseyour" class="text-black">Choose your Withdraw Method
+                                                <sup class="text-green">*</sup>
+                                            </label>
+                                            <select name="main_file" class="form-control" id="chooseyour">
+                                                <option value="">Select Your Card</option>
+                                                <option value="">Select Your Card</option>
+                                            </select>
+                                        </div>
+                                        <!-- / form-group-row-->
+                                        <div class="form-group-row d-flex flex-column">
+                                            <label for="email" class="text-black">Your Account Name
+                                                <sup class="text-green">*</sup>
+                                            </label>
+                                            <select name="main_file" class="form-control" id="email">
+                                                <option value="">Select Your Card</option>
+                                                <option value="">Select Your Card</option>
+                                            </select>
+                                        </div>
+                                        <!--  / form-group-row-->
+                                        <div class="form-group-row d-flex flex-column">
+                                            <label for="password" class="text-black">Confirm Your Password
+                                                <sup class="text-green">*</sup>
+                                            </label>
+                                            <input name="user_name" class="form-control" type="text" placeholder="Select Your Card" id="password">
+                                        </div>
+                                    </div>
+                                    <!--/ form-group -->
+                                    <div class="btn-w">
+                                        <a href="" class="btn btn-success btn-md">Request Withdrawal</a>
+                                    </div>
+                                </form>
+                                <!-- / form-->
+                            </div>
+                            <!-- /withdrawals-form-wrap -->
+                        </div>
+                        <!-- /withdrawals-earning -->
                     </div>
-                    <form>
-                        <div class="form-group">
-                            <div class="form-group-row d-flex flex-column">
-                                <label for="towithdraw" class="required title s semibold">Amount to Withdraw ($2000.00 Maximum)
-                                    <sup class="text-green title lg">*</sup>
-                                </label>
-                                <input name="user_name" class="form-control" type="text" placeholder="Enter the amount you want to withdraw..." id="towithdraw">
+                    <!-- /col-md-6 -->
+                    <div class="col-md-6 col-xs-12">
+                        <div class="withdrawals-history bg-white">
+                            <div class="title semibold lg text-black">
+                                <span>Withdrawals History</span>
                             </div>
-                            <!-- / form-group-row-->
-                            <div class="form-group-row d-flex flex-column">
-                                <label for="chooseyour" class="required title s semibold">Choose your Withdraw Method
-                                    <sup class="text-green title lg">*</sup>
-                                </label>
-                                <select name="main_file" class="form-control" id="chooseyour">
-                                    <option value="">Select Your Card</option>
-                                    <option value="">Select Your Card</option>
-                                </select>
+                            <!-- /title -->
+                            <div class="table-wrap">
+                                <div class="panel panel-default">
+                                    <table class="withdraw-table history-table">
+                                        <tbody>
+                                            <tr>
+                                                <td>Dec 26th, 2016</td>
+                                                <td>Psdboss@paypal.com</td>
+                                                <td>$200</td>
+                                                <td>Pending</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dec 26th, 2016</td>
+                                                <td>Psdboss@paypal.com</td>
+                                                <td>$100</td>
+                                                <td class="color-g">Paid</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dec 26th, 2016</td>
+                                                <td>Psdboss@paypal.com</td>
+                                                <td>$200</td>
+                                                <td class="color-g">Paid</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dec 26th, 2016</td>
+                                                <td>Psdboss@paypal.com</td>
+                                                <td>$100</td>
+                                                <td class="color-g">Paid</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dec 26th, 2016</td>
+                                                <td>Psdboss@paypal.com</td>
+                                                <td>$200</td>
+                                                <td class="color-g">Paid</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dec 26th, 2016</td>
+                                                <td>Psdboss@paypal.com</td>
+                                                <td>$100</td>
+                                                <td class="color-g">Paid</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dec 26th, 2016</td>
+                                                <td>Psdboss@paypal.com</td>
+                                                <td>$200</td>
+                                                <td class="color-g">Paid</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- /withdraw-table -->
+                                </div>
+                                <!-- / panel panel-default -->
                             </div>
-                            <!-- / form-group-row-->
-                            <div class="form-group-row d-flex flex-column">
-                                <label for="email" class="required title s semibold">Your Account Name
-                                    <sup class="text-green title lg">*</sup>
-                                </label>
-                                <select name="main_file" class="form-control" id="email">
-                                    <option value="">Select Your Card</option>
-                                    <option value="">Select Your Card</option>
-                                </select>
-                            </div>
-                            <!--  / form-group-row-->
-                            <div class="form-group-row d-flex flex-column">
-                                <label for="password" class="required title s semibold">Confirm Your Password
-                                    <sup class="text-green title lg">*</sup>
-                                </label>
-                                <input name="user_name" class="form-control" type="text" placeholder="Select Your Card" id="password">
-                            </div>
+                            <!-- /table-wrap -->
                         </div>
-                        <!--/ form-group -->
-                        <div class="btn-w">
-                            <a href="" class="btn btn-success btn-md">Request Withdrawal</a>
-                        </div>
-                    </form>
-                    <!-- / form-->
+                        <!-- /withdrawals-history -->
+                    </div>
+                    <!-- /col-md-6 -->
                 </div>
-                <!-- / withdrawals-form-->
-                <div class="sale-history content-section">
-                    <div class="title  semibold lg text-black">
-                        <span>Withdrawal History</span>
-                    </div>
-                    <div class="table-wrap">
-                        <div class="panel panel-default">
-                            <table class="withdraw-table history-table">
-                                <tbody>
-                                    <tr>
-                                        <td>Dec 26th, 2016</td>
-                                        <td>Psdboss@paypal.com</td>
-                                        <td>$200</td>
-                                        <td>Pending</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dec 26th, 2016</td>
-                                        <td>Psdboss@paypal.com</td>
-                                        <td>$100</td>
-                                        <td class="color-g">Paid</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dec 26th, 2016</td>
-                                        <td>Psdboss@paypal.com</td>
-                                        <td>$200</td>
-                                        <td class="color-g">Paid</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dec 26th, 2016</td>
-                                        <td>Psdboss@paypal.com</td>
-                                        <td>$100</td>
-                                        <td class="color-g">Paid</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dec 26th, 2016</td>
-                                        <td>Psdboss@paypal.com</td>
-                                        <td>$200</td>
-                                        <td class="color-g">Paid</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dec 26th, 2016</td>
-                                        <td>Psdboss@paypal.com</td>
-                                        <td>$100</td>
-                                        <td class="color-g">Paid</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dec 26th, 2016</td>
-                                        <td>Psdboss@paypal.com</td>
-                                        <td>$200</td>
-                                        <td class="color-g">Paid</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!-- /withdraw-table -->
-                        </div>
-                        <!-- / panel panel-default -->
-                    </div>
-                    <!-- /table-wrap -->
-                </div>
-                <!-- / sale-history -->
+                <!-- /row -->
             </div>
-            <!-- / container -->
+            <!-- /container -->
         </section>
-        <!-- / withdrawals-section-->
+        <!-- WITHDRAWALS PAGE END -->
+        
     </main>
     <!-- MAIN END -->
 
@@ -611,5 +632,4 @@
     <!-- init all plugins -->
     <script src="js/init.js"></script>
 </body>
-
 </html>
