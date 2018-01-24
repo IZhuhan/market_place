@@ -1440,10 +1440,10 @@ ul.breadcrumbs li a:hover{
 /******** INNER END ********/
 
 /******** FOOTER ********/
-.icon-section{
+.footer .icon-section{
     font-size: 18px;   
 }
-.icon{
+.footer .icon{
     display: inline-block;
 }
 .footer .top-footer{

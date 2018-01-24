@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Upload products</title>
 
     <!-- Google fonts -->
@@ -333,21 +335,21 @@
                             <form>
                                 <div class="form-group">
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>Select Categories <sup class="text-green">*</sup></label>
-                                        <select name="select_categories" class="form-control">
+                                        <label for="select-categories">Select Categories <sup class="text-green">*</sup></label>
+                                        <select name="select_categories" class="form-control" id="select-categories">
                                             <option value="">Categorie 1</option>
                                             <option value="">categorie 2</option>
                                         </select>
                                     </div>
                                     <!-- /form-group-row -->
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>Product Name <sup class="text-green">*</sup></label>
-                                        <input name="product_name" class="form-control" type="text" placeholder="Enter your product name here ...">
+                                        <label for="product-name">Product Name <sup class="text-green">*</sup></label>
+                                        <input name="product_name" class="form-control" id="product-name" type="text" placeholder="Enter your product name here ...">
                                     </div>
                                     <!-- /form-group-row -->
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>Product Description</label>
-                                        <textarea name="text" class="form-control" rows="10" cols="45" placeholder="<h1> Type your text  here </h1/>"></textarea>
+                                        <label for="product-description">Product Description</label>
+                                        <textarea name="text" class="form-control" id="product-description" rows="10" cols="45" placeholder="<h1> Type your text  here </h1/>"></textarea>
                                     </div>
                                     <!-- /form-group-row -->
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
@@ -369,21 +371,21 @@
                                     </div>
                                     <!-- /form-group-row -->
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>File Included <sup class="text-green">*</sup></label>
-                                        <select name="file_included" class="form-control">
+                                        <label for="file-included">File Included <sup class="text-green">*</sup></label>
+                                        <select name="file_included" class="form-control" id="file-included">
                                             <option value="">PSD</option>
                                             <option value="">JPG</option>
                                         </select>
                                     </div>
                                     <!-- /form-group-row -->
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>File Dimensions <sup class="text-green">*</sup></label>
-                                        <input name="file_dimensions" class="form-control" type="text" placeholder="Enter the item dimensions here ...">
+                                        <label for="file-dimensions">File Dimensions <sup class="text-green">*</sup></label>
+                                        <input name="file_dimensions" class="form-control" id="file-dimensions" type="text" placeholder="Enter the item dimensions here ..." >
                                     </div>
                                     <!-- /form-group-row -->
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>Item Tags <sup class="text-green">*</sup></label>
-                                        <input name="item_tags" class="form-control" type="text" placeholder="Enter tag here ...">
+                                        <label for="item-tags">Item Tags <sup class="text-green">*</sup></label>
+                                        <input name="item_tags" class="form-control" id="item-tags" type="text" placeholder="Enter tag here ...">
                                     </div>
                                     <!-- /form-group-row -->
                                 </div>
@@ -403,13 +405,13 @@
                             <form>
                                 <div class="form-group">
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>Regular License <sup class="text-green">*</sup></label>
-                                        <input name="regular_license" class="form-control" type="text" placeholder="$00.00">
+                                        <label for="regular-license">Regular License <sup class="text-green">*</sup></label>
+                                        <input name="regular_license" class="form-control" id="regular-license" type="text" placeholder="$00.00">
                                     </div>
                                     <!-- /form-group-row -->
                                     <div class="form-group-row d-flex justify-content-between align-items-center">
-                                        <label>Extended License <sup class="text-green">*</sup></label>
-                                        <input name="extended_license" class="form-control" type="text" placeholder="$00.00">
+                                        <label for="extended-license">Extended License <sup class="text-green">*</sup></label>
+                                        <input name="extended_license" class="form-control" id="extended-license" type="text" placeholder="$00.00">
                                     </div>
                                     <!-- /form-group-row -->
                                 </div>
