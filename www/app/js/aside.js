@@ -5,6 +5,7 @@ let overlay = $('.overlay');
 asideBtn.on('click', function (e) {
     main.toggleClass('show-aside');
 });
+
 overlay.on('click', function (e) {
     main.toggleClass('show-aside');
 });
