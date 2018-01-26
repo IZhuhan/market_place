@@ -1,73 +1,3 @@
-/******** INNER ********/
-.inner{
-    background: url(../img/bg-inner.jpg) no-repeat center/cover;
-    text-align: center;
-    line-height: 1.3;
-}
-.inner h1{
-    line-height: 64px;
-    font-size: 48px;
-    margin-bottom: 34px;
-}
-.inner .search-section{
-    margin-top: 54px;
-    position: relative;
-}
-.inner .search-section input{
-    font: 500 14px/1 'Roboto';
-    width: 670px;
-    border-radius: 3px;
-    outline: none;
-    border: 1px solid transparent;
-    padding: 20px 50px 20px 25px;
-    color: #90a4ae;
-    font-weight: 500;
-    -webkit-box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);
-    box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
-}
-.inner .search-section input:focus{
-    border: 1px solid #8bc34a;
-}
-.inner .search-section input::-webkit-input-placeholder{
-    color: #90a4ae;
-}  
-.inner .search-section input::-moz-placeholder{
-    color: #90a4ae;
-}  
-.inner .search-section input:-moz-placeholder{
-    color: #90a4ae;
-}  
-.inner .search-section input:-ms-input-placeholder{
-    color: #90a4ae;
-}  
-.inner .search-section .icon-search{
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    color: #78909c;
-    font-size: 20px;
-    position: absolute;
-    bottom: 17px;
-    right: 20px;
-}
-.inner .search-section .icon-search:hover{
-    color: #8bc34a;
-}
-
-@media (max-width: 767px){
-    .inner .search-section,
-    .inner .search-section input{
-        width: 100%;
-    }
-}
-@media (max-width: 599px){
-    .inner h1{
-        font-size: 36px;
-    }
-}
-/******** INNER END ********/
-
 /******** LETS-CHECK START ********/
 .lets-check .nav-tags{
     width: 100%;
@@ -75,6 +5,11 @@
 }
 .lets-check .row > div[class^="col-"] {
     margin-bottom: 30px;
+}
+.lets-check .card.large-card .card-description,
+.lets-check .card.large-card .card-author-info{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .lets-check .btn-row{
     margin-top: 76px;
@@ -110,6 +45,11 @@
 }
 .week-trending .card-items-slider{
     margin-top: 55px;
+}
+.week-trending .card.large-card .card-description,
+.week-trending .card.large-card .card-author-info{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .week-trending .card-items-slider .slick-track{
     padding-bottom: 30px;

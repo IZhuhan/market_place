@@ -8,22 +8,13 @@
 .login-page .top-header .header-nav a:hover{
     color: #8bc34a;
 }
-.login-page .top-header .notifications{
-    margin-left: 26px;
+.login-page .top-header .dropdown-menu{
+    right: 0;
 }
 
 @media (max-width: 991px){
     .login-page .top-header .top-bar{
         margin-left: auto;
-    }
-    .login-page .top-header .dropdown-menu {
-        right: 0;
-        left: initial;
-    }
-}
-@media (max-width: 767px){
-    .login-page .top-header .notifications {
-        margin-right: 0;
     }
 }
 /******** HEADER END ********/

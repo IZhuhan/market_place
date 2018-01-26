@@ -35,15 +35,15 @@
 .product-main-section .product-details-tab{
     border: 1px solid #dcdcdc;
 }
-.product-main-section .product-details-tab .tab-controls li {
+.product-main-section .product-details-tab .tab-controls li{
     width: 25%;
     border-bottom: 1px solid #d7d7d7;
     text-align: center;
 }
-.product-main-section .product-details-tab .tab-controls li + li {
+.product-main-section .product-details-tab .tab-controls li + li{
     border-left: 1px solid #d7d7d7;
 }
-.product-main-section .product-details-tab .tab-controls li a {
+.product-main-section .product-details-tab .tab-controls li a{
     padding: 20px;
     display: block;
     font-size: 16px;
@@ -51,25 +51,28 @@
     height: 60px;
 }
 .product-main-section .product-details-tab .tab-controls li a.active,
-.product-main-section .product-details-tab .tab-controls li a:hover {
+.product-main-section .product-details-tab .tab-controls li a:hover{
     color: #263238;
     font-weight: 500;
     border-bottom: 3px solid #8bc34a;
 }
-.product-main-section .product-details-tab .tab-content {
+.product-main-section .product-details-tab .tab-content{
     border-top: none;
-    padding: 45px 35px;
+    padding: 45px 30px;
     font-size: 16px;
     color: #707070;
     line-height: 36px;
 }
-.product-main-section .product-details-tab .tab-content .tab-pane {
+.product-main-section .product-details-tab .tab-content .tab-pane{
     display: none;
 }
-.product-main-section .product-details-tab .tab-content .tab-pane.active {
+.product-main-section .product-details-tab .tab-content .tab-pane ul{
+    margin-right: 4px;
+}
+.product-main-section .product-details-tab .tab-content .tab-pane.active{
     display: flex;
 }
-.product-main-section .product-details-tab .tab-pane ul li .fa {
+.product-main-section .product-details-tab .tab-pane ul li .fa{
     margin-right: 15px;
 }
 .product-main-section .more-authors-products .title{
@@ -129,6 +132,10 @@
     color: #70838d;
     background-color: #fff;
 }
+.product-details-page .jq-selectbox__trigger-arrow{
+    right: 5%;
+    left: initial;
+}
 .product-details-page .aside-section .btn-row a + a{
     margin-top: 6px;
 }
@@ -166,5 +173,16 @@
 .product-details-page .aside-section .product-info-list li span:first-child{
     line-height: 36px;
     font-weight: 500;
+}
+
+@media (max-width: 1199px){
+    .product-details-page .aside-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .product-details-page .aside-section a.btn{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
 }
 /****** ASIDE SECTION END ******/

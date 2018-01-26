@@ -62,57 +62,54 @@
                 </nav>
                 <!-- /header-nav -->
                 <div class="top-bar d-flex align-items-center">
-                    <div class="btn-row">
-                        <button class="btn btn-danger btn-round btn-authorization" data-modal data-target="#login-modal">Login</button>
-                        <!-- /btn-login -->
-                    </div>
-                    <!-- /btn-row -->
-                    <div class="notifications">
-                        <div class="notifications-item cart dropdown-container" data-dropdown-container data-dropdown="#cart-dropdown-menu">
-                            <i class="fa fa-shopping-cart" aria-hidden="true" data-dropdown="#cart-dropdown-menu"></i>
-                            <div class="label bg-green text-white">
-                                <span>0</span>
+                    <button class="btn btn-danger btn-round btn-authorization bar-item" data-modal data-target="#login-modal">Login</button>
+                    <!-- /btn-login -->
+                    <div class="cart dropdown-container bar-item" data-dropdown-container data-dropdown="#cart-dropdown-menu">
+                        <div class="notifications-item" data-dropdown="#cart-dropdown-menu">
+                                <i class="fa fa-shopping-cart" aria-hidden="true" data-dropdown="#cart-dropdown-menu"></i>
+                                <div class="label bg-green text-white">
+                                    <span>0</span>
+                                </div>
                             </div>
-                            <div class="dropdown-menu  notification-dropdown" id="cart-dropdown-menu" data-dropdown-menu>
-                                <div class="dropdown-section">
-                                    <img src="img/cart-product-item.jpg" alt="cart-product-item">
-                                    <div class="info">
-                                        <span class="name text-black">Grand Ballet</span>
-                                        <span class="category text-green">Wordpress</span>
-                                        <span class="price">$59</span>
-                                    </div>
-                                    <!-- /cart-product-info -->
+                        <!-- /notification-item -->
+                        <div class="dropdown-menu notification-dropdown" id="cart-dropdown-menu" data-dropdown-menu>
+                            <div class="dropdown-section">
+                                <img src="img/cart-product-item.jpg" alt="cart-product-item">
+                                <div class="info">
+                                    <span class="name text-black">Grand Ballet</span>
+                                    <span class="category text-green">Wordpress</span>
+                                    <span class="price">$59</span>
                                 </div>
-                                <!-- /dropdown-section -->
-                                <div class="dropdown-section">
-                                    <img src="img/cart-product-item.jpg" alt="cart-product-item">
-                                    <div class="info">
-                                        <span class="name text-black">Apple Device</span>
-                                        <span class="category text-green">WordPress</span>
-                                        <span class="price">$59</span>
-                                    </div>
-                                    <!-- /cart-product-info -->
-                                </div>
-                                <!-- /dropdown-section -->
-                                <div class="dropdown-section total">
-                                    <div class="total-price d-flex justify-content-between text-black">
-                                        <span>Total</span>
-                                        <span>$118</span>
-                                    </div>
-                                    <!-- /total-price -->
-                                    <div class="btn-row d-flex justify-content-between">
-                                        <a href="" class="btn btn-success btn-sm">Go to Cart</a>
-                                        <a href="" class="btn btn-danger btn-sm">Go to Checkout</a>
-                                    </div>
-                                    <!-- /btn-row -->
-                                </div>
-                                <!-- /dropdown-section -->
+                                <!-- /cart-product-info -->
                             </div>
-                            <!-- /dropdown-menu -->
+                            <!-- /dropdown-section -->
+                            <div class="dropdown-section">
+                                <img src="img/cart-product-item.jpg" alt="cart-product-item">
+                                <div class="info">
+                                    <span class="name text-black">Apple Device</span>
+                                    <span class="category text-green">WordPress</span>
+                                    <span class="price">$59</span>
+                                </div>
+                                <!-- /cart-product-info -->
+                            </div>
+                            <!-- /dropdown-section -->
+                            <div class="dropdown-section total">
+                                <div class="total-price d-flex justify-content-between text-black">
+                                    <span>Total</span>
+                                    <span>$118</span>
+                                </div>
+                                <!-- /total-price -->
+                                <div class="btn-row d-flex justify-content-between">
+                                    <a href="" class="btn btn-success btn-sm">Go to Cart</a>
+                                    <a href="" class="btn btn-danger btn-sm">Go to Checkout</a>
+                                </div>
+                                <!-- /btn-row -->
+                            </div>
+                            <!-- /dropdown-section -->
                         </div>
-                        <!-- /shopping-cart -->
+                        <!-- /dropdown-menu -->
                     </div>
-                    <!-- /notications -->
+                    <!-- /shopping-cart -->
                 </div>
                 <!-- /top-bar -->
             </div>
@@ -223,7 +220,7 @@
                             <span>Follow Us On</span>
                         </div>
                         <!-- /footer-title -->
-                        <ul class="social-net-sprite">
+                        <ul class="social-net-sprite d-flex">
                             <li><a class="icon icon-home icon-fb" href="#"></a></li>
                             <li><a class="icon icon-home icon-twitter" href="#"></a></li>
                             <li><a class="icon icon-home icon-youtube" href="#"></a></li>
@@ -262,7 +259,7 @@
     <!-- FOOTER END -->
 
     <!-- LOGIN-MODAL START -->
-    <div class="modal login-modal bg-green d-flex flex-column" id="login-modal">
+    <div class="modal login-modal bg-green d-flex flex-column align-self-center" id="login-modal">
         <span class="close-modal text-white fa fa-times"></span>
         <div class="login-title text-white d-flex justify-content-center">
             <span>Login</span>
