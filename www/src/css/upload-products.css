@@ -12,6 +12,12 @@
     padding: 20px 33px;
     border-bottom: 1px solid #d7d7d7;
 }
+.upload-product .form-group-row{
+    margin-bottom: 20px;
+}
+.upload-product .form-group .form-control{
+    width: 80%;
+}
 .upload-product .upload-section .submit-btn-wrap{
     width: 80%;
 }

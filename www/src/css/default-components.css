@@ -364,7 +364,7 @@ ul.breadcrumbs li a:hover{
 .btn.btn-md{
     font-size: 16px;
     font-weight: 500;
-    padding: 20px 25px; 
+    padding: 16px 25px; 
 }
 .btn.btn-sm{
     font-size: 14px;
@@ -402,6 +402,16 @@ ul.breadcrumbs li a:hover{
     width: 54px;
     height: 50px;
     line-height: 50px;
+    color: #fff;
+}
+.btn-social-mini {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+}
+.btn-social-mini:hover {
     color: #fff;
 }
 .btn.btn-facebook{
@@ -453,12 +463,6 @@ ul.breadcrumbs li a:hover{
 /********** BUTTONS END *********/
 
 /******** FORM-ELEMENTS *********/
-.form-group-row {
-    margin-bottom: 20px;
-}
-.form-group .form-control{
-    width: 80%;
-}
 .form-group label{
     font-weight: 400;
     font-size: 15px;
