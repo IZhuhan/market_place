@@ -476,7 +476,7 @@ ul.breadcrumbs li a:hover{
     color: #444444;
 }
 .form-group input,
-.form-group textarea, 
+.form-group textarea,
 .form-group .file-upload{
     font-size: 15px;
     background-color: #f9f9f9;
@@ -1363,7 +1363,7 @@ ul.breadcrumbs li a:hover{
     padding: 20px 50px 20px 25px;
     color: #90a4ae;
     -webkit-box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);
-    box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);    
+    box-shadow: 0 1px 10px 0 rgba(100, 100, 100, 0.75);
 }
 .inner .search-section input:focus{
     border: 1px solid #8bc34a;
@@ -1379,7 +1379,7 @@ ul.breadcrumbs li a:hover{
 }  
 .inner .search-section input:-ms-input-placeholder{
     color: #90a4ae;
-}  
+}
 .inner .search-section .icon-search{
     cursor: pointer;
     border: none;
@@ -1410,7 +1410,7 @@ ul.breadcrumbs li a:hover{
 
 /******** FOOTER ********/
 .footer .icon-section{
-    font-size: 18px;   
+    font-size: 18px;
 }
 .footer .icon{
     display: inline-block;
@@ -1476,14 +1476,14 @@ ul.breadcrumbs li a:hover{
     position: relative;
 }
 .footer .top-footer .email-section input{
-    background-color: #2f3c43;  
+    background-color: #2f3c43;
     width: 100%;
     border: 1px solid #253136;
     padding: 13px 50px 12px 16px;
     color: #697378;
 }
 .footer .top-footer .email-section input:focus{
-    border: 1px solid #8bc34a;    
+    border: 1px solid #8bc34a;
 }
 .footer .top-footer .email-section .email-icon{
     cursor: pointer;

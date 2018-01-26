@@ -39,7 +39,7 @@ $(function (){
             }
         }]
     });
-    
+
     // init form styler for select
     $('select').styler();
 
@@ -51,7 +51,7 @@ $(function (){
         let target = $(this).attr('data-target');
         $(target).bPopup({
             closeClass: 'close-modal'
-    });
+        });
 
     });
 
