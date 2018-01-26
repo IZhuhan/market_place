@@ -29,7 +29,7 @@
 }
 .withdrawals-history .withdraw-table{
     width: 100%; 
-    min-width: 500px;
+    min-width: 480px;
 }
 .withdrawals-history .table-wrap .panel.panel-default{
     overflow-x: auto;
