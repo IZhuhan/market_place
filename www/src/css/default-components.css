@@ -713,6 +713,7 @@ ul.breadcrumbs li a:hover{
 .aside-section .title>*{
     font-size: 20px;
 }
+
 @media (max-width: 991px){
     .mobile-aside-toggle{
         display: block;

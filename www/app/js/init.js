@@ -72,3 +72,29 @@ $(function (){
         label: ''
     });
 });
+
+// Switch grid cards (all-items-4)
+function myFunction() {
+    if($(window).width() < 584){
+        $('.change-icon').removeClass('active');
+        $('#grid-thumbs').addClass('active');
+        $('.card.medium-card').removeClass('row-card');
+    }
+    else {
+        $('#grid-thumbs').on('click',function(){
+            $('.change-icon').removeClass('active');
+            $('#grid-thumbs').addClass('active');
+            $('.card.medium-card').removeClass('row-card');
+        });
+
+        $('#grid-list').on('click', function(){
+            $('.change-icon').removeClass('active');
+            $('#grid-list').addClass('active');
+            $('.card.medium-card').addClass('row-card');
+        });
+    }
+}
+
+myFunction();
+
+$(window).resize(myFunction);
