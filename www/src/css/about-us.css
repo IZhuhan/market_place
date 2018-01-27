@@ -20,10 +20,18 @@
     padding: 20px 0 25px 30px;
 }
 .information-section .we-are {
-    padding-top: 45px;
-    padding-bottom: 53px;
-    padding-left: 49px;
-    padding-right: 65px;
+    padding: 45px 65px 53px 49px;
+}
+
+@media (max-width: 767px){
+    .about-us {
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 599px){
+    .information-section .we-are {
+        padding: 30px 25px;
+    }
 }
 /*===== INFORMATION-SECTION END=====*/
 

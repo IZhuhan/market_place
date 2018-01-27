@@ -323,151 +323,157 @@
         </section>
         <!-- SMALL-INNER END -->
 
-        <section class="sales-statement-section your-sales">
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>Sales Statement</li>
+            </ul>
+            <!-- / breadcrumbs -->
+        </div>
+        <!-- / container -->
+
+        <section class="sales-statement-page">
             <div class="container">
-                <ul class="breadcrumbs">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>Sales Statement</li>
-                </ul>
-                <!-- / breadcrumbs -->
-                <div class="sales-table content-section">
-                    <div class="default-data d-flex ml-auto">
-                        <div class="title semibold lg text-black ">
+                <div class="sales-statement-wrap bg-white">
+                    <div class="default-date d-flex align-items-center justify-content-between">
+                        <div class="title semibold lg text-black">
                             <span>Your Sales Statement</span>
                         </div>
-                        <div class="find d-flex align-items-center ml-auto">
-                            <div class="datepicker d-flex">
+                        <div class="datepicker d-flex align-items-center">
+                            <div class="datepicker-wrap d-flex align-items-center">
                                 <div class="input-control">
-                                    <input type="text" id="from" name="from" class="form-control-data">
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    <input type="text" id="from" name="from" class="form-control-date">
+                                    <label for="from"><i class="fa fa-calendar" aria-hidden="true"></i></label>
                                 </div>
-                                <label for="to" class="title text-black card-theme-xs">to</label>
+                                <span class="title card-theme-xs text-black">to</span>
                                 <div class="input-control">
-                                    <input type="text" id="to" name="to" class="form-control-data">
-                                    <i class="fa fa-calendar icon-calendar" aria-hidden="true"></i>
+                                    <input type="text" id="to" name="to" class="form-control-date">
+                                    <label for="to"><i class="fa fa-calendar icon-calendar" aria-hidden="true"></i></label>
                                 </div>
                             </div>
                             <a href="" class="btn btn-success btn-sm">Find</a>
                         </div>
-                        <!--  / find-->
-                    </div>
-                    <!-- / title semibold lg -->
-                    <div class="table-wrap">
-                        <div class="panel panel-default">
-                            <table class="table table-sales">
-                                <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Avatar</th>
-                                    <th>ID</th>
-                                    <th>Full Name</th>
-                                    <th>Purchase</th>
-                                    <th>Price</th>
-                                    <th>Downloads </th>
-                                </tr>
-                                </thead>
-                                <!-- / thead -->
-                                <tbody>
-                                <tr>
-                                    <td>1.</td>
-                                    <td>
-                                        <img src="img/Author.png" alt="">
-                                    </td>
-                                    <td class="text-bold">#2050</td>
-                                    <td>Jessy Sket</td>
-                                    <td>15</td>
-                                    <td>$200</td>
-                                    <td>15</td>
-                                </tr>
-                                <!-- / tr -->
-                                <tr>
-                                    <td>2.</td>
-                                    <td>
-                                        <img src="img/Author.png" alt="">
-                                    </td>
-                                    <td class="text-bold">#2051</td>
-                                    <td>Robert Smith</td>
-                                    <td>10</td>
-                                    <td>$180</td>
-                                    <td>20</td>
-                                </tr>
-                                <!-- / tr -->
-                                <tr>
-                                    <td>3.</td>
-                                    <td>
-                                        <img src="img/Author.png" alt="">
-                                    </td>
-                                    <td class="text-bold">#2052</td>
-                                    <td>Ziniza</td>
-                                    <td>20</td>
-                                    <td>$1,200</td>
-                                    <td>20</td>
-                                </tr>
-                                <!-- / tr -->
-                                <tr>
-                                    <td>4.</td>
-                                    <td>
-                                        <img src="img/Author.png" alt="">
-                                    </td>
-                                    <td class="text-bold">#2053</td>
-                                    <td>David Rock</td>
-                                    <td>10</td>
-                                    <td>$300</td>
-                                    <td>10</td>
-                                </tr>
-                                <!-- / tr -->
-                                <tr>
-                                    <td>5.</td>
-                                    <td>
-                                        <img src="img/Author.png" alt="">
-                                    </td>
-                                    <td class="text-bold">#2054</td>
-                                    <td>Jessy Sket</td>
-                                    <td>15</td>
-                                    <td>$800</td>
-                                    <td>20</td>
-                                </tr>
-                                <!-- / tr -->
-                                <tr>
-                                    <td>6.</td>
-                                    <td>
-                                        <img src="img/Author.png" alt="">
-                                    </td>
-                                    <td class="text-bold">#2055</td>
-                                    <td>Neo Buler</td>
-                                    <td>12</td>
-                                    <td>600</td>
-                                    <td>05</td>
-                                </tr>
-                                <!-- / tr -->
-                                <tr>
-                                    <td>7.</td>
-                                    <td>
-                                        <img src="img/Author.png" alt="">
-                                    </td>
-                                    <td class="text-bold">#2055</td>
-                                    <td>Jessy Sket</td>
-                                    <td>02</td>
-                                    <td>$200</td>
-                                    <td>01</td>
-                                </tr>
-                                <!-- / tr -->
-                                </tbody>
-                                <!-- / tbody -->
-                            </table>
-                            <!-- / table -->
-                        </div>
-                        <!-- /panel -->
                     </div>
 
-                    <div class="total-price title semibold product-page text-black">
-                        <span>Total Sales:</span>
-                        <span class="text-green">$ 5,030</span>
+                    <div class="sales-table">
+                        <div class="table-wrap">
+                            <div class="panel panel-default">
+                                <table class="table table-sales">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Avatar</th>
+                                        <th>ID</th>
+                                        <th>Full Name</th>
+                                        <th>Purchase</th>
+                                        <th>Price</th>
+                                        <th>Downloads </th>
+                                    </tr>
+                                    </thead>
+                                    <!-- / thead -->
+                                    <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>
+                                            <img src="img/Author.png" alt="">
+                                        </td>
+                                        <td class="text-bold">#2050</td>
+                                        <td>Jessy Sket</td>
+                                        <td>15</td>
+                                        <td>$200</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <!-- / tr -->
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>
+                                            <img src="img/Author.png" alt="">
+                                        </td>
+                                        <td class="text-bold">#2051</td>
+                                        <td>Robert Smith</td>
+                                        <td>10</td>
+                                        <td>$180</td>
+                                        <td>20</td>
+                                    </tr>
+                                    <!-- / tr -->
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>
+                                            <img src="img/Author.png" alt="">
+                                        </td>
+                                        <td class="text-bold">#2052</td>
+                                        <td>Ziniza</td>
+                                        <td>20</td>
+                                        <td>$1,200</td>
+                                        <td>20</td>
+                                    </tr>
+                                    <!-- / tr -->
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>
+                                            <img src="img/Author.png" alt="">
+                                        </td>
+                                        <td class="text-bold">#2053</td>
+                                        <td>David Rock</td>
+                                        <td>10</td>
+                                        <td>$300</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <!-- / tr -->
+                                    <tr>
+                                        <td>5.</td>
+                                        <td>
+                                            <img src="img/Author.png" alt="">
+                                        </td>
+                                        <td class="text-bold">#2054</td>
+                                        <td>Jessy Sket</td>
+                                        <td>15</td>
+                                        <td>$800</td>
+                                        <td>20</td>
+                                    </tr>
+                                    <!-- / tr -->
+                                    <tr>
+                                        <td>6.</td>
+                                        <td>
+                                            <img src="img/Author.png" alt="">
+                                        </td>
+                                        <td class="text-bold">#2055</td>
+                                        <td>Neo Buler</td>
+                                        <td>12</td>
+                                        <td>600</td>
+                                        <td>05</td>
+                                    </tr>
+                                    <!-- / tr -->
+                                    <tr>
+                                        <td>7.</td>
+                                        <td>
+                                            <img src="img/Author.png" alt="">
+                                        </td>
+                                        <td class="text-bold">#2055</td>
+                                        <td>Jessy Sket</td>
+                                        <td>02</td>
+                                        <td>$200</td>
+                                        <td>01</td>
+                                    </tr>
+                                    <!-- / tr -->
+                                    </tbody>
+                                    <!-- / tbody -->
+                                </table>
+                                <!-- / table -->
+                            </div>
+                            <!-- /panel -->
+                        </div>
+                        <!-- / table-wrap -->
+                        <div class="total-price title semibold product-page text-black">
+                            <span>Total Sales:</span>
+                            <span class="text-green">$ 5,030</span>
+                        </div>
                     </div>
+                    <!-- / sales-table -->
                 </div>
-                <!-- / sales-table -->
+                <!-- / sales-statement-wrap -->
             </div>
             <!-- / container -->
         </section>
