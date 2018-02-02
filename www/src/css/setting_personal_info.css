@@ -13,7 +13,7 @@
     .personal-information .title {
         padding: 20px;
     }
-    .title.lg {
+    .personal-information.title.lg {
         font-size: 20px;
     }
 }
@@ -37,7 +37,7 @@
     }
 }
 @media (max-width: 767px) {
-    .form-group label {
+    .personal-information .form-group label {
         width: 100%;
         margin-bottom: 8px;
     }

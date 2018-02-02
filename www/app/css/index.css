@@ -118,14 +118,17 @@
 
 @media (max-width: 991px){
     .become-author .big-rectangle .small-rectangle{
-        display: block;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         text-align: center;
     } 
     .become-author .big-rectangle .small-rectangle .become-author-btn{
         margin: 25px 0 0 0;
     }
     .become-author .big-rectangle .small-rectangle .become-author-btn a{
-        padding: 20px 0;
+        padding: 20px;
         width: 100%;
     }
 }
@@ -134,7 +137,7 @@
         padding: 26px 20px;
     }
 }
-@media (max-width: 479px){
+@media (max-width: 599px){
     .become-author .big-rectangle .small-rectangle{
         width: 70%;
     }

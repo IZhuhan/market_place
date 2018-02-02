@@ -1,5 +1,5 @@
 /* ===== PROFILE DETAILS START ===== */
-.product-page-section .author-online::before {
+.profile-page-section .author-online::before {
     content: "";
     width: 10px;
     height: 10px;
@@ -9,77 +9,78 @@
     border-radius: 50%;
     margin-right: 10px;
 }
-.product-page-section .author-online:hover{
+.profile-page-section .author-online:hover{
     background-color: #fff;
 }
-.product-page-section .author-social {
+.profile-page-section .author-social {
     margin: 30px 0;
 }
-.product-page-section .author-social li {
+.profile-page-section .author-social li {
     display: inline;
 }
-.product-page-section .group-button a + a {
+.profile-page-section .group-button a + a {
     margin-top: 20px;
 }
-.product-page-section .aside-list-section {
+.profile-page-section .aside-list-section {
     margin-top: 30px;
     border: 1px solid #dcdcdc;
     background-color: #fff;
 }
-.product-page-section .aside-list-nav li a {
+.profile-page-section .aside-list-nav li a {
     padding: 18px 20px;
     display: block;
 }
-.product-page-section .aside-list-nav li a {
+.profile-page-section .aside-list-nav li a {
     border-bottom: 1px solid #dcdcdc;
 }
-.product-page-section .aside-list-nav li:last-of-type a {
+.profile-page-section .aside-list-nav li:last-of-type a {
     border-bottom: none;
 }
-.product-page-section .aside-list-nav li a.active {
+.profile-page-section .aside-list-nav li a.active {
     border-bottom: 2px solid #8bc34a;
     color: #263238;
 }
-.product-page-section .author-features-list::before {
+.profile-page-section .author-features-list::before {
     content: "(";
 }
-.product-page-section .author-features-list::after {
+.profile-page-section .author-features-list::after {
     content: ")";
 }
-.product-page-section .author-features-list::before, .product-page-section .author-rating::after {
+.profile-page-section .author-features-list::before,
+.profile-page-section .author-rating::after {
     color: #707d83;
 }
-.product-page-section .aside-list-nav i {
+.profile-page-section .aside-list-nav i {
     margin-right: 14px;
     color: #d0d0d0;
 }
-.product-page-section .aside-list-nav li a.active i {
+.profile-page-section .aside-list-nav li a.active i {
     color: #8bc34a;
 }
-.product-page-section .author-features {
+.profile-page-section .author-features {
     margin-top: 30px;
 }
-.product-page-section .author-features .author-features-block {
+.profile-page-section .author-features .author-features-block {
     width: 25%;
     flex-wrap: wrap;
 }
 @media (max-width: 599px) {
-    .product-page-section .author-features .author-features-block {
+    .profile-page-section .author-features .author-features-block {
         width: 50%;
     }
 }
 @media (max-width: 479px) {
-    .product-page-section .author-features .author-features-block {
+    .profile-page-section .author-features .author-features-block {
         width: 100%;
     }
 }
-.product-page-section .author-features .author-features-block {
+.profile-page-section .author-features .author-features-block {
     display: block;
     padding: 20px 10px;
     border: 1px solid #dfdfdf;
     text-align: center;
 }
-.product-page-section .author-features ul li + li .author-features-block {
+.profile-page-section .author-features ul li + li .author-features-block {
     border-left: none;
 }
 @media (max-width: 599px) {
@@ -87,82 +88,84 @@
         border: 1px solid #dfdfdf;
     } 
 }
-.product-page-section .author-features-block .author-features-block-label, .product-page-section .author-features-block .author-features-block-info {
+.profile-page-section .author-features-block .author-features-block-label, 
+.profile-page-section .author-features-block .author-features-block-info {
     display: block;
 }
-.product-page-section .author-features-block-label {
+.profile-page-section .author-features-block-label {
     color: #263238;
     margin-bottom: 12px;
 }
-.product-page-section .author-features-block-info i + i {
+.profile-page-section .author-features-block-info i + i {
     padding-left: 2px;
 }
-.product-page-section .author-features-block-info i {
+.profile-page-section .author-features-block-info i {
     color: #ffa726;
     font-size: 13px;
 }
-.product-page-section .author-rating {
+.profile-page-section .author-rating {
     margin-left: 8px;
 }
-.product-page-section .author-rating::before {
+.profile-page-section .author-rating::before {
     content: "(";
 }
-.product-page-section .author-rating::after {
+.profile-page-section .author-rating::after {
     content: ")";
 }
-.product-page-section .author-rating::before, .product-page-section .author-rating::after {
+.profile-page-section .author-rating::before, 
+.profile-page-section .author-rating::after {
     color: #707d83;
 }
-.product-page-section .about-me-section {
+.profile-page-section .about-me-section {
     background-color: #fff;
     padding: 20px;
     margin-top: 30px;
     border: 1px solid #dfdfdf;
 }
-.product-page-section .aside-section .author-info{
+.profile-page-section .aside-section .author-info{
     margin: 26px 0;
 }
-.product-page-section .aside-section .author-info .author-profile{
+.profile-page-section .aside-section .author-info .author-profile{
     margin-left: 14px;
 }
-.product-page-section .aside-section .author-info .author-profile .author-name{
+.profile-page-section .aside-section .author-info .author-profile .author-name{
     font-size: 18px;
     text-transform: capitalize;
 }
-.product-page-section .aside-section .quantity-sales .fa{
+.profile-page-section .aside-section .quantity-sales .fa{
     font-size: 20px;
     color: #a6b5bb;
 }
-.product-page-section .main-section{
+.profile-page-section .main-section{
     padding-bottom: 120px;
 }
-.main-section .product-img{
+.profile-page-section .main-section .product-img{
     padding: 17px 19px;
     border: 1px solid #dfdfdf;
 }
-.main-section .product-img img {
+.profile-page-section .main-section .product-img img {
     width: 100%;
 }
-.product-page-section .main-section .title{
+.profile-page-section .main-section .title{
     margin: 30px 0;
 }
-.product-page-section .main-section p{
+.profile-page-section .main-section p{
     color: #707070;
 }
 /************** progress bar **********************/
-.product-page-section .progress-wrap {
+.profile-page-section .progress-wrap {
     margin-bottom: 24px;
 }
-.product-page-section .progress-wrap-label {
+.profile-page-section .progress-wrap-label {
     display: flex;
     justify-content: space-between;
 }
-.product-page-section .author-item-skills .progress {
+.profile-page-section .author-item-skills .progress {
     background-color: #f4f4f4;
     height: 18px;
     border-radius: 5px;
 }
-.product-page-section .author-item-skills .progress-bar {
+.profile-page-section .author-item-skills .progress-bar {
     float: left;
     height: 100%;
     line-height: 20px;
@@ -174,7 +177,7 @@
     border-radius: 5px;
     background-image: repeating-linear-gradient(45deg, transparent, transparent 15px, #cbcbcb 15px, #cbcbcb 30px);
 }
-.product-page-section .author-item-skills .progress-wrap span {
+.profile-page-section .author-item-skills .progress-wrap span {
     display: block;
     font-size: 16px;
     text-transform: capitalize;
@@ -183,7 +186,7 @@
     font-style: italic;
     font-weight: 600;
 }
-.product-page-section .author-item-skills .progress-wrap span:last-of-type {
+.profile-page-section .author-item-skills .progress-wrap span:last-of-type {
     font-style: normal;
 }
 /************** progress bar end **********************/

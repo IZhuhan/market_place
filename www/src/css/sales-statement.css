@@ -9,10 +9,10 @@
     padding: 20px 30px;
     border-bottom: 1px solid #d7d7d7;
 }
-.default-date .input-control {
+.sales-statement-page .default-date .input-control {
     position: relative;
 }
-.default-date .datepicker .form-control-date {
+.sales-statement-page .default-date .datepicker .form-control-date {
     border: 1px solid  #dcdcdc;
     background-color: #f9f9f9;
     height: 28px;
@@ -20,33 +20,33 @@
     padding-right: 22px;
     width: 134px;
 }
-.default-date .input-control .form-control-date:focus {
+.sales-statement-page .default-date .input-control .form-control-date:focus {
     border-color: #8bc34a;
 }
-.default-date .datepicker  label {
+.sales-statement-page .default-date .datepicker  label {
     position: absolute;
     right: 10px;
     top: 6px;
     color: #8cc148;
     font-size: 12px;
 }
-.default-date .datepicker span {
+.sales-statement-page .default-date .datepicker span {
     margin: 0 10px;
 }
-.default-date .datepicker .btn {
+.sales-statement-page .default-date .datepicker .btn {
     padding: 9px 22px;
     margin-left: 13px;
 }
 .sales-statement-page .sales-table {
     padding: 35px 38px 0;
 }
-.sales-table .table-wrap {
+.sales-statement-page .sales-table .table-wrap {
     overflow-x: auto;
 }
-.sales-table .table-wrap .panel.panel-default {
+.sales-statement-page .sales-table .table-wrap .panel.panel-default {
     min-width: 600px;
 }
-.sales-table .total-price {
+.sales-statement-page .sales-table .total-price {
     padding: 80px 0;
 }
 
@@ -58,10 +58,10 @@
         flex-direction: column;
         align-items: left;
     }
-    .default-date > .title {
+    .sales-statement-page .default-date > .title {
         margin-bottom: 15px;
     }
-    .sales-table .total-price {
+    .sales-statement-page .sales-table .total-price {
         padding: 30px 0;
     }
 }
@@ -74,14 +74,14 @@
     }
 }
 @media (max-width: 479px) {
-    .default-date .datepicker {
+    .sales-statement-page .default-date .datepicker {
         flex-wrap: wrap;
     }
-    .default-date .datepicker .datepicker-wrap,
-    .default-date .datepicker .form-control-date {
+    .sales-statement-page .default-date .datepicker .datepicker-wrap,
+    .sales-statement-page .default-date .datepicker .form-control-date {
         width: 100%;
     }
-    .default-date .datepicker .btn {
+    .sales-statement-page .default-date .datepicker .btn {
         width: 100%;
         margin-top: 10px;
         margin-left: 0;
