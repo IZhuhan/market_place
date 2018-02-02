@@ -4,6 +4,9 @@ const spritesmith = require('gulp.spritesmith');
 const merge = require('merge-stream');
 const tinypng = require('gulp-tinypng');
 
+const cssnano = require('gulp-cssnano');
+const concat = require('gulp-concat');
+
 gulp.task('autoprefixer', function () {
     gulp.src('src/css/**/*.css')
         .pipe(autoprefixer({
@@ -41,6 +44,22 @@ gulp.task('tinypng', function () {
     ])
     .pipe(tinypng('8kHBQ0pfGRJrg8Tn-JwKscFWEbc2Jp2k'))
     .pipe(gulp.dest('app/img/'));
+});
+
+gulp.task('css-libs', function() {
+    return gulp.src([
+        'app/css/font-awesome.min.css',
+        'app/css/reset.css',
+        'app/css/flex.css',
+        'app/css/grid.css',
+        'app/css/slicknav.css',
+        'app/css/default-components.css',
+        'app/css/sprite.css',
+        'app/css/style.css'
+    ]) //выбираем файл для минификации
+    .pipe(concat('all.min.css')) // сжимаем
+    .pipe(cssnano()) // сжимаем
+    .pipe(gulp.dest('app/css')); // выгружаем в папку app/css
 });
 
 gulp.task('watch', ['autoprefixer', 'sprite', 'tinypng'], function () {

@@ -48,12 +48,12 @@
                 </div>
                 <!-- /need-help -->
                 <div class="notifications">
-                    <div class="notifications-item bell dropdown-container">
-                        <i class="fa fa-bell-o" aria-hidden="true"></i>
+                    <div class="notifications-item bell dropdown-container" data-dropdown-container data-dropdown="#bell-dropdown-menu">
+                        <i class="fa fa-bell-o" aria-hidden="true" data-dropdown="#bell-dropdown-menu"></i>
                         <div class="label text-white">
                             <span>8</span>
                         </div>
-                        <div class="dropdown-menu  notification-dropdown">
+                        <div class="dropdown-menu notification-dropdown" id="bell-dropdown-menu" data-dropdown-menu>
                             <div class="dropdown-section d-flex">
                                 <div class="dropdown-avatar">
                                     <img src="img/dropdown-avatar.png" alt="dropdown-avatar">
@@ -100,12 +100,12 @@
                         <!-- /dropdown-menu -->
                     </div>
                     <!-- /bell -->
-                    <div class="notifications-item letter dropdown-container">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <div class="notifications-item letter dropdown-container" data-dropdown-container data-dropdown="#letter-dropdown-menu">
+                        <i class="fa fa-envelope-o" aria-hidden="true" data-dropdown="#letter-dropdown-menu"></i>
                         <div class="label text-white">
                             <span>5</span>
                         </div>
-                        <div class="dropdown-menu  notification-dropdown">
+                        <div class="dropdown-menu  notification-dropdown" id="letter-dropdown-menu" data-dropdown-menu>
                             <div class="dropdown-section d-flex">
                                 <div class="dropdown-avatar">
                                     <img src="img/dropdown-avatar.png" alt="dropdown-avatar">
@@ -155,12 +155,12 @@
                         <!-- /dropdown-menu -->
                     </div>
                     <!-- /letter -->
-                    <div class="notifications-item cart dropdown-container">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <div class="notifications-item cart dropdown-container" data-dropdown-container data-dropdown="#cart-dropdown-menu">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" data-dropdown="#cart-dropdown-menu"></i>
                         <div class="label bg-green text-white">
                             <span>8</span>
                         </div>
-                        <div class="dropdown-menu  notification-dropdown">
+                        <div class="dropdown-menu  notification-dropdown" id="cart-dropdown-menu" data-dropdown-menu>
                             <div class="dropdown-section">
                                 <img src="img/cart-product-item.jpg" alt="cart-product-item">
                                 <div class="info">
@@ -200,22 +200,22 @@
                     <!-- /shopping-cart -->
                 </div>
                 <!-- /notifications -->
-                <div class="user-controls dropdown-container">
-                    <div class="avatar">
-                        <img src="img/avatar-header.png" alt="avatar">
+                <div class="user-controls dropdown-container" data-dropdown-container data-dropdown="#user-dropdown-menu">
+                    <div class="avatar" data-dropdown="#user-dropdown-menu">
+                        <img src="img/avatar-header.png" alt="avatar" data-dropdown="#user-dropdown-menu">
                     </div>
                     <!-- /avatar -->
-                    <div class="user-info">
-                        <div class="name">
-                            <span>Mike Hussy</span>
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="user-info" data-dropdown="#user-dropdown-menu">
+                        <div class="name" data-dropdown="#user-dropdown-menu">
+                            <span data-dropdown="#user-dropdown-menu">Mike Hussy</span>
+                            <i class="fa fa-angle-down" aria-hidden="true" data-dropdown="#user-dropdown-menu"></i>
                         </div>
-                        <div class="balance">
-                            <span class="text-green">$171.00</span>
+                        <div class="balance" data-dropdown="#user-dropdown-menu">
+                            <span class="text-green" data-dropdown="#user-dropdown-menu">$171.00</span>
                         </div>
                     </div>
                     <!-- /user-info -->
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu" id="user-dropdown-menu" data-dropdown-menu>
                         <ul>
                             <li class="d-flex align-items-end">
                                 <span class="text-green"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
@@ -289,10 +289,10 @@
                 <span>Premium WordPress Themes, Web Templates and Many More ...</span>
             </div>
             <!-- /title -->
-            <div class="search-section">
+            <form class="search-section">
                 <input name="search_query" type="text" placeholder="Search Your Keywords . . .">
                 <button class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </div>
+            </form>
             <!-- /search-section -->
         </div>
         <!-- /container-fluid -->
@@ -633,24 +633,24 @@
     <div class="container">
         <form>
             <div class="form-group">
-                <div class="form-group-row">
-                    <label class="required">Product Name</label>
+                <div class="form-group-row d-flex justify-content-between align-items-center">
+                    <label>Product Name<sup class="text-green">*</sup></label>
                     <input name="user_name" class="form-control" type="text" placeholder="Enter your product name here ...">
                 </div>
-                <div class="form-group-row">
+                <div class="form-group-row d-flex justify-content-between align-items-center">
                     <label>Product Description</label>
                     <textarea name="text" class="form-control" rows="10" cols="45" placeholder="<h1> Type your text  here </h1/>"></textarea>
                 </div>
-                <div class="form-group-row">
-                    <label class="required">Upload Main File</label>
+                <div class="form-group-row d-flex justify-content-between align-items-center">
+                    <label>Upload Main File <sup class="text-green">*</sup></label>
                     <div class="file-upload form-control">
                         <input name="uploadMainFile" id="uploadMainFile" type="file">
                         <label for="uploadMainFile">Choose File</label>
                         <span class="file-name">No File Choosen</span>
                     </div>
                 </div>
-                <div class="form-group-row">
-                    <label class="required">File Included</label>
+                <div class="form-group-row d-flex justify-content-between align-items-center">
+                    <label>File Included <sup class="text-green">*</sup></label>
                     <select name="main_file" class="form-control" id="">
                         <option value="">PSD</option>
                         <option value="">JPG</option>
@@ -1145,7 +1145,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    <script  type="text/javascript" src="js/dropdown-click.js"></script>
     <!-- init all plugins -->
-    <script src="js/init.js"></script>
+    <script  type="text/javascript" src="js/init.js"></script>
 </body>
 </html>
